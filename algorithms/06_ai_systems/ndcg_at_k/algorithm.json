@@ -1,0 +1,12 @@
+{
+  "slug": "ndcg_at_k",
+  "title": "Normalized Discounted Cumulative Gain at K",
+  "level": "ai_systems",
+  "summary": "Graded-relevance ranking evaluation using exponential gains and logarithmic rank discounting.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
