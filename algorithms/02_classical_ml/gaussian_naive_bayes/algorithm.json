@@ -1,0 +1,12 @@
+{
+  "slug": "gaussian_naive_bayes",
+  "title": "Binary Gaussian Naive Bayes",
+  "level": "classical_ml",
+  "summary": "Fit class-conditional diagonal Gaussian models and predict a binary label for one query.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
