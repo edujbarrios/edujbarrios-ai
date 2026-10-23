@@ -4,7 +4,7 @@ from knn import knn
 
 class KNNTests(unittest.TestCase):
     def setUp(self):
-        self.samples = [[0, 0], [5, 5], [1, 1], [0, 2]]
+        self.samples = [[0, 0], [5, 5], [2, 1], [0, 2]]
 
     def test_tie_and_order(self):
         self.assertEqual(knn(self.samples, [0, 1], 2), [0, 3])
