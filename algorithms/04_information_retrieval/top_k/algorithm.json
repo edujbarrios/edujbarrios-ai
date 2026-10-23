@@ -1,0 +1,12 @@
+{
+  "slug": "top_k",
+  "title": "Top-K Score Selection",
+  "level": "information_retrieval",
+  "summary": "Deterministically select zero-based indices of k highest finite scores, breaking ties by original index.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
