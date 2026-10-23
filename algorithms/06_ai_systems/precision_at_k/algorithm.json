@@ -1,0 +1,12 @@
+{
+  "slug": "precision_at_k",
+  "title": "Precision at K",
+  "level": "ai_systems",
+  "summary": "Evaluate the fraction of relevant items among the first k ranked results.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
