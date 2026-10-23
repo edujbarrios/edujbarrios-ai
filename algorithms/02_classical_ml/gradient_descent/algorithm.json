@@ -1,0 +1,12 @@
+{
+  "slug": "gradient_descent",
+  "title": "Batch Gradient Descent for Univariate Linear Regression",
+  "level": "classical_ml",
+  "summary": "Fit slope and intercept using full-batch mean-squared-error gradient updates.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
