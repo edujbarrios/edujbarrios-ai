@@ -64,6 +64,8 @@ The tooling uses the Python standard library. To run CPU checks locally, install
 ```bash
 python3 scripts/validate_repository.py
 python3 scripts/run_tests.py --strict
+# Run only one language, matching the parallel CI jobs:
+python3 scripts/run_tests.py --strict --language python
 ```
 
 CUDA checks are **opt-in**, require `nvcc` and a compatible NVIDIA GPU, and are never silently represented as CPU-tested:

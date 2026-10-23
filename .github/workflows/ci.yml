@@ -1,26 +1,72 @@
 name: Validation and CPU tests
 
 on:
+  pull_request:
   push:
     branches: [main]
-  pull_request:
+
+# Superseded updates to the same PR or branch should not consume CI time.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
 
 jobs:
-  cpu:
-    name: Docs, structure, C / Python / Rust / R
+  structure:
+    name: Algorithm metadata and layout
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - run: python3 scripts/validate_repository.py
+
+  language:
+    name: ${{ matrix.language }} reference implementations
+    needs: structure
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [c, python, rust]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        if: matrix.language == 'python'
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - uses: dtolnay/rust-toolchain@stable
-      - name: Install R
+      - name: Set up Rust
+        if: matrix.language == 'rust'
+        uses: dtolnay/rust-toolchain@stable
+      - name: Run declared language tests
+        run: python3 scripts/run_tests.py --strict --language ${{ matrix.language }}
+
+  r:
+    name: r reference implementations
+    needs: structure
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Pin R itself: no apt-get, no setup-r installation delays. This image
+    # already provides Rscript, and test scripts use only base R.
+    container:
+      image: rocker/r-ver:4.4.3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run every declared R test suite
+        shell: bash
         run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends r-base-core
-      - name: Validate repository layout
-        run: python3 scripts/validate_repository.py
-      - name: Run CPU algorithm tests
-        run: python3 scripts/run_tests.py --strict
-      # CUDA requires nvcc + compatible NVIDIA hardware; never treat it as CI-tested.
+          set -euo pipefail
+          mapfile -d '' tests < <(find algorithms -type f -name 'test_*.R' -print0 | sort -z)
+          if [ "${#tests[@]}" -eq 0 ]; then
+            echo "No R algorithm tests found." >&2
+            exit 1
+          fi
+          for test_file in "${tests[@]}"; do
+            echo "Testing ${test_file}"
+            Rscript --vanilla "${test_file}"
+          done
+
+# CUDA is opt-in: hosted CPU runners do not guarantee an NVIDIA GPU.
