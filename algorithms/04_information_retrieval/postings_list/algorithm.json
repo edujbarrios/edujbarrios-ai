@@ -1,0 +1,12 @@
+{
+  "slug": "postings_list",
+  "title": "Single-Term Inverted Postings List",
+  "level": "information_retrieval",
+  "summary": "Build a sorted postings list of document IDs and term frequencies for one integer token across an ordered collection.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
