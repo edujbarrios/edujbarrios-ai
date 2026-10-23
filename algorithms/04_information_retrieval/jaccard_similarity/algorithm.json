@@ -1,0 +1,12 @@
+{
+  "slug": "jaccard_similarity",
+  "title": "Jaccard Similarity of Integer Sets",
+  "level": "information_retrieval",
+  "summary": "Intersection-over-union similarity of two integer-token sets, with duplicate removal and deterministic semantics.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
