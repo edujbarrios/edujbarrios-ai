@@ -17,6 +17,7 @@ relation to AI fundamentals, retrieval or systems.
 - [ ] If CUDA: kernel compiled and run on a compatible NVIDIA GPU (specify hardware)
 - [ ] Cross-language numerical agreement checked where relevant
 - [ ] Algorithm README and metadata updated
+- [ ] References use verified APA 7 citations (author, date, title, source/URL)
 - [ ] No unsupported performance / production claims
 
 **Exact commands/results and any skipped checks:**
