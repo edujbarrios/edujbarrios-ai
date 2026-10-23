@@ -8,7 +8,7 @@ pub fn top_k(scores: &[f64], k: usize) -> Result<Vec<usize>, &'static str> {
         return Err("scores must be finite");
     }
     let mut indices: Vec<usize> = (0..scores.len()).collect();
-    indices.sort_by(|&a, &b| scores[b].total_cmp(&scores[a]).then(a.cmp(&b)));
+    indices.sort_by(|&a, &b| scores[b].partial_cmp(&scores[a]).expect("finite scores").then(a.cmp(&b)));
     indices.truncate(k);
     Ok(indices)
 }
@@ -22,6 +22,7 @@ mod tests {
         assert_eq!(top_k(&[0.8,0.9,0.9,-1.0],3), Ok(vec![1,2,0]));
         assert_eq!(top_k(&[1.0,1.0,1.0],2), Ok(vec![0,1]));
         assert_eq!(top_k(&[2.0,-4.0],2), Ok(vec![0,1]));
+        assert_eq!(top_k(&[-0.0,0.0],2), Ok(vec![0,1]));
     }
     #[test]
     fn invalid() {
