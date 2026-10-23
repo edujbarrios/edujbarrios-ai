@@ -1,0 +1,12 @@
+{
+  "slug": "confusion_matrix",
+  "title": "Binary Classification Confusion Matrix",
+  "level": "ai_systems",
+  "summary": "Count true negatives, false positives, false negatives, and true positives from two aligned binary label vectors.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
