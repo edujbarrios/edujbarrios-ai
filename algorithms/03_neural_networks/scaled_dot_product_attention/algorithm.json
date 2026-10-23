@@ -1,0 +1,12 @@
+{
+  "slug": "scaled_dot_product_attention",
+  "title": "Single-Query Scaled Dot-Product Attention",
+  "level": "neural_networks",
+  "summary": "Combine values by stable softmax weights over scaled query-key dot products for a single query.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
