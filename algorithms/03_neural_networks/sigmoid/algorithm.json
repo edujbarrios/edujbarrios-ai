@@ -1,0 +1,12 @@
+{
+  "slug": "sigmoid",
+  "title": "Numerically Stable Sigmoid",
+  "level": "neural_networks",
+  "summary": "Elementwise logistic sigmoid with overflow-safe positive and negative branches.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
