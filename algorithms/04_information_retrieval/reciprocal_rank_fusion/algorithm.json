@@ -1,0 +1,12 @@
+{
+  "slug": "reciprocal_rank_fusion",
+  "title": "Reciprocal Rank Fusion (RRF)",
+  "level": "information_retrieval",
+  "summary": "Deterministic rank fusion of two result lists using reciprocal ranks with constant 60.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
