@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+# Compiled native binaries and temporary outputs
+*.o
+*.obj
+*.exe
+*.out
+*.so
+*.dylib
+*.dll
+target/
+build/
+# R
+.Rhistory
+.RData
+.Rproj.user/
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/

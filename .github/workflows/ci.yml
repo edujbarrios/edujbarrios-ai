@@ -1,0 +1,26 @@
+name: Validation and CPU tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  cpu:
+    name: Docs, structure, C / Python / Rust / R
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Install R
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends r-base-core
+      - name: Validate repository layout
+        run: python3 scripts/validate_repository.py
+      - name: Run CPU algorithm tests
+        run: python3 scripts/run_tests.py --strict
+      # CUDA requires nvcc + compatible NVIDIA hardware; never treat it as CI-tested.
