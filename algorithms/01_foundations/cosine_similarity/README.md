@@ -37,9 +37,9 @@ For example `[1, 0]` and `[0, 1]` are orthogonal (similarity 0);
 
 ## Complexity
 
-Two scans per vector: **O(n)** time. C, Python, and Rust use **O(1)**
-auxiliary memory. R's vectorized arithmetic allocates **O(n)** temporary
-arrays. No AI or numerical framework dependency is required.
+Two scans per vector: **O(n)** time. C and Rust use **O(1)**
+auxiliary memory. Python materializes validated input vectors and R uses
+vectorized arrays; both use **O(n)** auxiliary memory. No AI or numerical framework dependency is required.
 
 ## Implementations
 
