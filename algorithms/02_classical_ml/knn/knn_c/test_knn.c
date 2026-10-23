@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 int main(void) {
-    const double samples[] = {0,0, 5,5, 1,1, 0,2};
+    const double samples[] = {0,0, 5,5, 2,1, 0,2};
     const double query[] = {0,1};
     const double one[] = {1};
     const double nan_input[] = {NAN};
