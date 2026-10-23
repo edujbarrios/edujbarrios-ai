@@ -1,0 +1,12 @@
+{
+  "slug": "mini_batch_gradient_descent",
+  "title": "Mini-Batch Gradient Descent for Univariate Linear Regression",
+  "level": "classical_ml",
+  "summary": "Deterministic sequential mini-batch updates to train one linear predictor from scratch.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
