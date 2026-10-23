@@ -1,0 +1,12 @@
+{
+  "slug": "vector_normalization",
+  "title": "Vector Normalization (L2)",
+  "level": "foundation",
+  "summary": "Normalize a nonzero finite real vector to unit Euclidean norm, used in embedding retrieval and numerical ML.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
