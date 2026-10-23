@@ -1,0 +1,12 @@
+{
+  "slug": "euclidean_distance",
+  "title": "Euclidean Distance",
+  "level": "foundation",
+  "summary": "Stable L2 distance between two finite vectors; useful in nearest-neighbor search and clustering.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
