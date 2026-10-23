@@ -40,7 +40,7 @@ mod tests {
 
     #[test]
     fn ties_and_all_samples() {
-        let x = [0.,0., 5.,5., 1.,1., 0.,2.];
+        let x = [0.,0., 5.,5., 2.,1., 0.,2.];
         assert_eq!(knn(&x, 4, 2, &[0.,1.], 2), Ok(vec![0,3]));
         assert_eq!(knn(&x, 4, 2, &[0.,1.], 4), Ok(vec![0,3,2,1]));
     }
