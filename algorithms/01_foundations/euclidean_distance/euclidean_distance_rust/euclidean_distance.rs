@@ -6,7 +6,7 @@ pub fn euclidean_distance(left: &[f64], right: &[f64]) -> Result<f64, &'static s
         return Err("vectors must have equal lengths");
     }
 
-    let mut distance = 0.0;
+    let mut distance: f64 = 0.0;
     for (&a, &b) in left.iter().zip(right) {
         if !a.is_finite() || !b.is_finite() {
             return Err("values must be finite");
