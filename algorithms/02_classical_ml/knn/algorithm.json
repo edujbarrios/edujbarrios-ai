@@ -1,0 +1,12 @@
+{
+  "slug": "knn",
+  "title": "Exact K-Nearest Neighbors",
+  "level": "classical_ml",
+  "summary": "Brute-force Euclidean nearest-neighbor search with deterministic tie-breaking and zero-based indices.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
