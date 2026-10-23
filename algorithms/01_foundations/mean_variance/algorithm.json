@@ -1,0 +1,12 @@
+{
+  "slug": "mean_variance",
+  "title": "Online Mean and Population Variance",
+  "level": "foundation",
+  "summary": "Welford's single-pass mean and population-variance computation for finite real observations.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
