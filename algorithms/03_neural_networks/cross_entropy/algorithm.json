@@ -1,0 +1,12 @@
+{
+  "slug": "cross_entropy",
+  "title": "Multiclass Cross-Entropy from Logits",
+  "level": "neural_networks",
+  "summary": "Stable negative log-likelihood for one class target, using log-sum-exp over finite logits.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
