@@ -4,7 +4,7 @@ folder <- dirname(normalizePath(sub("^--file=", "", args[[1L]])))
 source(file.path(folder, "knn.R"))
 expect_error <- function(expr) stopifnot(tryCatch({force(expr); FALSE},error=function(e) TRUE))
 
-x <- matrix(c(0,0,5,5,1,1,0,2), ncol=2, byrow=TRUE)
+x <- matrix(c(0,0,5,5,2,1,0,2), ncol=2, byrow=TRUE)
 stopifnot(identical(knn(x,c(0,1),2), c(0L,3L)))
 stopifnot(identical(knn(x,c(0,1),4), c(0L,3L,2L,1L)))
 expect_error(knn(x,c(0,1),0))
