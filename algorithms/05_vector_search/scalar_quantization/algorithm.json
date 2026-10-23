@@ -1,0 +1,12 @@
+{
+  "slug": "scalar_quantization",
+  "title": "Uniform Scalar Quantization (8-bit)",
+  "level": "vector_search",
+  "summary": "Map finite floating-point vector components into unsigned 8-bit bins using a fixed, validated range.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
