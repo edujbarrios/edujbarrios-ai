@@ -1,0 +1,12 @@
+{
+  "slug": "leaky_relu",
+  "title": "Leaky Rectified Linear Unit",
+  "level": "neural_networks",
+  "summary": "Elementwise leaky rectified activation with explicit alpha and finite-input validation.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
