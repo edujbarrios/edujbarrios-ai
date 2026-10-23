@@ -1,0 +1,12 @@
+{
+  "slug": "relu",
+  "title": "Rectified Linear Unit (ReLU)",
+  "level": "neural_networks",
+  "summary": "Elementwise rectified-linear activation with explicit rejection of non-finite inputs.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
