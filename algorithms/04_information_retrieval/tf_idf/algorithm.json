@@ -1,0 +1,12 @@
+{
+  "slug": "tf_idf",
+  "title": "TF-IDF Term Weight",
+  "level": "information_retrieval",
+  "summary": "Unsmoothed term-frequency times log inverse-document-frequency weighting for one term in one document.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
