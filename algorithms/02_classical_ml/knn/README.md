@@ -18,7 +18,7 @@ every dataset point to `q`. Return indices of the **k smallest distances**.
 Example:
 
 ```text
-points: [[0,0], [5,5], [1,1], [0,2]]
+points: [[0,0], [5,5], [2,1], [0,2]]
 query: [0,1], k=2
 result: [0, 3]  (both distance 1; lower index breaks the tie)
 ```
