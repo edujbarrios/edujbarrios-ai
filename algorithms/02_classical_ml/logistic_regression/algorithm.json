@@ -1,0 +1,12 @@
+{
+  "slug": "logistic_regression",
+  "title": "Binary Logistic Regression (Batch Gradient Descent)",
+  "level": "classical_ml",
+  "summary": "Train a one-feature binary logistic classifier by full-batch cross-entropy gradient descent.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
