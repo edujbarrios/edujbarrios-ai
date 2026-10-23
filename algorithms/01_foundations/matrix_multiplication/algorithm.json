@@ -1,0 +1,12 @@
+{
+  "slug": "matrix_multiplication",
+  "title": "Matrix Multiplication",
+  "level": "foundation",
+  "summary": "Triple-loop dense matrix multiplication with finite-value checks and explicit shape contracts.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
