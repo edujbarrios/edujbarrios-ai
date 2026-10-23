@@ -1,0 +1,12 @@
+{
+  "slug": "bm25",
+  "title": "BM25 Single-Term Contribution",
+  "level": "information_retrieval",
+  "summary": "Robertson-style BM25 score contribution for one query term and a document, with explicit corpus statistics.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
