@@ -1,0 +1,12 @@
+{
+  "slug": "linear_regression",
+  "title": "Simple Linear Regression (OLS)",
+  "level": "classical_ml",
+  "summary": "Fit slope and intercept for one-dimensional ordinary least squares regression.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
