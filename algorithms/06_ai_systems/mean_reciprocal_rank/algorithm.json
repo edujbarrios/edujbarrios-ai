@@ -1,0 +1,12 @@
+{
+  "slug": "mean_reciprocal_rank",
+  "title": "Mean Reciprocal Rank (MRR)",
+  "level": "ai_systems",
+  "summary": "Mean reciprocal rank across queries using the first relevant result's one-based rank, with zero representing no hit.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
