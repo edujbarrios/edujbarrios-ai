@@ -1,0 +1,12 @@
+{
+  "slug": "binary_cross_entropy",
+  "title": "Binary Cross-Entropy",
+  "level": "neural_networks",
+  "summary": "Mean binary log loss with strict probability and label validation.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
