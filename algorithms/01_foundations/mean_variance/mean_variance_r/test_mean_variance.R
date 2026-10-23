@@ -1,0 +1,18 @@
+file_arg <- grep("^--file=", commandArgs(FALSE), value = TRUE)
+if (length(file_arg) == 0L) stop("run with Rscript")
+folder <- dirname(normalizePath(sub("^--file=", "", file_arg[[1L]])))
+source(file.path(folder, "mean_variance.R"))
+expect_error <- function(expr) {
+  failed <- tryCatch({ force(expr); FALSE }, error = function(e) TRUE)
+  stopifnot(failed)
+}
+report <- mean_variance(c(2, 4, 4, 4, 5, 5, 7, 9))
+stopifnot(abs(report$mean - 5) < 1e-12, abs(report$variance - 4) < 1e-12)
+report <- mean_variance(c(-2, 0, 2))
+stopifnot(abs(report$mean) < 1e-12, abs(report$variance - 8 / 3) < 1e-12)
+stopifnot(identical(mean_variance(c(7, 7))$variance, 0.0))
+expect_error(mean_variance(numeric()))
+expect_error(mean_variance(c(NaN)))
+expect_error(mean_variance(c(Inf)))
+expect_error(mean_variance(c(1e308, -1e308)))
+cat("R mean_variance tests passed\n")
