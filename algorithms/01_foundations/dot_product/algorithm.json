@@ -1,0 +1,13 @@
+{
+  "slug": "dot_product",
+  "title": "Dot Product",
+  "level": "foundation",
+  "summary": "Sum of pairwise products of two finite real vectors; used in machine learning, embeddings, and attention.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r",
+    "cuda"
+  ]
+}
