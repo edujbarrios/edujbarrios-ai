@@ -5,8 +5,7 @@ on:
   push:
     branches: [main]
 
-# Cancel obsolete pushes to the same PR/branch instead of installing R
-# repeatedly for commits that have already been superseded.
+# Superseded updates to the same PR or branch should not consume CI time.
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
@@ -21,8 +20,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - name: Validate algorithm metadata and directory layout
-        run: python3 scripts/validate_repository.py
+      - run: python3 scripts/validate_repository.py
 
   language:
     name: ${{ matrix.language }} reference implementations
@@ -30,9 +28,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [c, python, rust, r]
+        language: [c, python, rust]
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
@@ -43,13 +41,32 @@ jobs:
       - name: Set up Rust
         if: matrix.language == 'rust'
         uses: dtolnay/rust-toolchain@stable
-      - name: Set up R
-        if: matrix.language == 'r'
-        uses: r-lib/actions/setup-r@v2
-        with:
-          r-version: 'release'
       - name: Run declared language tests
         run: python3 scripts/run_tests.py --strict --language ${{ matrix.language }}
 
-# CUDA is opt-in because public hosted Ubuntu jobs do not guarantee a
-# compatible NVIDIA GPU. The CPU matrix does not claim GPU coverage.
+  r:
+    name: r reference implementations
+    needs: structure
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Pin R itself: no apt-get, no setup-r installation delays. This image
+    # already provides Rscript, and test scripts use only base R.
+    container:
+      image: rocker/r-ver:4.4.3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run every declared R test suite
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -d '' tests < <(find algorithms -type f -name 'test_*.R' -print0 | sort -z)
+          if [ "${#tests[@]}" -eq 0 ]; then
+            echo "No R algorithm tests found." >&2
+            exit 1
+          fi
+          for test_file in "${tests[@]}"; do
+            echo "Testing ${test_file}"
+            Rscript --vanilla "${test_file}"
+          done
+
+# CUDA is opt-in: hosted CPU runners do not guarantee an NVIDIA GPU.
