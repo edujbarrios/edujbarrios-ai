@@ -1,0 +1,12 @@
+{
+  "slug": "f1_score",
+  "title": "Binary Classification F1 Score",
+  "level": "ai_systems",
+  "summary": "Compute binary-label F1 from true positives, false positives and false negatives with a defined zero-denominator policy.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
