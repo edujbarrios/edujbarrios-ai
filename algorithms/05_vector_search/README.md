@@ -2,11 +2,11 @@
 
 Nearest-neighbor methods and indexes make embedding retrieval scalable.
 
-## Implemented algorithms
+## Catalogue status
 
-No algorithms merged yet. See open pull requests and [ROADMAP](../../ROADMAP.md).
+Browse this category's subdirectories for implemented algorithms, and see [ROADMAP](../../ROADMAP.md) for future additions. Only merged directories contain supported implementations; proposed algorithms may still be in pull requests.
 
-## Planned topics (not yet implemented)
+## Suggested learning sequence (implemented or planned)
 
 - `exact_knn`
 - `quantization`

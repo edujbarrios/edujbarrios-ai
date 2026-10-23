@@ -36,7 +36,7 @@ CUDA is based on C++ with NVIDIA extensions; it is **not** a replacement for C, 
 | [05](algorithms/05_vector_search/README.md) | Vector Search | Exact nearest neighbors, ANN, HNSW |
 | [06](algorithms/06_ai_systems/README.md) | AI Systems | Hybrid retrieval, ranking fusion, systems primitives |
 
-See [ROADMAP.md](ROADMAP.md) for the suggested progression. **A roadmap entry is not an implemented algorithm.** Each category README lists what actually exists.
+See [ROADMAP.md](ROADMAP.md) for the suggested progression. **A roadmap entry is not an implemented algorithm.** The merged algorithm directories are the source of truth for what actually exists.
 
 ## Repository conventions
 
