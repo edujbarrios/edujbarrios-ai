@@ -1,0 +1,12 @@
+{
+  "slug": "softmax",
+  "title": "Numerically Stable Softmax",
+  "level": "neural_networks",
+  "summary": "Stable normalization of finite logits into a probability distribution using max subtraction.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
