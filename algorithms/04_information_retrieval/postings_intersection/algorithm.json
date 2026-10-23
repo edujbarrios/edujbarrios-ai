@@ -1,0 +1,12 @@
+{
+  "slug": "postings_intersection",
+  "title": "Sorted Postings List Intersection",
+  "level": "information_retrieval",
+  "summary": "Merge two strictly sorted, unique document-ID lists to identify documents containing both terms.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
