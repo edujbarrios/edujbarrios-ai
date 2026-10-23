@@ -10,6 +10,7 @@ correct, explained implementations**, not a framework or copy-paste dump.
 - Open an issue for large or cross-cutting work before implementation.
 - Keep changes independent; no unrelated reformatting.
 - Use English for code comments, documentation, PR descriptions and issues.
+- Use **APA 7th edition references** in every algorithm README, with verified bibliographic metadata and author–date citations where appropriate.
 - Submit original code, or code whose reuse is legally compatible with
   Apache-2.0, with explicit attribution when required.
 - Do not claim production readiness, novelty or benchmark wins without proof.
@@ -64,6 +65,6 @@ manual GPU test evidence.
 - [ ] Cross-language semantics match or justified differences are documented.
 - [ ] Tests are deterministic, locally reproducible and actually pass.
 - [ ] Performance claims include machine/configuration, inputs and methodology.
-- [ ] External references and any license obligations are recorded.
+- [ ] References use APA 7 format, with verified authors/dates/titles and stable links; licensing obligations are recorded separately.
 
 See [Algorithm Standard](docs/ALGORITHM_STANDARD.md) for the complete contract.

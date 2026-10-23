@@ -51,6 +51,28 @@ limits. If a case is out of scope, **say so in the README**. For randomized
 algorithms, pin seeds and document their source. For approximate retrieval,
 measure recall on labeled examples, not just runtime.
 
+## References: APA 7th edition
+
+Every algorithm README must use **APA 7** in its `## References` section:
+author or organization, year (or `n.d.`), italicized work title, publisher
+when applicable, and a DOI or stable URL when available. Alphabetize the
+reference list, use proper authors and verified bibliographic details,
+and include author–date citations in the explanatory text when appropriate.
+Avoid bare URL lists and fabricated bibliographic metadata.
+
+Book example:
+
+    Strang, G. (2016). *Introduction to linear algebra* (5th ed.).
+    Wellesley-Cambridge Press.
+
+Website/documentation example (replace with the actual page details):
+
+    Organization. (n.d.). *Title of documentation page*. https://example.org/page
+
+Use retrieval dates only when APA 7 requires them for changing, unarchived
+content. Specify documentation version/commit when applicable. A citation
+does not override copyright or software licensing requirements.
+
 ## Review and releases
 
 An algorithm PR should not imply all planned languages or GPU variants exist.
