@@ -1,0 +1,12 @@
+{
+  "slug": "min_max_scaling",
+  "title": "Min-Max Feature Scaling",
+  "level": "foundation",
+  "summary": "Scale finite nonconstant one-dimensional data to [0,1] using its observed minimum and maximum.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
