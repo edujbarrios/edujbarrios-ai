@@ -1,0 +1,12 @@
+{
+  "slug": "random_hyperplane_hash",
+  "title": "Random-Hyperplane Sign Hash (SimHash Projection)",
+  "level": "vector_search",
+  "summary": "Compute a deterministic 30-bit maximum random-hyperplane sign hash from caller-supplied projection normals.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
