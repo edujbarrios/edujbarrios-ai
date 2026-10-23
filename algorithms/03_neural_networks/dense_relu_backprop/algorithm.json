@@ -1,0 +1,12 @@
+{
+  "slug": "dense_relu_backprop",
+  "title": "Dense ReLU Layer Backpropagation",
+  "level": "neural_networks",
+  "summary": "Compute input, weight and bias gradients for a dense affine layer followed by ReLU.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
