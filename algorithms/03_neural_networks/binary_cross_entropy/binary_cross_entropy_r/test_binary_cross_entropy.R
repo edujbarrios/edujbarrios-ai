@@ -1,0 +1,7 @@
+args<-grep("^--file=",commandArgs(FALSE),value=TRUE)
+folder<-dirname(normalizePath(sub("^--file=","",args[[1]])))
+source(file.path(folder,"binary_cross_entropy.R"))
+stopifnot(binary_cross_entropy(c(1,0),c(1,0))==0)
+stopifnot(abs(binary_cross_entropy(c(1,0),c(.5,.5))-log(2))<1e-12)
+stopifnot(inherits(try(binary_cross_entropy(c(1),c(0)),silent=TRUE),"try-error"))
+stopifnot(inherits(try(binary_cross_entropy(c(2),c(.5)),silent=TRUE),"try-error"))
