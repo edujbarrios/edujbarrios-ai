@@ -19,10 +19,10 @@ pub fn bm25(
 
     let length_ratio = document_length as f64 / avg_document_length;
     let normalization = k1 * (1.0 - b + b * length_ratio);
-    let idf = ((n_documents - doc_frequency) as f64 + 0.5)
-        .div_euclid(1.0);
-    // Compute log(1 + corpus rarity ratio), avoiding log on a negative value.
-    let idf = (idf / (doc_frequency as f64 + 0.5)).ln_1p();
+    // Compute log(1 + corpus rarity ratio) without truncating the numerator.
+    let rarity = ((n_documents - doc_frequency) as f64 + 0.5) /
+        (doc_frequency as f64 + 0.5);
+    let idf = rarity.ln_1p();
     let tf = term_frequency as f64;
     let numerator = idf * tf * (k1 + 1.0);
     let denominator = tf + normalization;
