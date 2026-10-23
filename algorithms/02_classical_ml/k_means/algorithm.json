@@ -1,0 +1,12 @@
+{
+  "slug": "k_means",
+  "title": "Deterministic K-Means Clustering (Lloyd's Algorithm)",
+  "level": "classical_ml",
+  "summary": "Dense Euclidean K-means clustering with fixed first-k-point initialization and predictable tie/empty-cluster rules.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
