@@ -1,0 +1,12 @@
+{
+  "slug": "recall_at_k",
+  "title": "Recall at K (R@K)",
+  "level": "ai_systems",
+  "summary": "Fraction of a query's known relevant documents retrieved in the first k positions.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
