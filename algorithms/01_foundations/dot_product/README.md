@@ -79,8 +79,10 @@ input sizes, hardware, compiler flags, transfer cost and methodology.
 
 ## References
 
-- [Dot product — Encyclopedia of Mathematics](https://encyclopediaofmath.org/wiki/Dot_product)
-- [CUDA C++ Programming Guide — NVIDIA](https://docs.nvidia.com/cuda/cuda-c-programming-guide/)
+NVIDIA. (n.d.). *CUDA C++ programming guide*. https://docs.nvidia.com/cuda/cuda-c-programming-guide/
 
-All original code is distributed under the repository's
-[Apache License 2.0](../../../LICENSE).
+Strang, G. (2016). *Introduction to linear algebra* (5th ed.).
+Wellesley-Cambridge Press.
+
+The implementation is original to this repository. APA citations are not
+a substitute for software license compliance. See [LICENSE](../../../LICENSE).
