@@ -1,0 +1,12 @@
+{
+  "slug": "dense_forward",
+  "title": "Dense Neural Layer Forward Pass with ReLU",
+  "level": "neural_networks",
+  "summary": "Compute a dense affine transformation followed by ReLU activation with explicitly validated dimensions and finite values.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
