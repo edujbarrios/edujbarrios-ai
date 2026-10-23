@@ -1,0 +1,12 @@
+{
+  "slug": "pca_2d",
+  "title": "Principal Component Analysis in Two Dimensions",
+  "level": "classical_ml",
+  "summary": "Fit the dominant eigenvector of a centered 2D sample covariance and project observations into one dimension.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

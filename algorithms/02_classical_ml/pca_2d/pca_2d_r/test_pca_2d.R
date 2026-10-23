@@ -1,0 +1,18 @@
+args<-grep("^--file=",commandArgs(FALSE),value=TRUE)
+folder<-dirname(normalizePath(sub("^--file=","",args[[1L]])))
+source(file.path(folder,"pca_2d.R"))
+expect_error<-function(expr) stopifnot(tryCatch({force(expr);FALSE},error=function(e)TRUE))
+a<-pca_2d(matrix(c(0,0,2,0,4,0),nrow=3,byrow=TRUE))
+stopifnot(identical(a$mean,c(2,0)),identical(a$direction,c(1,0)),
+          identical(a$projections,c(-2,0,2)))
+a<-pca_2d(matrix(c(0,0,0,2),nrow=2,byrow=TRUE))
+stopifnot(identical(a$mean,c(0,1)),identical(a$direction,c(0,1)),
+          identical(a$projections,c(-1,1)))
+a<-pca_2d(matrix(c(0,0,2,2,4,4),nrow=3,byrow=TRUE))
+stopifnot(max(abs(a$direction-sqrt(0.5)))<1e-12)
+a<-pca_2d(matrix(c(1,0,-1,0,0,1,0,-1),nrow=4,byrow=TRUE))
+stopifnot(identical(a$direction,c(1,0)))
+expect_error(pca_2d(matrix(c(1,1,1,1),nrow=2)))
+expect_error(pca_2d(matrix(c(0,NaN,2,1),nrow=2,byrow=TRUE)))
+expect_error(pca_2d(matrix(c(-1e308,0,1e308,0),nrow=2,byrow=TRUE)))
+cat("R PCA 2D tests passed\n")
