@@ -83,7 +83,8 @@ weighted dimensions, missing values or complex numbers. No speed claims.
 
 ## References
 
-- [Euclidean distance — Encyclopedia of Mathematics](https://encyclopediaofmath.org/wiki/Euclidean_distance)
+Strang, G. (2016). *Introduction to linear algebra* (5th ed.).
+Wellesley-Cambridge Press.
 
-Original implementation under the repository
-[Apache-2.0 license](../../../LICENSE).
+The implementation is original to this repository; see
+[LICENSE](../../../LICENSE) for code reuse terms.
