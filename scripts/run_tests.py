@@ -20,6 +20,8 @@ def run(cmd, env=None):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--language", choices=("c", "python", "rust", "r", "cuda"),
+                        help="run tests for one language only (used by CI matrix)")
     parser.add_argument("--strict", action="store_true", help="fail if a declared CPU toolchain is absent")
     parser.add_argument("--with-cuda", action="store_true", help="compile and run declared CUDA tests (GPU required)")
     args = parser.parse_args()
@@ -32,6 +34,8 @@ def main():
             data = json.loads(spec.read_text(encoding="utf-8"))
             slug = data["slug"]
             for lang in data["languages"]:
+                if args.language is not None and lang != args.language:
+                    continue
                 folder = spec.parent / f"{slug}_{lang}"
                 if lang == "cuda" and not args.with_cuda:
                     print(f"SKIP {slug}/cuda (opt-in, requires NVIDIA GPU)")
@@ -65,7 +69,8 @@ def main():
                          folder / f"test_{slug}.cu", "-o", output])
                     run([output])
                 executed += 1
-    print(f"Passed {executed} language implementation test suite(s).")
+    print(f"Passed {executed} language implementation test suite(s)"
+          f" for {args.language or 'all requested CPU languages'}.")
     return 0
 
 

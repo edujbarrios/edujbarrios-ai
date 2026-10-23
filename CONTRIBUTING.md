@@ -53,7 +53,12 @@ Optional GPU checks require `nvcc` and a compatible NVIDIA GPU:
 
     python3 scripts/run_tests.py --strict --with-cuda
 
-CI runs structural validation and the CPU tests. It does **not** verify CUDA
+CI validates the repository layout and runs C, Python, Rust and R in **separate
+parallel jobs**. To reproduce one job locally, use
+`python3 scripts/run_tests.py --strict --language rust` (or `c`,
+`python`, `r`). The `--strict` option fails if that language's toolchain
+is missing. Without `--language`, the script runs all declared CPU variants.
+CI does **not** verify CUDA
 unless a GPU runner is explicitly configured; PRs with CUDA code must report
 manual GPU test evidence.
 
