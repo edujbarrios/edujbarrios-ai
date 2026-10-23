@@ -1,0 +1,12 @@
+{
+  "slug": "cosine_similarity",
+  "title": "Cosine Similarity",
+  "level": "foundation",
+  "summary": "Scale-invariant similarity between non-zero, finite real vectors, used to compare embeddings and rank information-retrieval results.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
