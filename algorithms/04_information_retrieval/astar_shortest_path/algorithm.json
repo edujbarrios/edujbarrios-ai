@@ -1,0 +1,12 @@
+{
+  "slug": "astar_shortest_path",
+  "title": "A* Shortest Path with a Consistent Heuristic",
+  "level": "information_retrieval",
+  "summary": "Find the optimal source-to-target path on a directed weighted graph using A* with validated consistent node heuristics.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
