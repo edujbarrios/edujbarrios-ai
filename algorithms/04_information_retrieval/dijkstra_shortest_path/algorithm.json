@@ -1,0 +1,12 @@
+{
+  "slug": "dijkstra_shortest_path",
+  "title": "Dijkstra Shortest Paths on Weighted Directed Graphs",
+  "level": "information_retrieval",
+  "summary": "Compute exact nonnegative weighted shortest-path distances from a source on a bounded dense directed graph.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
