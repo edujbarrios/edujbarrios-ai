@@ -1,0 +1,12 @@
+{
+  "slug": "floyd_warshall",
+  "title": "Floyd–Warshall All-Pairs Shortest Paths",
+  "level": "information_retrieval",
+  "summary": "Find shortest distances between every pair of vertices on weighted directed graphs, rejecting reachable negative cycles and overflow.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
