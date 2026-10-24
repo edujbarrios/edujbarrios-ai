@@ -8,7 +8,7 @@ stopifnot(identical(result$values[[1]],0.0),identical(result$derivatives[[1]],0.
 stopifnot(abs(result$values[[2]]-s)<1e-12)
 stopifnot(abs(result$derivatives[[2]]-(s+s*(1-s)))<1e-12)
 stopifnot(abs(result$values[[3]]-(s-1))<1e-12)
-stopifnot(abs(result$derivatives[[3]]-(1-s)*(1-s+s))<1e-12)
+stopifnot(abs(result$derivatives[[3]]-(1-s)*(1-s))<1e-12)
 stopifnot(identical(result$values[[4]],1000.0))
 stopifnot(identical(result$derivatives[[4]],1.0))
 stopifnot(result$values[[5]]==0,result$derivatives[[5]]==0)
