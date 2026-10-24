@@ -1,0 +1,12 @@
+{
+  "slug": "kruskal_mst",
+  "title": "Kruskal Minimum Spanning Tree",
+  "level": "information_retrieval",
+  "summary": "Build a deterministic minimum spanning tree for a connected undirected weighted graph using sorted edges and disjoint-set union.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
