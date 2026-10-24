@@ -1,0 +1,12 @@
+{
+  "slug": "positional_phrase_search",
+  "title": "Two-Term Positional Phrase Search",
+  "level": "information_retrieval",
+  "summary": "Intersect positional inverted-index postings to identify documents containing two query terms in consecutive positions.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
