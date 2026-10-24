@@ -1,0 +1,12 @@
+{
+  "slug": "lsh_bucket_index",
+  "title": "Exact-Bucket LSH Signature Index",
+  "level": "vector_search",
+  "summary": "Build a reusable index of packed 30-bit SimHash signatures and retrieve exact-bucket candidates in original insertion order.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
