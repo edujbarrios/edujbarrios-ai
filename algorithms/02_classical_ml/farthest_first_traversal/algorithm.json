@@ -1,0 +1,12 @@
+{
+  "slug": "farthest_first_traversal",
+  "title": "Farthest-First Traversal for K-Center Selection",
+  "level": "classical_ml",
+  "summary": "Deterministically choose well-separated centers by maximizing each point's minimum Euclidean distance to already selected centers.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
