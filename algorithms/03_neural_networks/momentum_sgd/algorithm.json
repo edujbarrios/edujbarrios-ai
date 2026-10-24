@@ -1,0 +1,12 @@
+{
+  "slug": "momentum_sgd",
+  "title": "Stochastic Gradient Descent with Momentum (One Step)",
+  "level": "neural_networks",
+  "summary": "Perform one deterministic momentum-SGD parameter update while exposing the persistent velocity state.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
