@@ -1,0 +1,12 @@
+{
+  "slug": "rotary_positional_embedding",
+  "title": "Rotary Positional Embedding (RoPE)",
+  "level": "neural_networks",
+  "summary": "Rotate paired query and key coordinates by deterministic position-dependent angles, preserving dot-product positional structure.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
