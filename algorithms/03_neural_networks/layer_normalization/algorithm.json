@@ -1,0 +1,12 @@
+{
+  "slug": "layer_normalization",
+  "title": "Layer Normalization for One Feature Vector",
+  "level": "neural_networks",
+  "summary": "Normalize one feature vector using population variance, epsilon stabilization and per-feature affine gain and shift.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
