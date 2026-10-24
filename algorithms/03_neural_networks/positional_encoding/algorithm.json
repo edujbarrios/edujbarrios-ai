@@ -1,0 +1,12 @@
+{
+  "slug": "positional_encoding",
+  "title": "Sinusoidal Positional Encoding",
+  "level": "neural_networks",
+  "summary": "Generate deterministic sine/cosine Transformer position embeddings without trained parameters.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
