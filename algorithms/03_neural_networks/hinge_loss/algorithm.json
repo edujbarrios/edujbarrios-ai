@@ -1,0 +1,12 @@
+{
+  "slug": "hinge_loss",
+  "title": "Binary Hinge Loss and Subgradient",
+  "level": "neural_networks",
+  "summary": "Compute mean binary max-margin hinge loss and a deterministic score subgradient for signed class labels.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
