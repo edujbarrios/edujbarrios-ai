@@ -1,0 +1,12 @@
+{
+  "slug": "kullback_leibler_divergence",
+  "title": "Discrete Kullback–Leibler Divergence (Base 2)",
+  "level": "foundation",
+  "summary": "Compute directional relative entropy for discrete probability vectors, including mathematically infinite divergence when support is missing.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
