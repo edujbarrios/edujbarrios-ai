@@ -1,0 +1,12 @@
+{
+  "slug": "ridge_regression_1d",
+  "title": "Univariate Ridge Regression (Closed-Form Fit)",
+  "level": "classical_ml",
+  "summary": "Fit penalized linear regression on one feature with an unpenalized intercept and a deterministic constant-feature convention.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
