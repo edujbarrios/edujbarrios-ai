@@ -1,0 +1,12 @@
+{
+  "slug": "decision_stump",
+  "title": "Binary Decision Stump (Exhaustive Threshold Search)",
+  "level": "classical_ml",
+  "summary": "Fit a one-feature binary threshold classifier by exhaustive training-error minimization with deterministic ties.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
