@@ -1,0 +1,12 @@
+{
+  "slug": "z_score_standardization",
+  "title": "Column-wise Z-Score Standardization",
+  "level": "foundation",
+  "summary": "Compute population-variance standardized numeric features with Welford streaming moments and defined zero-variance behavior.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
