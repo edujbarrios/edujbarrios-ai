@@ -60,6 +60,6 @@ mod tests {
         assert!(search(&[1.0],&[1.0],1,0).is_err());
         assert!(search(&[1.0,0.0],&[1.0,0.0,0.0,0.0],2,1).is_err());
         assert!(search(&[1.0,0.0],&[1.0,0.0,f64::NAN,1.0],2,1).is_err());
-        assert!(search(&[1e308,1e308],&[1.0,0.0],1,1).is_err());
+        assert!(search(&[1.7e308,1.7e308],&[1.0,0.0],1,1).is_err());
     }
 }
