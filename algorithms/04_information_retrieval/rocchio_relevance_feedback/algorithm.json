@@ -1,0 +1,12 @@
+{
+  "slug": "rocchio_relevance_feedback",
+  "title": "Rocchio Relevance Feedback for Vector Queries",
+  "level": "information_retrieval",
+  "summary": "Update a nonnegative retrieval query vector using mean relevant and nonrelevant document vectors with a deterministic clamped Rocchio formula.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
