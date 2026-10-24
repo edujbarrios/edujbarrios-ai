@@ -1,0 +1,12 @@
+{
+  "slug": "two_layer_binary_classifier",
+  "title": "Two-Layer Neural Binary Classifier (Training from Scratch)",
+  "level": "neural_networks",
+  "summary": "Train a one-hidden-ReLU-neuron binary classifier with a sigmoid output and full-batch backpropagation.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
