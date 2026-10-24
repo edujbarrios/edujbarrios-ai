@@ -5,7 +5,6 @@ pub fn top_p_nucleus_filtering(probabilities:&[f64],threshold:f64)
     ->Result<Vec<usize>,&'static str>{
     let n=probabilities.len();
     if !(1..=4096).contains(&n) || !threshold.is_finite() ||
-       !(0.0<=(threshold)).then_some(()).is_some() ||
        threshold<=0.0 || threshold>1.0 ||
        probabilities.iter().any(|x|!x.is_finite() || !(0.0..=1.0).contains(x)) {
         return Err("invalid probability distribution or threshold");
