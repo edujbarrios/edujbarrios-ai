@@ -1,0 +1,12 @@
+{
+  "slug": "roc_auc",
+  "title": "Binary Receiver Operating Characteristic Area Under Curve (ROC AUC)",
+  "level": "ai_systems",
+  "summary": "Calculate binary ROC AUC from finite classifier scores using average ranks for ties and the Mann–Whitney statistic.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
