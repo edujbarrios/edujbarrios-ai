@@ -1,0 +1,12 @@
+{
+  "slug": "dbscan",
+  "title": "DBSCAN Density-Based Clustering",
+  "level": "classical_ml",
+  "summary": "Deterministic Euclidean density-based clustering that discovers arbitrary-shaped groups and identifies noise points.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
