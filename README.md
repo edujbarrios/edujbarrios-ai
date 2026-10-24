@@ -2,6 +2,8 @@
 
 **AI algorithms, from scratch and open to everyone.**
 
+**Author:** Eduardo J. Barrios · **Email:** [edujbarrios@outlook.com](mailto:edujbarrios@outlook.com)
+
 Given my background in software engineering and artificial intelligence, I started this project with a simple goal: **make the core algorithms behind AI accessible to everyone**.
 
 By implementing them from scratch in **C, Python, Rust, and R**, I want to make it easier to understand how they work, explore the mathematics behind them, and learn through real, tested code.
@@ -101,4 +103,8 @@ This project welcomes issues, corrections and focused pull requests. Add algorit
 
 Licensed under **Apache License 2.0**. See [LICENSE](LICENSE) and [NOTICE](NOTICE). Individual contributions must be original or legally compatible and properly attributed.
 
-Maintained by [@edujbarrios](https://github.com/edujbarrios).
+## Author and contact
+
+Created and maintained by **Eduardo J. Barrios** ([@edujbarrios](https://github.com/edujbarrios)).
+
+**Email:** [edujbarrios@outlook.com](mailto:edujbarrios@outlook.com). For code changes, please use GitHub issues and pull requests where possible so discussions remain public and reproducible.
