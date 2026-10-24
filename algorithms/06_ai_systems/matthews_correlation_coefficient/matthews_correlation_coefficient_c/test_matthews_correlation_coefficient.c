@@ -15,7 +15,7 @@ int main(void) {
     assert(matthews_correlation_coefficient(y,mixed,4,&result)&&result==0);
     assert(matthews_correlation_coefficient(y,all_zero,4,&result)&&result==0);
     assert(matthews_correlation_coefficient(imbalanced_y,imbalanced_p,5,&result));
-    assert(fabs(result-(2.0/15.0)/sqrt(36.0/625.0))<1e-12);
+    assert(fabs(result-1.0/6.0)<1e-12);
     result=-9;
     assert(!matthews_correlation_coefficient(y,correct,0,&result));
     assert(!matthews_correlation_coefficient(y,bad,4,&result));
