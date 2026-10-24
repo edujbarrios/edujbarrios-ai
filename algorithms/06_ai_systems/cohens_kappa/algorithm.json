@@ -1,0 +1,12 @@
+{
+  "slug": "cohens_kappa",
+  "title": "Binary Cohen’s Kappa Agreement",
+  "level": "ai_systems",
+  "summary": "Evaluate binary rater/classifier agreement after correcting for chance agreement determined by the marginal label distributions.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
