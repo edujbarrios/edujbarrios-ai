@@ -1,0 +1,12 @@
+{
+  "slug": "rmsprop_optimizer",
+  "title": "RMSProp Optimizer (One Step)",
+  "level": "neural_networks",
+  "summary": "Update parameter vectors using an exponential moving average of squared gradients with explicit optimizer state.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
