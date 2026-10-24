@@ -1,0 +1,12 @@
+{
+  "slug": "viterbi_decoding",
+  "title": "Two-State Hidden Markov Model Viterbi Decoding",
+  "level": "classical_ml",
+  "summary": "Decode the most likely hidden-state sequence of a two-state binary-emission HMM in log space with deterministic ties.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
