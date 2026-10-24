@@ -1,0 +1,12 @@
+{
+  "slug": "adamw_optimizer",
+  "title": "AdamW Optimizer — One Step",
+  "level": "neural_networks",
+  "summary": "Perform one bias-corrected AdamW update with decoupled weight decay and explicitly managed moment state.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
