@@ -1,0 +1,12 @@
+{
+  "slug": "maximal_marginal_relevance",
+  "title": "Maximal Marginal Relevance (MMR) Reranking",
+  "level": "information_retrieval",
+  "summary": "Greedily rerank candidates to balance query relevance and redundancy using a precomputed similarity matrix.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
