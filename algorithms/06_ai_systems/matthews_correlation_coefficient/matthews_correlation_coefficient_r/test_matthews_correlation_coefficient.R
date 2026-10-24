@@ -8,7 +8,7 @@ stopifnot(identical(matthews_correlation_coefficient(y,c(0,0,1,1)),-1.0))
 stopifnot(identical(matthews_correlation_coefficient(y,c(1,0,1,0)),0.0))
 stopifnot(identical(matthews_correlation_coefficient(y,c(0,0,0,0)),0.0))
 stopifnot(abs(matthews_correlation_coefficient(c(1,1,1,0,0),c(1,1,0,1,0))-
-              (2/15)/sqrt(36/625))<1e-12)
+              1/6)<1e-12)
 expect_error(matthews_correlation_coefficient(numeric(),numeric()))
 expect_error(matthews_correlation_coefficient(c(0),numeric()))
 expect_error(matthews_correlation_coefficient(c(0,2),c(0,1)))
