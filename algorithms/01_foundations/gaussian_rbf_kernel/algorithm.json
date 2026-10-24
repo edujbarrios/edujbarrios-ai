@@ -1,0 +1,12 @@
+{
+  "slug": "gaussian_rbf_kernel",
+  "title": "Gaussian Radial Basis Function (RBF) Kernel Matrix",
+  "level": "foundation",
+  "summary": "Compute a symmetric Gaussian-kernel Gram matrix from finite dense observations and a positive length scale.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
