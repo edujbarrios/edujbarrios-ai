@@ -18,9 +18,9 @@ pub fn roc_auc(scores:&[f64],labels:&[u8]) -> Result<f64,&'static str> {
     let mut start=0;
     while start<n {
         let mut end=start+1;
-        let mut group_positives=pairs[start].1 as usize;
-        while end<n && pairs[end].0==pairs[start].0 {
-            group_positives+=pairs[end].1 as usize;
+        let mut group_positives=pairs[start]0.1 as usize;
+        while end<n && pairs[end]0.0==pairs[start]0.0 {
+            group_positives+=pairs[end]0.1 as usize;
             end+=1;
         }
         positive_ranks+=group_positives as f64*((start+1) as f64+end as f64)/2.0;
@@ -40,19 +40,19 @@ mod tests {
     use super::roc_auc;
     #[test]
     fn examples_and_ties() {
-        assert!((roc_auc(&[.1,.4,.35,.8],&[0,0,1,1]).unwrap()-.75).abs()<1e-12);
-        assert_eq!(roc_auc(&[.5,.5],&[0,1]),Ok(.5));
-        assert_eq!(roc_auc(&[.9,.1],&[0,1]),Ok(0.0));
-        assert_eq!(roc_auc(&[.1,.9],&[0,1]),Ok(1.0));
-        assert_eq!(roc_auc(&[0.0,0.0,0.0,1.0],&[0,1,0,1]),Ok(.75));
+        assert!((roc_auc(&[0.1,0.4,0.35,0.8],&[0,0,1,1]).unwrap()-0.75).abs()<1e-12);
+        assert_eq!(roc_auc(&[0.5,0.5],&[0,1]),Ok(0.5));
+        assert_eq!(roc_auc(&[0.9,0.1],&[0,1]),Ok(0.0));
+        assert_eq!(roc_auc(&[0.1,0.9],&[0,1]),Ok(1.0));
+        assert_eq!(roc_auc(&[0.0,0.0,0.0,1.0],&[0,1,0,1]),Ok(0.75));
     }
     #[test]
     fn invalid() {
         assert!(roc_auc(&[],&[]).is_err());
-        assert!(roc_auc(&[.1],&[1]).is_err());
-        assert!(roc_auc(&[.1,.9],&[1,1]).is_err());
-        assert!(roc_auc(&[.1,.9],&[0,0]).is_err());
-        assert!(roc_auc(&[f64::NAN,.9],&[0,1]).is_err());
-        assert!(roc_auc(&[.1,.9],&[0,2]).is_err());
+        assert!(roc_auc(&[0.1],&[1]).is_err());
+        assert!(roc_auc(&[0.1,0.9],&[1,1]).is_err());
+        assert!(roc_auc(&[0.1,0.9],&[0,0]).is_err());
+        assert!(roc_auc(&[f64::NAN,0.9],&[0,1]).is_err());
+        assert!(roc_auc(&[0.1,0.9],&[0,2]).is_err());
     }
 }
