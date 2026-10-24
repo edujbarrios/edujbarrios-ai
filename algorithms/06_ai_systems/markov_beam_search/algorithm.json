@@ -1,0 +1,12 @@
+{
+  "slug": "markov_beam_search",
+  "title": "Deterministic Beam Search for a Markov Token Model",
+  "level": "ai_systems",
+  "summary": "Decode the highest-scoring sequence retained by a bounded beam search using initial and Markov token-transition probabilities.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
