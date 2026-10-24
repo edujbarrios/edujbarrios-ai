@@ -1,0 +1,12 @@
+{
+  "slug": "euclidean_top_k",
+  "title": "Exact Euclidean Top-K Vector Search",
+  "level": "vector_search",
+  "summary": "Rank dense vectors by Euclidean distance to a query, using stable hypot accumulation and deterministic index ties.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
