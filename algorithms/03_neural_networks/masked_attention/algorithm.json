@@ -1,0 +1,12 @@
+{
+  "slug": "masked_attention",
+  "title": "Masked Single-Query Scaled Dot-Product Attention",
+  "level": "neural_networks",
+  "summary": "Compute scaled dot-product attention over only the allowed key/value rows, using stable masked softmax.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
