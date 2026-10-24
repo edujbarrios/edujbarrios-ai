@@ -36,7 +36,7 @@ mod tests {
         assert!((v[1]-s).abs()<1e-12);
         assert!((d[1]-(s+s*(1.0-s))).abs()<1e-12);
         assert!((v[2]-(s-1.0)).abs()<1e-12);
-        assert!((d[2]-(1.0-s)*(1.0-s+s)).abs()<1e-12);
+        assert!((d[2]-(1.0-s)*(1.0-s)).abs()<1e-12);
         assert_eq!((v[3],d[3]),(1000.0,1.0));
         assert_eq!((v[4],d[4]),(0.0,0.0));
     }
