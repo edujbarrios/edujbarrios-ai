@@ -1,0 +1,12 @@
+{
+  "slug": "maximum_inner_product_top_k",
+  "title": "Exact Maximum Inner-Product Top-K Search",
+  "level": "vector_search",
+  "summary": "Rank dense candidate embeddings by descending query–candidate dot product with deterministic index ties and finite arithmetic validation.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
