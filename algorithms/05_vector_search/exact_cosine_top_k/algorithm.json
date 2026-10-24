@@ -1,0 +1,12 @@
+{
+  "slug": "exact_cosine_top_k",
+  "title": "Exact Cosine Top-K Vector Search",
+  "level": "vector_search",
+  "summary": "Rank a dense collection by exact cosine similarity to one query with reproducible lower-index tie-breaking.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
