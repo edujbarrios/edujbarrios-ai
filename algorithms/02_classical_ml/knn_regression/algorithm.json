@@ -1,0 +1,12 @@
+{
+  "slug": "knn_regression",
+  "title": "K-Nearest Neighbors Regression",
+  "level": "classical_ml",
+  "summary": "Predict a continuous target by averaging the k nearest Euclidean neighbor targets, breaking distance ties by original row index.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
