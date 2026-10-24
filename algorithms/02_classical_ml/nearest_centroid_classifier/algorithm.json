@@ -1,0 +1,12 @@
+{
+  "slug": "nearest_centroid_classifier",
+  "title": "Binary Nearest Centroid Classifier",
+  "level": "classical_ml",
+  "summary": "Fit per-class Euclidean centroids and predict by nearest squared-distance-free hypot norms with deterministic class ties.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
