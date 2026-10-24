@@ -13,7 +13,7 @@ int main(void) {
     assert(fabs(out[1]-s)<1e-12);
     assert(fabs(grad[1]-(s+s*(1-s)))<1e-12);
     assert(fabs(out[2]-(s-1))<1e-12);
-    assert(fabs(grad[2]-(1-s)*(1-s+s))<1e-12);
+    assert(fabs(grad[2]-(1-s)*(1-s))<1e-12);
     assert(out[3]==1000 && grad[3]==1);
     assert(out[4]==0 && grad[4]==0);
     out[0]=-9;grad[0]=-9;
