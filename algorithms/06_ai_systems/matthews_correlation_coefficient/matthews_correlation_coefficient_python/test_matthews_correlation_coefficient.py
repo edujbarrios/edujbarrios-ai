@@ -10,7 +10,7 @@ class MCCTests(unittest.TestCase):
         self.assertEqual(mcc(y,[1,0,1,0]),0)
         self.assertEqual(mcc(y,[0,0,0,0]),0)
         self.assertAlmostEqual(mcc([1,1,1,0,0],[1,1,0,1,0]),
-                               (2/15)/math.sqrt(36/625))
+                               1/6)
     def test_invalid(self):
         cases=(([],[]),([0],[]),([0,2],[0,1]),
                ([0,1],[0,3]),([True,0],[0,1]),([0,1],[0,False]))
