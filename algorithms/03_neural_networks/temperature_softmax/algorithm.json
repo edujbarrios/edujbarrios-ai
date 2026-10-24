@@ -1,0 +1,12 @@
+{
+  "slug": "temperature_softmax",
+  "title": "Temperature-Scaled Softmax",
+  "level": "neural_networks",
+  "summary": "Transform logits into probabilities with a positive temperature using stable max-subtracted exponentials.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
