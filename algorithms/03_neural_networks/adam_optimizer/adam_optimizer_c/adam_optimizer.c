@@ -9,7 +9,7 @@ bool adam_optimizer(const double *parameters, const double *gradients,
                     double learning_rate, size_t step,
                     double *p_out, double *m_out, double *v_out) {
     if (!parameters || !gradients || !m || !v || !p_out || !m_out ||
-        !v_out || n == 0 || step == 0 || n > SIZE_MAX / sizeof(double) ||
+        !v_out || n == 0 || step == 0 || n > SIZE_MAX / (3 * sizeof(double)) ||
         !isfinite(learning_rate) || learning_rate <= 0.0) return false;
 
     const double b1 = 0.9, b2 = 0.999, epsilon = 1e-8;
