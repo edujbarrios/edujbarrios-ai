@@ -1,0 +1,12 @@
+{
+  "slug": "swish",
+  "title": "Swish Activation and Derivative",
+  "level": "neural_networks",
+  "summary": "Compute elementwise Swish (SiLU) activation and its analytical derivative with stable sigmoid arithmetic.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
