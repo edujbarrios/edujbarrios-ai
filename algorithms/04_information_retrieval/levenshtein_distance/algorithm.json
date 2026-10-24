@@ -1,0 +1,12 @@
+{
+  "slug": "levenshtein_distance",
+  "title": "Levenshtein Edit Distance (ASCII)",
+  "level": "information_retrieval",
+  "summary": "Compute unit-cost insertion, deletion and substitution edit distance between printable ASCII strings using two DP rows.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
