@@ -1,0 +1,12 @@
+{
+  "slug": "pagerank",
+  "title": "PageRank by Power Iteration",
+  "level": "information_retrieval",
+  "summary": "Compute stationary link-based page importance with damped power iteration, dangling-node redistribution and a uniform teleport distribution.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
