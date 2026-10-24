@@ -1,0 +1,12 @@
+{
+  "slug": "brier_score",
+  "title": "Binary Brier Score for Probabilistic Predictions",
+  "level": "ai_systems",
+  "summary": "Measure the mean squared error of binary class-one probabilities with strict input validation.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
