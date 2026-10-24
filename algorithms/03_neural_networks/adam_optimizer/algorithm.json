@@ -1,0 +1,12 @@
+{
+  "slug": "adam_optimizer",
+  "title": "Adam Optimizer: One Parameter Update",
+  "level": "neural_networks",
+  "summary": "Perform one bias-corrected adaptive moment update with persistent first- and second-moment state.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
