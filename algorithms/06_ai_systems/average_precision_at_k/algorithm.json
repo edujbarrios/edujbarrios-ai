@@ -1,0 +1,12 @@
+{
+  "slug": "average_precision_at_k",
+  "title": "Average Precision at K",
+  "level": "ai_systems",
+  "summary": "Compute binary ranked-list average precision within a cutoff using capped total-relevant normalization.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
