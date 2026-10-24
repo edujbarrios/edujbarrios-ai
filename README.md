@@ -1,17 +1,21 @@
 # edujbarrios-ai
 
-**An open-source, GitHub-first hub of artificial intelligence algorithms implemented from scratch in C, Python, Rust, R, and (when GPU acceleration makes sense) CUDA.**
+**AI algorithms, from scratch and open to everyone.**
 
-From numerical foundations and classical machine learning to neural networks, information retrieval, vector indexes, and AI systems. The goal is to make **each algorithm understandable, testable, reusable, and independently reviewable**—not to create a new AI framework.
+Given my background in software engineering and artificial intelligence, I started this project with a simple goal: **make the core algorithms behind AI accessible to everyone**.
+
+By implementing them from scratch in **C, Python, Rust, and R**, I want to make it easier to understand how they work, explore the mathematics behind them, and learn through real, tested code.
+
+This is an **open-source, growing catalogue** of AI algorithms and building blocks—from numerical foundations and classical machine learning to neural networks, information retrieval, vector search, and AI evaluation. **New algorithms are added over time, one focused contribution at a time.** CUDA implementations may be included when GPU acceleration is appropriate and can be tested on real hardware.
+
+The aim isn't to replace mature libraries or claim production-level speed. It is to **make the ideas underneath them transparent**, with understandable explanations, explicit mathematical and API contracts, examples, citations, and tests.
 
 ## Why this repository exists
 
-- **Learn:** read the explanation, mathematical definition, design choices, and limitations.
-- **Use:** take a small, self-contained implementation into a project while respecting its license.
-- **Compare:** inspect equivalent behavior across C, Python, Rust, and R; explore CUDA implementations for parallel workloads.
-- **Build over time:** contribute **one algorithm (or one focused improvement) per pull request**. This is a living catalogue, not a one-off course.
-
-The emphasis is **correctness and clarity before speed**. Benchmarks, where included, must state their methodology and should not imply that these examples outperform production libraries.
+- **Understand the fundamentals.** Read the mathematics, implementation choices, and trade-offs behind each algorithm.
+- **Learn by doing.** Explore small, self-contained implementations and run their tests without depending on an AI framework.
+- **Compare languages.** See the same algorithm expressed in C, Python, Rust, and R under a shared documented contract.
+- **Keep building together.** The catalogue evolves through small, reviewable pull requests, with correctness and clarity ahead of benchmarks or hype.
 
 ## Languages
 
@@ -27,16 +31,31 @@ CUDA is based on C++ with NVIDIA extensions; it is **not** a replacement for C, 
 
 ## Explore the catalogue
 
-| Stage | Area | What you will find |
+| Category | Area | Examples of what's implemented |
 | --- | --- | --- |
-| [01](algorithms/01_foundations/README.md) | Foundations | Vector operations, distances, normalization |
-| [02](algorithms/02_classical_ml/README.md) | Classical ML | KNN, regression, optimization, clustering |
-| [03](algorithms/03_neural_networks/README.md) | Neural Networks | Activations, losses, backpropagation |
-| [04](algorithms/04_information_retrieval/README.md) | Information Retrieval | Tokenization, TF-IDF, inverted indexes, BM25 |
-| [05](algorithms/05_vector_search/README.md) | Vector Search | Exact nearest neighbors, ANN, HNSW |
-| [06](algorithms/06_ai_systems/README.md) | AI Systems | Hybrid retrieval, ranking fusion, systems primitives |
+| [01](algorithms/01_foundations/README.md) | Foundations | Vector mathematics, distances, normalization, feature scaling |
+| [02](algorithms/02_classical_ml/README.md) | Classical ML | Regression, classification, clustering, optimization |
+| [03](algorithms/03_neural_networks/README.md) | Neural Networks | Activations, loss functions, backpropagation, attention |
+| [04](algorithms/04_information_retrieval/README.md) | Information Retrieval | TF-IDF, BM25, postings operations, edit distance |
+| [05](algorithms/05_vector_search/README.md) | Vector Search | Exact cosine search, LSH signatures, quantization |
+| [06](algorithms/06_ai_systems/README.md) | AI Systems | Ranking and classification evaluation, score fusion |
 
-The merged algorithm directories are the source of truth for the catalogue. Each implementation has its own documentation and tests.
+The merged algorithm directories are the **source of truth** for what is available today; new implementations are added as they are reviewed and tested.
+
+## Start with an algorithm
+
+Each entry has its own explanation, mathematical definition, language-specific implementation, and tests. Here are a few ways in:
+
+| If you want to explore... | Start here |
+| --- | --- |
+| Vector similarity | [Cosine Similarity](algorithms/01_foundations/cosine_similarity/) |
+| A classical classifier | [Logistic Regression](algorithms/02_classical_ml/logistic_regression/) |
+| Transformer building blocks | [Scaled Dot-Product Attention](algorithms/03_neural_networks/scaled_dot_product_attention/) |
+| Search relevance | [BM25](algorithms/04_information_retrieval/bm25/) |
+| Embedding retrieval | [Exact Cosine Top-K](algorithms/05_vector_search/exact_cosine_top_k/) |
+| Ranking evaluation | [NDCG@K](algorithms/06_ai_systems/ndcg_at_k/) |
+
+Pick an algorithm, read its README, and run its implementation in the language you prefer. No framework setup is needed for the core reference implementations.
 
 ## Repository conventions
 
