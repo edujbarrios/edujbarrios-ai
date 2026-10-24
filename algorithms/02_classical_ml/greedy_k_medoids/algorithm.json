@@ -1,0 +1,12 @@
+{
+  "slug": "greedy_k_medoids",
+  "title": "Greedy K-Medoids (BUILD Initialization)",
+  "level": "classical_ml",
+  "summary": "Select actual observations as medoids by greedily minimizing total Euclidean distance to the nearest selected representative.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
