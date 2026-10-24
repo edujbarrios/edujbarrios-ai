@@ -5,6 +5,7 @@
 int main(void) {
     const double w[]={0,2,5,0,0,0,1,0,0,0,0,0,0,0,0,0};
     const double cycle[]={0,1,1,0};
+    const double tied[]={0,2,2,0,0,0,0,0,0};
     const double bad[]={0,-1,0,0};
     const double nan[]={0,NAN,0,0};
     const double excessive[]={0,1000001,0,0};
@@ -17,6 +18,8 @@ int main(void) {
     assert(dijkstra_shortest_path(cycle,2,0,out));
     assert(out[0]==0 && out[1]==1);
     assert(dijkstra_shortest_path(single,1,0,out) && out[0]==0);
+    assert(dijkstra_shortest_path(tied,3,0,out));
+    assert(out[0]==0 && out[1]==2 && out[2]==2);
     out[0]=99;
     assert(!dijkstra_shortest_path(w,4,4,out));
     assert(!dijkstra_shortest_path(w,0,0,out));
