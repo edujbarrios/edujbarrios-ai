@@ -1,0 +1,12 @@
+{
+  "slug": "perplexity",
+  "title": "Language-Model Perplexity from Token Log-Probabilities",
+  "level": "ai_systems",
+  "summary": "Calculate token-level geometric-mean inverse likelihood using finite natural log-probabilities, with explicit overflow rejection.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
