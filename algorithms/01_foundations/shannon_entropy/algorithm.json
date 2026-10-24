@@ -1,0 +1,12 @@
+{
+  "slug": "shannon_entropy",
+  "title": "Shannon Entropy (Base 2)",
+  "level": "foundation",
+  "summary": "Measure the information uncertainty of a normalized discrete probability distribution with zero-safe base-2 logarithms.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
