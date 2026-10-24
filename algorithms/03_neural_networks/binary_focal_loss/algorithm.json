@@ -1,0 +1,12 @@
+{
+  "slug": "binary_focal_loss",
+  "title": "Binary Focal Loss",
+  "level": "neural_networks",
+  "summary": "Compute mean alpha-balanced focal classification loss with gamma-two focusing and bounded log probabilities.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
