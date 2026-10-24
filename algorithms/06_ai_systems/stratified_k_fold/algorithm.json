@@ -1,0 +1,12 @@
+{
+  "slug": "stratified_k_fold",
+  "title": "Deterministic Stratified K-Fold Assignment",
+  "level": "ai_systems",
+  "summary": "Create balanced, reproducible binary-label cross-validation fold IDs while preserving both classes in every fold.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
