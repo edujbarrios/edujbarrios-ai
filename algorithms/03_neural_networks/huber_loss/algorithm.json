@@ -1,0 +1,12 @@
+{
+  "slug": "huber_loss",
+  "title": "Huber Regression Loss and Gradient",
+  "level": "neural_networks",
+  "summary": "Compute mean piecewise-quadratic Huber regression loss and its analytical gradient for finite predictions and targets.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
