@@ -1,0 +1,12 @@
+{
+  "slug": "hamming_radius_search",
+  "title": "Hamming-Radius Signature Search",
+  "level": "vector_search",
+  "summary": "Find every packed 30-bit signature within a Hamming-distance radius, ordered by distance then original index.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
