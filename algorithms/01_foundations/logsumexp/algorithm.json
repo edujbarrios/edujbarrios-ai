@@ -1,0 +1,12 @@
+{
+  "slug": "logsumexp",
+  "title": "Stable Log-Sum-Exp and Gradient",
+  "level": "foundation",
+  "summary": "Compute a stable log-sum-exp reduction and its softmax gradient by subtracting the maximum logit.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
