@@ -1,0 +1,12 @@
+{
+  "slug": "batch_normalization",
+  "title": "Training-Mode Batch Normalization (Dense Features)",
+  "level": "neural_networks",
+  "summary": "Normalize feature columns across a mini-batch using population variance and fixed epsilon, then apply per-feature gamma and beta.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
