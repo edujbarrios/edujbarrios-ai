@@ -18,9 +18,9 @@ pub fn roc_auc(scores:&[f64],labels:&[u8]) -> Result<f64,&'static str> {
     let mut start=0;
     while start<n {
         let mut end=start+1;
-        let mut group_positives=pairs[start]0.1 as usize;
-        while end<n && pairs[end]0.0==pairs[start]0.0 {
-            group_positives+=pairs[end]0.1 as usize;
+        let mut group_positives=pairs[start].1 as usize;
+        while end<n && pairs[end].0==pairs[start].0 {
+            group_positives+=pairs[end].1 as usize;
             end+=1;
         }
         positive_ranks+=group_positives as f64*((start+1) as f64+end as f64)/2.0;
