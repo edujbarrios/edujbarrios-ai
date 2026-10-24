@@ -1,0 +1,12 @@
+{
+  "slug": "silhouette_score",
+  "title": "Mean Silhouette Score for Euclidean Clustering",
+  "level": "classical_ml",
+  "summary": "Evaluate cluster separation and cohesion from Euclidean distances with standard singleton and zero-distance conventions.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
