@@ -1,0 +1,12 @@
+{
+  "slug": "expected_calibration_error",
+  "title": "Expected Calibration Error (Binary Confidence Binning)",
+  "level": "ai_systems",
+  "summary": "Measure binary classifier confidence calibration with equal-width bins and weighted confidence–accuracy gaps.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
