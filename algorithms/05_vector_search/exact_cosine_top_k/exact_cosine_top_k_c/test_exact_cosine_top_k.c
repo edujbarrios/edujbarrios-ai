@@ -8,7 +8,7 @@ int main(void) {
     const double candidates[]={1,0, 0,1, -1,0, 1,1, 1,0};
     const double zeros[]={1,0, 0,0};
     const double invalid[]={1,0, NAN,1};
-    const double large[]={1e308,1e308};
+    const double large[]={1.7e308,1.7e308};
     const double scalar_q[]={1};
     const double scalar_c[]={-2,3,3};
     size_t indices[]={99,99,99,99,99};
