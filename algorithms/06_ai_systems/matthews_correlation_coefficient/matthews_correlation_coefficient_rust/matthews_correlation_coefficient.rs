@@ -39,7 +39,7 @@ mod tests {
         assert_eq!(mcc(&y,&[1,0,1,0]),Ok(0.0));
         assert_eq!(mcc(&y,&[0,0,0,0]),Ok(0.0));
         assert!((mcc(&[1,1,1,0,0],&[1,1,0,1,0]).unwrap()
-            -(2.0_f64/15.0)/(36.0_f64/625.0).sqrt()).abs()<1e-12);
+            -1.0_f64/6.0).abs()<1e-12);
     }
     #[test]
     fn invalid() {
