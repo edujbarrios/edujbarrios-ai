@@ -1,0 +1,12 @@
+{
+  "slug": "jensen_shannon_divergence",
+  "title": "Jensen–Shannon Divergence (Base 2)",
+  "level": "foundation",
+  "summary": "Compare two finite discrete probability distributions with a symmetric, bounded, zero-safe information divergence.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
