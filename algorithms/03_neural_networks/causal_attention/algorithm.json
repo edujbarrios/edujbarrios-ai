@@ -1,0 +1,12 @@
+{
+  "slug": "causal_attention",
+  "title": "Autoregressive Causal Self-Attention (Single Head)",
+  "level": "neural_networks",
+  "summary": "Evaluate scaled dot-product attention for every token with a lower-triangular causal mask and stable softmax.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
