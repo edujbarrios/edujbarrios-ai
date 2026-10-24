@@ -1,0 +1,12 @@
+{
+  "slug": "hamming_top_k",
+  "title": "Hamming-Distance Top-K Search over Binary Signatures",
+  "level": "vector_search",
+  "summary": "Rank packed 30-bit signatures by Hamming distance to a query, breaking ties by original zero-based index.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
