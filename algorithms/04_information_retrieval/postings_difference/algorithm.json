@@ -1,0 +1,12 @@
+{
+  "slug": "postings_difference",
+  "title": "Sorted Postings List Difference (AND NOT)",
+  "level": "information_retrieval",
+  "summary": "Subtract excluded document IDs from a strictly increasing postings list using a linear two-pointer merge.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
