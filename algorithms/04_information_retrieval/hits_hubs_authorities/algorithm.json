@@ -1,0 +1,12 @@
+{
+  "slug": "hits_hubs_authorities",
+  "title": "HITS Hub and Authority Scores",
+  "level": "information_retrieval",
+  "summary": "Compute coupled hub and authority scores on a directed link graph using normalized synchronous power iteration.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
