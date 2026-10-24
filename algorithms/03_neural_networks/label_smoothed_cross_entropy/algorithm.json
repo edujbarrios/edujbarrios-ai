@@ -1,0 +1,12 @@
+{
+  "slug": "label_smoothed_cross_entropy",
+  "title": "Label-Smoothed Softmax Cross-Entropy and Gradient",
+  "level": "neural_networks",
+  "summary": "Compute classification loss and logit gradients from a smoothed target distribution using numerically stable softmax.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
