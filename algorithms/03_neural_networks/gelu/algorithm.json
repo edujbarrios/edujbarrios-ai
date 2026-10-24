@@ -1,0 +1,12 @@
+{
+  "slug": "gelu",
+  "title": "GELU Activation (Tanh Approximation) and Derivative",
+  "level": "neural_networks",
+  "summary": "Compute the tanh-approximated Gaussian Error Linear Unit and its analytical derivative without ML dependencies.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
