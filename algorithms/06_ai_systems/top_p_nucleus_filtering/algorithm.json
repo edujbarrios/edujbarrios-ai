@@ -1,0 +1,12 @@
+{
+  "slug": "top_p_nucleus_filtering",
+  "title": "Top-p Nucleus Candidate Filtering",
+  "level": "ai_systems",
+  "summary": "Select the smallest high-probability token prefix whose cumulative mass reaches a top-p threshold, with deterministic ties.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
