@@ -1,0 +1,12 @@
+{
+  "slug": "matthews_correlation_coefficient",
+  "title": "Binary Matthews Correlation Coefficient (MCC)",
+  "level": "ai_systems",
+  "summary": "Evaluate binary predictions using a balanced confusion-matrix correlation coefficient with zero-denominator convention.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
