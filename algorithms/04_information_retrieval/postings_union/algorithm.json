@@ -1,0 +1,12 @@
+{
+  "slug": "postings_union",
+  "title": "Sorted Postings List Union",
+  "level": "information_retrieval",
+  "summary": "Merge two strictly increasing unique document-ID lists into their sorted union for Boolean OR retrieval.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
