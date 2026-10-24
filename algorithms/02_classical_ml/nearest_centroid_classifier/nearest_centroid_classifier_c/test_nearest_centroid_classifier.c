@@ -9,8 +9,8 @@ int main(void) {
     const uint8_t bad_labels[]={0,0,1,2};
     const double left[]={2,0},right[]={8,0},tie[]={5,0};
     const double bad_x[]={NAN,0,2,0,8,0,10,0};
-    const double huge_x[]={1e308,1e308,-1e308,-1e308};
-    const uint8_t two[]={0,1};
+    const double overflow_x[]={1e308,1e308,0};
+    const uint8_t overflow_labels[]={0,0,1};
     double means[]={-9,-9,-9,-9};
     uint8_t predicted=9;
     assert(nearest_centroid_classifier(x,labels,4,2,means));
@@ -22,7 +22,7 @@ int main(void) {
     assert(!nearest_centroid_classifier(x,missing,4,2,means));
     assert(!nearest_centroid_classifier(x,bad_labels,4,2,means));
     assert(!nearest_centroid_classifier(bad_x,labels,4,2,means));
-    assert(!nearest_centroid_classifier(huge_x,two,2,2,means)==false || means[0]==-9);
+    assert(!nearest_centroid_classifier(overflow_x,overflow_labels,3,1,means));
     assert(!nearest_centroid_classifier(x,labels,1,2,means));
     assert(means[0]==-9);
     const double invalid_centers[]={NAN,0,9,0};
