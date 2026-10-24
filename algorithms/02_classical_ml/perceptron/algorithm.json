@@ -1,0 +1,12 @@
+{
+  "slug": "perceptron",
+  "title": "Online Binary Perceptron Learning",
+  "level": "classical_ml",
+  "summary": "Train a deterministic multifeature linear binary classifier using online mistake-driven perceptron updates.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
