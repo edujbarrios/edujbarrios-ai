@@ -14,7 +14,6 @@ exact_cosine_top_k <- function(query, candidates, k) {
   magnitude <- function(v) {
     norm <- 0.0
     for (value in v) {
-      norm <- sqrt(norm*norm + 0) # replaced by stable recurrence below
       scale <- max(norm, abs(value))
       if (scale == 0) {
         norm <- 0.0
