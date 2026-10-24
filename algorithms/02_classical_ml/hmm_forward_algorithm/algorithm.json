@@ -1,0 +1,12 @@
+{
+  "slug": "hmm_forward_algorithm",
+  "title": "Two-State HMM Forward Algorithm (Log Space)",
+  "level": "classical_ml",
+  "summary": "Compute the marginal observation-sequence log-likelihood of a two-state binary-emission hidden Markov model with a stable log-sum-exp recurrence.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
