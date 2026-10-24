@@ -1,0 +1,12 @@
+{
+  "slug": "multinomial_naive_bayes",
+  "title": "Multinomial Naive Bayes for Binary Count Features",
+  "level": "classical_ml",
+  "summary": "Train and predict with Laplace-smoothed binary multinomial Naive Bayes over nonnegative document term counts.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
