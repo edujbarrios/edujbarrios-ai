@@ -21,7 +21,7 @@ pub fn maximal_marginal_relevance(
             let novelty=if step==0 {0.0} else {(1.0-lambda)*max_sim[i]};
             let score=lambda*relevance[i]-novelty;
             if !score.is_finite(){return Err("MMR score overflow");}
-            if best.is_none_or(|(_,v): (f64,usize)|score>v) {
+            if best.is_none_or(|(best_score,_): (f64,usize)|score>best_score) {
                 best=Some((score,i));
             }
         }
