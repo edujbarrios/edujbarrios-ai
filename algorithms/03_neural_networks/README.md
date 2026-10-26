@@ -2,7 +2,7 @@
 
 A collection of neural network building blocks: nonlinearities, objectives, parameter updates, normalization, forward and backward propagation, and transformer attention. Individual entries expose the relevant equations and computational trade-offs.
 
-## Implemented algorithms (27)
+## Implemented algorithms (28)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -30,6 +30,7 @@ A collection of neural network building blocks: nonlinearities, objectives, para
 | [`scaled_dot_product_attention`](scaled_dot_product_attention/README.md) | Weights values by softmax-normalized query–key similarities. |
 | [`sigmoid`](sigmoid/README.md) | Maps real-valued scores into the interval between zero and one. |
 | [`softmax`](softmax/README.md) | Converts a vector of scores into a normalized categorical distribution. |
+| [`softplus`](softplus/README.md) | Computes a smooth activation and its stable sigmoid derivative. |
 | [`swish`](swish/README.md) | Applies a smooth sigmoid-gated nonlinear activation. |
 | [`temperature_softmax`](temperature_softmax/README.md) | Controls distribution sharpness by rescaling logits before softmax. |
 | [`two_layer_binary_classifier`](two_layer_binary_classifier/README.md) | Demonstrates end-to-end prediction and learning with a small neural classifier. |
