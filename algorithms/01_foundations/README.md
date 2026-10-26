@@ -1,17 +1,25 @@
 # Foundations
 
-Vector math, distances and normalization provide the building blocks for embeddings, similarity and gradient-based learning.
+These algorithms provide the numerical building blocks used in machine learning, embeddings, probability and data preprocessing. Start with vector operations, then distances and normalization; move to probability and stable numerical computations.
 
-## Catalogue status
+## Implemented algorithms (13)
 
-Browse this category's subdirectories for implemented algorithms, and see [ROADMAP](../../ROADMAP.md) for future additions. Only merged directories contain supported implementations; proposed algorithms may still be in pull requests.
+| Algorithm | What it does |
+| --- | --- |
+| [`cosine_similarity`](cosine_similarity/README.md) | Measures the angle-based similarity between two vectors, independent of their magnitudes. |
+| [`dot_product`](dot_product/README.md) | Multiplies corresponding vector elements and sums the products; a basis for linear models and attention. |
+| [`euclidean_distance`](euclidean_distance/README.md) | Computes straight-line (L2) distance between points in a vector space. |
+| [`gaussian_rbf_kernel`](gaussian_rbf_kernel/README.md) | Transforms squared Euclidean distance into a smooth similarity through a Gaussian kernel. |
+| [`jensen_shannon_divergence`](jensen_shannon_divergence/README.md) | Measures symmetric dissimilarity between probability distributions using their mixture. |
+| [`kullback_leibler_divergence`](kullback_leibler_divergence/README.md) | Quantifies how one probability distribution differs from a reference distribution. |
+| [`logsumexp`](logsumexp/README.md) | Computes the logarithm of a sum of exponentials while reducing overflow and underflow. |
+| [`matrix_multiplication`](matrix_multiplication/README.md) | Combines matrices through row-by-column products, fundamental to dense layers. |
+| [`mean_variance`](mean_variance/README.md) | Calculates central tendency and spread for numerical observations. |
+| [`min_max_scaling`](min_max_scaling/README.md) | Rescales features relative to their observed minimum and maximum. |
+| [`shannon_entropy`](shannon_entropy/README.md) | Quantifies the uncertainty or information content of a probability distribution. |
+| [`vector_normalization`](vector_normalization/README.md) | Scales a vector to unit length for magnitude-independent comparisons. |
+| [`z_score_standardization`](z_score_standardization/README.md) | Centers and scales values using their mean and standard deviation. |
 
-## Suggested learning sequence (implemented or planned)
+Each algorithm directory contains a README with its mathematical definition, input contract, limitations and available language implementations. Run its tests using the instructions in the [repository README](../../README.md).
 
-- `dot_product`
-- `euclidean_distance`
-- `cosine_similarity`
-- `vector_normalization`
-- `matrix_multiplication`
-
-Every future algorithm gets its own README and language-specific `<algorithm>_<language>` folders.
+[← All sections](../../README.md)

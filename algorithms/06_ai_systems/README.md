@@ -1,17 +1,28 @@
-# AI Systems
+# AI Systems & Evaluation
 
-Composable primitives show how individual retrieval and ML components work together.
+Primitives for evaluating classifiers, probabilistic predictions, retrieval rankings, dataset splits and sequence generation. Each metric highlights a different behavior; use several together rather than treating a single score as complete evidence of model quality.
 
-## Catalogue status
+## Implemented algorithms (16)
 
-Browse this category's subdirectories for implemented algorithms, and see [ROADMAP](../../ROADMAP.md) for future additions. Only merged directories contain supported implementations; proposed algorithms may still be in pull requests.
+| Algorithm | What it does |
+| --- | --- |
+| [`average_precision_at_k`](average_precision_at_k/README.md) | Summarizes ranked retrieval precision at relevant positions through cutoff k. |
+| [`brier_score`](brier_score/README.md) | Measures the squared error of predicted binary-class probabilities. |
+| [`cohens_kappa`](cohens_kappa/README.md) | Measures agreement between binary raters after adjusting for expected chance agreement. |
+| [`confusion_matrix`](confusion_matrix/README.md) | Counts true and false predictions across binary classes. |
+| [`expected_calibration_error`](expected_calibration_error/README.md) | Summarizes discrepancies between prediction confidence and observed accuracy. |
+| [`f1_score`](f1_score/README.md) | Combines precision and recall into their harmonic mean. |
+| [`markov_beam_search`](markov_beam_search/README.md) | Searches for high-scoring sequences in a Markov model using a limited beam. |
+| [`matthews_correlation_coefficient`](matthews_correlation_coefficient/README.md) | Evaluates binary predictions using all four confusion-matrix outcomes. |
+| [`mean_reciprocal_rank`](mean_reciprocal_rank/README.md) | Averages the reciprocal position of the first relevant retrieved result. |
+| [`ndcg_at_k`](ndcg_at_k/README.md) | Measures ranking quality while discounting lower positions against an ideal ordering. |
+| [`perplexity`](perplexity/README.md) | Expresses average token prediction uncertainty on an exponential scale. |
+| [`precision_at_k`](precision_at_k/README.md) | Computes the fraction of the first k retrieved results that are relevant. |
+| [`recall_at_k`](recall_at_k/README.md) | Measures the share of relevant results found among the first k retrieved items. |
+| [`roc_auc`](roc_auc/README.md) | Summarizes threshold-independent discrimination between positive and negative examples. |
+| [`stratified_k_fold`](stratified_k_fold/README.md) | Builds cross-validation folds that preserve class proportions. |
+| [`top_p_nucleus_filtering`](top_p_nucleus_filtering/README.md) | Restricts sampling candidates to the smallest high-probability token prefix. |
 
-## Suggested learning sequence (implemented or planned)
+Each algorithm directory contains a README with its mathematical definition, input contract, limitations and available language implementations. Run its tests using the instructions in the [repository README](../../README.md).
 
-- `hybrid_retrieval`
-- `bounded_cache`
-- `retrieval_metrics`
-- `reranking`
-- `batching`
-
-Every future algorithm gets its own README and language-specific `<algorithm>_<language>` folders.
+[← All sections](../../README.md)
