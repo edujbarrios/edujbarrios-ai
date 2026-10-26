@@ -2,10 +2,11 @@
 
 These algorithms provide the numerical building blocks used in machine learning, embeddings, probability and data preprocessing. Start with vector operations, then distances and normalization; move to probability and stable numerical computations.
 
-## Implemented algorithms (14)
+## Implemented algorithms (15)
 
 | Algorithm | What it does |
 | --- | --- |
+| [`chebyshev_distance`](chebyshev_distance/README.md) | Measures the largest absolute coordinate difference (L∞ distance) between two vectors. |
 | [`cosine_similarity`](cosine_similarity/README.md) | Measures the angle-based similarity between two vectors, independent of their magnitudes. |
 | [`dot_product`](dot_product/README.md) | Multiplies corresponding vector elements and sums the products; a basis for linear models and attention. |
 | [`euclidean_distance`](euclidean_distance/README.md) | Computes straight-line (L2) distance between points in a vector space. |
