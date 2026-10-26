@@ -1,0 +1,12 @@
+{
+  "slug": "balanced_accuracy",
+  "title": "Binary Balanced Accuracy",
+  "level": "ai_systems",
+  "summary": "Compute the mean of sensitivity and specificity for aligned binary classification predictions.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
