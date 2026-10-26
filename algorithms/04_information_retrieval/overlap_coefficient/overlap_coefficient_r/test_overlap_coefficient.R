@@ -1,0 +1,20 @@
+args <- grep("^--file=", commandArgs(FALSE), value=TRUE)
+folder <- dirname(normalizePath(sub("^--file=", "", args[[1L]])))
+source(file.path(folder, "overlap_coefficient.R"))
+expect_error <- function(expr) {
+  stopifnot(tryCatch({force(expr); FALSE}, error=function(e) TRUE))
+}
+oc <- overlap_coefficient
+stopifnot(oc(c(1,1,2), c(1,2,3,4)) == 1)
+stopifnot(oc(c(1,2,3,4), c(1,1,2)) == 1)
+stopifnot(oc(c(1,2), c(2,3)) == 0.5)
+stopifnot(oc(numeric(), numeric()) == 1)
+stopifnot(oc(numeric(), 7) == 0)
+stopifnot(oc(7, numeric()) == 0)
+stopifnot(oc(-2147483648, c(2147483647, -2147483648)) == 1)
+expect_error(oc(TRUE, 1))
+expect_error(oc(1.2, 1))
+expect_error(oc(2147483648, 1))
+expect_error(oc(NaN, 1))
+expect_error(oc(1, "1"))
+cat("R overlap coefficient tests passed\n")

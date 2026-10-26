@@ -1,0 +1,12 @@
+{
+  "slug": "overlap_coefficient",
+  "title": "Overlap Coefficient",
+  "level": "information_retrieval",
+  "summary": "Computes exact Szymkiewicz–Simpson overlap between sets of integer token IDs.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
