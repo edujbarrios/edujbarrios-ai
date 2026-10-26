@@ -1,0 +1,12 @@
+{
+  "slug": "mean_squared_error",
+  "title": "Mean Squared Error",
+  "level": "ai_systems",
+  "summary": "Averages squared regression residuals with input and finite-output validation.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

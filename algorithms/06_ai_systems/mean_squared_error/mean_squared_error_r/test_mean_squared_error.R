@@ -1,0 +1,20 @@
+args <- grep("^--file=", commandArgs(FALSE), value=TRUE)
+folder <- dirname(normalizePath(sub("^--file=", "", args[[1L]])))
+source(file.path(folder, "mean_squared_error.R"))
+expect_error <- function(expr) {
+  stopifnot(tryCatch({force(expr); FALSE}, error=function(e) TRUE))
+}
+mse <- mean_squared_error
+stopifnot(mse(c(3, 0), c(1, 2)) == 4)
+stopifnot(mse(c(1, 2), c(1, 2)) == 0)
+stopifnot(mse(c(1, 2), c(2, 3)) == 1)
+stopifnot(mse(c(-3, 3), c(0, 0)) == 9)
+stopifnot(mse(5, -5) == 100)
+stopifnot(abs(mse(c(1e154, 1e154), c(0, 0))/1e308 - 1) < 1e-12)
+expect_error(mse(numeric(), numeric()))
+expect_error(mse(1, c(1, 2)))
+expect_error(mse(TRUE, 1))
+expect_error(mse("1", 1))
+expect_error(mse(NaN, 0))
+expect_error(mse(1e308, 0))
+cat("R mean squared error tests passed\n")
