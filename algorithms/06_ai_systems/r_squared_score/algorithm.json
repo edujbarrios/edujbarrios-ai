@@ -1,0 +1,12 @@
+{
+  "slug": "r_squared_score",
+  "title": "R-squared Score",
+  "level": "ai_systems",
+  "summary": "Computes regression coefficient of determination with documented constant-target behavior.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

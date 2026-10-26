@@ -1,0 +1,20 @@
+args <- grep("^--file=", commandArgs(FALSE), value=TRUE)
+folder <- dirname(normalizePath(sub("^--file=", "", args[[1L]])))
+source(file.path(folder, "r_squared_score.R"))
+expect_error <- function(expr) {
+  stopifnot(tryCatch({force(expr); FALSE}, error=function(e) TRUE))
+}
+r2 <- r_squared_score
+stopifnot(abs(r2(c(1,2,3), c(1,2,3)) - 1) < 1e-12)
+stopifnot(abs(r2(c(1,2,3), c(1,2,2)) - 0.5) < 1e-12)
+stopifnot(abs(r2(c(1,2,3), c(0,0,0)) + 6) < 1e-12)
+stopifnot(r2(c(4,4,4), c(4,4,4)) == 1)
+stopifnot(r2(c(4,4,4), c(4,4,0)) == 0)
+stopifnot(abs(r2(c(1e308,-1e308), c(0,0))) < 1e-12)
+expect_error(r2(numeric(), numeric()))
+expect_error(r2(1, 1))
+expect_error(r2(c(1,2), c(1,2,3)))
+expect_error(r2(c(NaN,1), c(1,2)))
+expect_error(r2(c(Inf,1), c(1,2)))
+expect_error(r2(c(TRUE, 1), c(1,2)))
+cat("R R-squared tests passed\n")
