@@ -2,7 +2,7 @@
 
 Primitives for evaluating classifiers, probabilistic predictions, retrieval rankings, dataset splits and sequence generation. Each metric highlights a different behavior; use several together rather than treating a single score as complete evidence of model quality.
 
-## Implemented algorithms (21)
+## Implemented algorithms (22)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -23,6 +23,7 @@ Primitives for evaluating classifiers, probabilistic predictions, retrieval rank
 | [`ndcg_at_k`](ndcg_at_k/README.md) | Measures ranking quality while discounting lower positions against an ideal ordering. |
 | [`perplexity`](perplexity/README.md) | Expresses average token prediction uncertainty on an exponential scale. |
 | [`precision_at_k`](precision_at_k/README.md) | Computes the fraction of the first k retrieved results that are relevant. |
+| [`r_squared_score`](r_squared_score/README.md) | Evaluates regression against the target-mean baseline with finite constant-target handling. |
 | [`recall_at_k`](recall_at_k/README.md) | Measures the share of relevant results found among the first k retrieved items. |
 | [`roc_auc`](roc_auc/README.md) | Summarizes threshold-independent discrimination between positive and negative examples. |
 | [`stratified_k_fold`](stratified_k_fold/README.md) | Builds cross-validation folds that preserve class proportions. |
