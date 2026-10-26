@@ -1,0 +1,12 @@
+{
+  "slug": "softplus",
+  "title": "Softplus Activation",
+  "level": "neural_networks",
+  "summary": "A numerically stable smooth ReLU approximation and its sigmoid derivative.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
