@@ -1,0 +1,12 @@
+{
+  "slug": "canberra_distance",
+  "title": "Canberra Distance",
+  "level": "foundation",
+  "summary": "Computes a scale-sensitive coordinate distance with zero-safe and overflow-resistant terms.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
