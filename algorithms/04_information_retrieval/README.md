@@ -2,12 +2,13 @@
 
 Algorithms for lexical retrieval, ranking, combining results, graph traversal and text similarity. These are useful when studying search engines, recommender systems and retrieval-augmented generation (RAG).
 
-## Implemented algorithms (19)
+## Implemented algorithms (20)
 
 | Algorithm | What it does |
 | --- | --- |
 | [`astar_shortest_path`](astar_shortest_path/README.md) | Finds low-cost paths using known costs plus a heuristic estimate. |
 | [`bm25`](bm25/README.md) | Ranks documents against queries using term frequency, document length and inverse document frequency. |
+| [`dice_similarity`](dice_similarity/README.md) | Measures set overlap using the Sørensen–Dice coefficient. |
 | [`dijkstra_shortest_path`](dijkstra_shortest_path/README.md) | Computes minimum-cost paths from a source in a nonnegative-weight graph. |
 | [`floyd_warshall`](floyd_warshall/README.md) | Computes all-pairs shortest paths using dynamic programming. |
 | [`hits_hubs_authorities`](hits_hubs_authorities/README.md) | Iteratively estimates hub and authority scores on a link graph. |
