@@ -1,0 +1,12 @@
+{
+  "slug": "longest_common_subsequence",
+  "title": "Longest Common Subsequence",
+  "level": "information_retrieval",
+  "summary": "Finds the length of an order-preserving common token subsequence using dynamic programming.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
