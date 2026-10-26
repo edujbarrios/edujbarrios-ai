@@ -1,0 +1,22 @@
+args <- grep("^--file=", commandArgs(FALSE), value=TRUE)
+folder <- dirname(normalizePath(sub("^--file=", "", args[[1L]])))
+source(file.path(folder, "tversky_index.R"))
+expect_error <- function(expr) {
+  stopifnot(tryCatch({force(expr); FALSE}, error=function(e) TRUE))
+}
+tv <- tversky_index
+stopifnot(tv(c(1,2), c(2,3,4)) == 0.25)
+stopifnot(abs(tv(c(1,2), c(2,3,4), 0.5, 2) - 2/11) < 1e-12)
+stopifnot(tv(c(2,3,4), c(1,2), 0.5, 2) == 0.25)
+stopifnot(tv(c(1,1,2), c(1,2)) == 1)
+stopifnot(tv(numeric(), numeric()) == 1)
+stopifnot(tv(numeric(), 1) == 0)
+stopifnot(tv(1, numeric()) == 0)
+stopifnot(tv(-2147483648, c(-2147483648,2147483647)) == 0.5)
+expect_error(tv(TRUE, 1))
+expect_error(tv(1.5, 1))
+expect_error(tv(2147483648, 1))
+expect_error(tv(1, 2, alpha=0))
+expect_error(tv(1, 2, beta=Inf))
+expect_error(tv(c(1,2), c(2,3), 1e308, 1e308))
+cat("R Tversky tests passed\n")
