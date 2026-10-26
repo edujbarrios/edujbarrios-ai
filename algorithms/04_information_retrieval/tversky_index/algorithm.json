@@ -1,0 +1,12 @@
+{
+  "slug": "tversky_index",
+  "title": "Tversky Index",
+  "level": "information_retrieval",
+  "summary": "Asymmetric set overlap similarity with adjustable penalties for unmatched token IDs.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
