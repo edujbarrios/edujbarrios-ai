@@ -1,0 +1,12 @@
+{
+  "slug": "median_absolute_error",
+  "title": "Median Absolute Error",
+  "level": "ai_systems",
+  "summary": "Computes the median absolute regression residual as a robust scalar evaluation metric.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
