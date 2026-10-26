@@ -1,0 +1,12 @@
+{
+  "slug": "manhattan_distance",
+  "title": "Manhattan (L1) Distance",
+  "level": "foundation",
+  "summary": "Sum the absolute coordinate differences of two finite vectors with explicit overflow checks.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
