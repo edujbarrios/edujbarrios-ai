@@ -1,0 +1,12 @@
+{
+  "slug": "exponential_moving_average",
+  "title": "Exponential Moving Average",
+  "level": "classical_ml",
+  "summary": "Smooth finite numeric sequences with exponentially decaying weights and a configurable update coefficient.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

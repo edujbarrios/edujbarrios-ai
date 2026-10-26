@@ -2,12 +2,13 @@
 
 This section explores predictive models, clustering, dimensionality reduction and optimization without hiding their mechanics inside an ML framework. Compare supervised methods with unsupervised ones and inspect how their assumptions differ.
 
-## Implemented algorithms (20)
+## Implemented algorithms (21)
 
 | Algorithm | What it does |
 | --- | --- |
 | [`dbscan`](dbscan/README.md) | Groups dense neighborhoods into clusters and identifies points treated as noise. |
 | [`decision_stump`](decision_stump/README.md) | Fits a single-split decision tree, often used as a weak classifier. |
+| [`exponential_moving_average`](exponential_moving_average/README.md) | Smooths sequences with exponentially decaying weights, a standard time-series and optimization primitive. |
 | [`farthest_first_traversal`](farthest_first_traversal/README.md) | Selects well-separated representatives by repeatedly choosing the farthest point. |
 | [`gaussian_naive_bayes`](gaussian_naive_bayes/README.md) | Classifies continuous features using class-conditional Gaussian probabilities. |
 | [`gradient_descent`](gradient_descent/README.md) | Iteratively updates parameters in the direction that reduces a differentiable objective. |
