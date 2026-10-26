@@ -2,7 +2,7 @@
 
 Primitives for evaluating classifiers, probabilistic predictions, retrieval rankings, dataset splits and sequence generation. Each metric highlights a different behavior; use several together rather than treating a single score as complete evidence of model quality.
 
-## Implemented algorithms (19)
+## Implemented algorithms (20)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -17,6 +17,7 @@ Primitives for evaluating classifiers, probabilistic predictions, retrieval rank
 | [`markov_beam_search`](markov_beam_search/README.md) | Searches for high-scoring sequences in a Markov model using a limited beam. |
 | [`matthews_correlation_coefficient`](matthews_correlation_coefficient/README.md) | Evaluates binary predictions using all four confusion-matrix outcomes. |
 | [`mean_absolute_error`](mean_absolute_error/README.md) | Averages absolute residuals to assess the error of numerical regression predictions. |
+| [`mean_squared_error`](mean_squared_error/README.md) | Averages squared regression residuals to penalize large errors. |
 | [`mean_reciprocal_rank`](mean_reciprocal_rank/README.md) | Averages the reciprocal position of the first relevant retrieved result. |
 | [`ndcg_at_k`](ndcg_at_k/README.md) | Measures ranking quality while discounting lower positions against an ideal ordering. |
 | [`perplexity`](perplexity/README.md) | Expresses average token prediction uncertainty on an exponential scale. |
