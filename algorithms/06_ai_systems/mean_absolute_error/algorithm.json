@@ -1,0 +1,12 @@
+{
+  "slug": "mean_absolute_error",
+  "title": "Mean Absolute Error for Regression",
+  "level": "ai_systems",
+  "summary": "Evaluate real-valued predictions by averaging their absolute errors with finite-value validation.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
