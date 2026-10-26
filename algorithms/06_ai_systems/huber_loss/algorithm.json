@@ -1,0 +1,12 @@
+{
+  "slug": "huber_loss",
+  "title": "Huber Loss",
+  "level": "ai_systems",
+  "summary": "Computes robust mean regression loss with configurable quadratic-to-linear transition.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

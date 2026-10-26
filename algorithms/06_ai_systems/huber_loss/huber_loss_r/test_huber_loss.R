@@ -1,0 +1,23 @@
+args <- grep("^--file=", commandArgs(FALSE), value=TRUE)
+folder <- dirname(normalizePath(sub("^--file=", "", args[[1L]])))
+source(file.path(folder, "huber_loss.R"))
+expect_error <- function(expr) {
+  stopifnot(tryCatch({force(expr); FALSE}, error=function(e) TRUE))
+}
+huber <- huber_loss
+stopifnot(abs(huber(c(1.5,4), c(1,2)) - 0.8125) < 1e-12)
+stopifnot(abs(huber(c(1.5,4), c(1,2), 2) - 1.0625) < 1e-12)
+stopifnot(abs(huber(c(1.5,4), c(1,2), 0.5) - 0.5) < 1e-12)
+stopifnot(huber(c(1,2), c(1,2)) == 0)
+stopifnot(huber(5,4) == 0.5)
+stopifnot(huber(-2,2) == 3.5)
+stopifnot(abs(huber(1e154,0)/1e154 - 1) < 1e-12)
+expect_error(huber(numeric(), numeric()))
+expect_error(huber(1,c(1,2)))
+expect_error(huber(TRUE,1))
+expect_error(huber(NaN,0))
+expect_error(huber(1,0,0))
+expect_error(huber(1,0,Inf))
+expect_error(huber(1e308,-1e308))
+expect_error(huber(1e308,0,2))
+cat("R Huber tests passed\n")
