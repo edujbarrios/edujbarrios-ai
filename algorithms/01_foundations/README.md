@@ -2,7 +2,7 @@
 
 These algorithms provide the numerical building blocks used in machine learning, embeddings, probability and data preprocessing. Start with vector operations, then distances and normalization; move to probability and stable numerical computations.
 
-## Implemented algorithms (13)
+## Implemented algorithms (14)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -13,6 +13,7 @@ These algorithms provide the numerical building blocks used in machine learning,
 | [`jensen_shannon_divergence`](jensen_shannon_divergence/README.md) | Measures symmetric dissimilarity between probability distributions using their mixture. |
 | [`kullback_leibler_divergence`](kullback_leibler_divergence/README.md) | Quantifies how one probability distribution differs from a reference distribution. |
 | [`logsumexp`](logsumexp/README.md) | Computes the logarithm of a sum of exponentials while reducing overflow and underflow. |
+| [`manhattan_distance`](manhattan_distance/README.md) | Computes L1 distance by summing absolute coordinate differences between vectors. |
 | [`matrix_multiplication`](matrix_multiplication/README.md) | Combines matrices through row-by-column products, fundamental to dense layers. |
 | [`mean_variance`](mean_variance/README.md) | Calculates central tendency and spread for numerical observations. |
 | [`min_max_scaling`](min_max_scaling/README.md) | Rescales features relative to their observed minimum and maximum. |
