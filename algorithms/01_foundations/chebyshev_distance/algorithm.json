@@ -1,0 +1,12 @@
+{
+  "slug": "chebyshev_distance",
+  "title": "Chebyshev (L-infinity) Distance",
+  "level": "foundation",
+  "summary": "Compute the maximum absolute coordinate difference between equal-length finite vectors.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
