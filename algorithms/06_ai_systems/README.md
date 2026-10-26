@@ -2,11 +2,12 @@
 
 Primitives for evaluating classifiers, probabilistic predictions, retrieval rankings, dataset splits and sequence generation. Each metric highlights a different behavior; use several together rather than treating a single score as complete evidence of model quality.
 
-## Implemented algorithms (16)
+## Implemented algorithms (17)
 
 | Algorithm | What it does |
 | --- | --- |
 | [`average_precision_at_k`](average_precision_at_k/README.md) | Summarizes ranked retrieval precision at relevant positions through cutoff k. |
+| [`balanced_accuracy`](balanced_accuracy/README.md) | Averages sensitivity and specificity to evaluate binary classification with equal class weight. |
 | [`brier_score`](brier_score/README.md) | Measures the squared error of predicted binary-class probabilities. |
 | [`cohens_kappa`](cohens_kappa/README.md) | Measures agreement between binary raters after adjusting for expected chance agreement. |
 | [`confusion_matrix`](confusion_matrix/README.md) | Counts true and false predictions across binary classes. |
