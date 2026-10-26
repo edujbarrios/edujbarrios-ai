@@ -1,0 +1,12 @@
+{
+  "slug": "minkowski_distance",
+  "title": "Minkowski Distance",
+  "level": "foundation",
+  "summary": "General L-p distance between finite real vectors with a configurable exponent.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
