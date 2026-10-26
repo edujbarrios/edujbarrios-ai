@@ -2,7 +2,7 @@
 
 Algorithms for lexical retrieval, ranking, combining results, graph traversal and text similarity. These are useful when studying search engines, recommender systems and retrieval-augmented generation (RAG).
 
-## Implemented algorithms (20)
+## Implemented algorithms (21)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -15,6 +15,7 @@ Algorithms for lexical retrieval, ranking, combining results, graph traversal an
 | [`jaccard_similarity`](jaccard_similarity/README.md) | Measures overlap between sets relative to their union. |
 | [`kruskal_mst`](kruskal_mst/README.md) | Constructs a minimum spanning tree by greedily selecting safe edges. |
 | [`levenshtein_distance`](levenshtein_distance/README.md) | Counts the minimum edits needed to turn one string into another. |
+| [`longest_common_subsequence`](longest_common_subsequence/README.md) | Finds the longest order-preserving common token subsequence length. |
 | [`maximal_marginal_relevance`](maximal_marginal_relevance/README.md) | Balances relevance with diversity when reranking search candidates. |
 | [`pagerank`](pagerank/README.md) | Estimates node importance through iterative link-based probability propagation. |
 | [`positional_phrase_search`](positional_phrase_search/README.md) | Matches consecutive terms by intersecting positional posting lists. |

@@ -1,0 +1,21 @@
+args <- grep("^--file=", commandArgs(FALSE), value = TRUE)
+folder <- dirname(normalizePath(sub("^--file=", "", args[[1L]])))
+source(file.path(folder, "longest_common_subsequence.R"))
+expect_error <- function(expr) {
+  stopifnot(tryCatch({ force(expr); FALSE }, error = function(e) TRUE))
+}
+lcs <- longest_common_subsequence
+stopifnot(lcs(c(1, 2, 3, 4), c(2, 4, 3)) == 2)
+stopifnot(lcs(c(2, 4, 3), c(1, 2, 3, 4)) == 2)
+stopifnot(lcs(c(1, 1, 2), c(1, 2, 1)) == 2)
+stopifnot(lcs(numeric(), c(1, 2)) == 0)
+stopifnot(lcs(numeric(), numeric()) == 0)
+stopifnot(lcs(c(1, 2), c(1, 2)) == 2)
+stopifnot(lcs(c(7, 7, 7), c(7, 7)) == 2)
+stopifnot(lcs(-2147483648, -2147483648) == 1)
+stopifnot(lcs(2147483647, -2147483648) == 0)
+expect_error(lcs(TRUE, 1))
+expect_error(lcs(1.5, 1))
+expect_error(lcs(2147483648, 1))
+expect_error(lcs(NaN, 1))
+cat("R LCS tests passed\n")
