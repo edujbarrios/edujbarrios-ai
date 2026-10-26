@@ -1,0 +1,12 @@
+{
+  "slug": "total_variation_distance",
+  "title": "Total Variation Distance",
+  "level": "foundation",
+  "summary": "Measures the maximum probability discrepancy between two finite discrete distributions.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
