@@ -1,0 +1,12 @@
+{
+  "slug": "bray_curtis_dissimilarity",
+  "title": "Bray–Curtis Dissimilarity",
+  "level": "foundation",
+  "summary": "Computes bounded dissimilarity between nonnegative numerical feature vectors.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

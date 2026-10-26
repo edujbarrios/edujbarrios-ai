@@ -2,10 +2,11 @@
 
 These algorithms provide the numerical building blocks used in machine learning, embeddings, probability and data preprocessing. Start with vector operations, then distances and normalization; move to probability and stable numerical computations.
 
-## Implemented algorithms (18)
+## Implemented algorithms (19)
 
 | Algorithm | What it does |
 | --- | --- |
+| [`bray_curtis_dissimilarity`](bray_curtis_dissimilarity/README.md) | Compares nonnegative feature profiles with relative dissimilarity. |
 | [`canberra_distance`](canberra_distance/README.md) | Measures relative coordinate differences with zero-safe scaling. |
 | [`chebyshev_distance`](chebyshev_distance/README.md) | Measures the largest absolute coordinate difference (L∞ distance) between two vectors. |
 | [`cosine_similarity`](cosine_similarity/README.md) | Measures the angle-based similarity between two vectors, independent of their magnitudes. |
