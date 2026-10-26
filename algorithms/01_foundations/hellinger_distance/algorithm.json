@@ -1,0 +1,12 @@
+{
+  "slug": "hellinger_distance",
+  "title": "Hellinger Distance",
+  "level": "foundation",
+  "summary": "A bounded symmetric distance between discrete probability distributions.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

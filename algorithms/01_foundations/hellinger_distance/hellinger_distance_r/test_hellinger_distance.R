@@ -1,0 +1,17 @@
+args <- grep("^--file=", commandArgs(FALSE), value = TRUE)
+folder <- dirname(normalizePath(sub("^--file=", "", args[[1L]])))
+source(file.path(folder, "hellinger_distance.R"))
+expect_error <- function(expr) {
+  stopifnot(tryCatch({ force(expr); FALSE }, error = function(e) TRUE))
+}
+stopifnot(hellinger_distance(c(0.5, 0.5), c(0.5, 0.5)) == 0)
+stopifnot(hellinger_distance(c(1, 0), c(0, 1)) == 1)
+expected <- sqrt(1 - 1 / sqrt(2))
+stopifnot(abs(hellinger_distance(c(1, 0), c(0.5, 0.5)) - expected) < 1e-12)
+stopifnot(abs(hellinger_distance(c(0.5, 0.5), c(1, 0)) - expected) < 1e-12)
+expect_error(hellinger_distance(numeric(), numeric()))
+expect_error(hellinger_distance(c(1), c(0, 1)))
+expect_error(hellinger_distance(c(0.4, 0.4), c(1, 0)))
+expect_error(hellinger_distance(c(1.1, -0.1), c(1, 0)))
+expect_error(hellinger_distance(c(NaN, 0), c(1, 0)))
+cat("R Hellinger tests passed\n")
