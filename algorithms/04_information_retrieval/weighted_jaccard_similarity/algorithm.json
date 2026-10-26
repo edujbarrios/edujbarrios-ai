@@ -1,0 +1,12 @@
+{
+  "slug": "weighted_jaccard_similarity",
+  "title": "Weighted Jaccard Similarity",
+  "level": "information_retrieval",
+  "summary": "Compares nonnegative weighted token vectors by the ratio of minimum to maximum shared mass.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
