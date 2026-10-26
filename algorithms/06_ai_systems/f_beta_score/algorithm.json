@@ -1,0 +1,12 @@
+{
+  "slug": "f_beta_score",
+  "title": "F-beta Score",
+  "level": "ai_systems",
+  "summary": "Balances binary-classification precision and recall using a configurable positive beta.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
