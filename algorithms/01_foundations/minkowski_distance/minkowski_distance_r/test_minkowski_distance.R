@@ -1,0 +1,21 @@
+args <- grep("^--file=", commandArgs(FALSE), value=TRUE)
+folder <- dirname(normalizePath(sub("^--file=", "", args[[1L]])))
+source(file.path(folder, "minkowski_distance.R"))
+expect_error <- function(expr) {
+  stopifnot(tryCatch({force(expr); FALSE}, error=function(e) TRUE))
+}
+md <- minkowski_distance
+stopifnot(md(c(0,0), c(3,4), 1) == 7)
+stopifnot(abs(md(c(0,0), c(3,4), 2) - 5) < 1e-12)
+stopifnot(abs(md(c(0,0), c(3,4), 3) - 91^(1/3)) < 1e-12)
+stopifnot(md(7,7) == 0)
+stopifnot(abs(md(c(0,0), c(3,4), 1000) - 4) < 0.01)
+stopifnot(abs(md(c(1e150,1e150), c(0,0)) / 1e150 - sqrt(2)) < 1e-12)
+expect_error(md(numeric(), numeric()))
+expect_error(md(1, c(1,2)))
+expect_error(md(TRUE, 1))
+expect_error(md(NaN, 0))
+expect_error(md(1, 0, 0))
+expect_error(md(1, 0, Inf))
+expect_error(md(1e308, -1e308, 2))
+cat("R Minkowski tests passed\n")
