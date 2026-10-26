@@ -1,0 +1,12 @@
+{
+  "slug": "optimal_string_alignment",
+  "title": "Optimal String Alignment Distance",
+  "level": "information_retrieval",
+  "summary": "Computes restricted Damerau edit distance with insertions, deletions, substitutions and adjacent swaps.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

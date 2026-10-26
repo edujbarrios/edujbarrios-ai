@@ -1,0 +1,22 @@
+args <- grep("^--file=", commandArgs(FALSE), value=TRUE)
+folder <- dirname(normalizePath(sub("^--file=", "", args[[1L]])))
+source(file.path(folder, "optimal_string_alignment.R"))
+expect_error <- function(expr) {
+  stopifnot(tryCatch({force(expr); FALSE}, error=function(e) TRUE))
+}
+osa <- optimal_string_alignment
+stopifnot(osa(c(1, 2), c(2, 1)) == 1)
+stopifnot(osa(c(1, 2, 3), c(1, 3, 2)) == 1)
+stopifnot(osa(c(3, 1), c(1, 2, 3)) == 3)
+stopifnot(osa(numeric(), c(1, 2)) == 2)
+stopifnot(osa(c(1, 2), numeric()) == 2)
+stopifnot(osa(numeric(), numeric()) == 0)
+stopifnot(osa(c(1, 2, 3), c(1, 2, 3)) == 0)
+stopifnot(osa(c(1, 2, 3), c(1, 4, 3)) == 1)
+stopifnot(osa(c(1, 1), 1) == 1)
+stopifnot(osa(-2147483648, 2147483647) == 1)
+expect_error(osa(TRUE, numeric()))
+expect_error(osa(c(1.5), numeric()))
+expect_error(osa(c(2147483648), numeric()))
+expect_error(osa(NaN, numeric()))
+cat("R optimal string alignment tests passed\n")
