@@ -1,0 +1,12 @@
+{
+  "slug": "dice_similarity",
+  "title": "Sørensen–Dice Similarity",
+  "level": "information_retrieval",
+  "summary": "Computes exact set overlap as twice the intersection size divided by total set size.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
