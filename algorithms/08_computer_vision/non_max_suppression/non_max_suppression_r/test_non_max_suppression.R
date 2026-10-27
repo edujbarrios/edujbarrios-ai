@@ -1,0 +1,22 @@
+file_arg <- grep("^--file=",commandArgs(FALSE),value=TRUE)
+if (length(file_arg)==0L) stop("run with Rscript")
+folder <- dirname(normalizePath(sub("^--file=","",file_arg[[1L]])))
+source(file.path(folder,"non_max_suppression.R"))
+expect_error <- function(expr) {
+  failed <- tryCatch({force(expr);FALSE},error=function(e) TRUE)
+  stopifnot(failed)
+}
+boxes <- matrix(c(0,0,2,2,.9, .5,.5,2.5,2.5,.8, 3,3,5,5,.7,
+                  0,0,2,2,.9, 10,10,12,12,.7),ncol=5,byrow=TRUE)
+stopifnot(identical(non_max_suppression(boxes,.3),c(0L,2L,4L)))
+stopifnot(identical(non_max_suppression(boxes,.4),c(0L,1L,2L,4L)))
+touching <- matrix(c(0,0,1,1,1, 1,0,2,1,.8),ncol=5,byrow=TRUE)
+stopifnot(identical(non_max_suppression(touching,0),c(0L,1L)))
+stopifnot(identical(non_max_suppression(matrix(numeric(),ncol=5),1),integer()))
+expect_error(non_max_suppression(matrix(c(0,0,0,2,.5),ncol=5),.5))
+expect_error(non_max_suppression(matrix(c(0,0,1,1,NA),ncol=5),.5))
+expect_error(non_max_suppression(matrix(c(0,0,1000001,1,.5),ncol=5),.5))
+expect_error(non_max_suppression(boxes,-.1))
+expect_error(non_max_suppression(boxes,Inf))
+expect_error(non_max_suppression(matrix(1,ncol=4),.5))
+cat("R non-maximum suppression tests passed\n")

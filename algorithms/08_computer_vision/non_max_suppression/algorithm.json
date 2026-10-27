@@ -1,0 +1,12 @@
+{
+  "slug": "non_max_suppression",
+  "title": "Greedy Bounding-Box Non-Maximum Suppression",
+  "level": "computer_vision",
+  "summary": "Remove overlapping object detections by score-ranked bounding-box intersection-over-union suppression.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
