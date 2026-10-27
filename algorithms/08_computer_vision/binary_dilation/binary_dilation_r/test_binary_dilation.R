@@ -1,0 +1,22 @@
+file_arg <- grep("^--file=",commandArgs(FALSE),value=TRUE)
+if (length(file_arg)==0L) stop("run with Rscript")
+folder <- dirname(normalizePath(sub("^--file=","",file_arg[[1L]])))
+source(file.path(folder,"binary_dilation.R"))
+expect_error <- function(expr) {
+  failed <- tryCatch({force(expr);FALSE},error=function(e) TRUE)
+  stopifnot(failed)
+}
+stopifnot(identical(binary_dilation(c(0,0,0,0,1,0,0,0,0),3,3),rep(1L,9)))
+stopifnot(identical(binary_dilation(c(1,0,0,0,0,0,0,0,0),3,3),
+                    c(1L,1L,0L,1L,1L,0L,0L,0L,0L)))
+stopifnot(identical(binary_dilation(c(0,1,0),1,3),c(1L,1L,1L)))
+stopifnot(identical(binary_dilation(0,1,1),0L))
+stopifnot(identical(binary_dilation(1,1,1),1L))
+expect_error(binary_dilation(c(0,0,0,0,1,0,0,0,0),0,3))
+expect_error(binary_dilation(c(0,0,0,0,1,0,0,0,0),3,0))
+expect_error(binary_dilation(c(0,0,0,0,1,0,0,0,0),65,3))
+expect_error(binary_dilation(c(0,0,0,0,1,0,0,0,0),3,65))
+expect_error(binary_dilation(c(0,0,0),3,3))
+expect_error(binary_dilation(c(0,2,0),1,3))
+expect_error(binary_dilation(c(0,NA,0),1,3))
+cat("R binary dilation tests passed\n")
