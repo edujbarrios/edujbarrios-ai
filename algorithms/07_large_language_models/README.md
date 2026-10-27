@@ -4,9 +4,10 @@ Algorithms used to prepare tokens, decode language models, manage context and
 support efficient autoregressive inference. These educational implementations
 focus on observable numerical or discrete behavior, not full pretrained models.
 
-## Implemented algorithms (0)
+## Implemented algorithms (1)
 
-No algorithms have been merged into this section yet. Contributions should
-include an algorithm README, metadata, reference implementations and tests.
+| Algorithm | What it does |
+| --- | --- |
+| [`no_repeat_ngram`](no_repeat_ngram/README.md) | Masks next tokens that would recreate a previously seen n-gram. |
 
 [← All sections](../../README.md)

@@ -1,0 +1,12 @@
+{
+  "slug": "no_repeat_ngram",
+  "title": "No-Repeat N-gram Decoding Mask",
+  "level": "large_language_models",
+  "summary": "Prevent a language-model next token from completing an n-gram already present in the generated context.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
