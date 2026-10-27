@@ -16,7 +16,8 @@ NAME = re.compile(r"^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$")
 def validate() -> int:
     errors = []
     count = 0
-    for category in sorted(CATALOGUE.iterdir()):
+    collections = sorted(CATALOGUE.iterdir()) + [ROOT / name for name in ("llms", "vlms") if (ROOT / name).is_dir()]
+    for category in collections:
         if not category.is_dir():
             continue
         if not (category / "README.md").is_file():

@@ -27,7 +27,12 @@ def main():
     args = parser.parse_args()
     if subprocess.call([sys.executable, str(ROOT / "scripts" / "validate_repository.py")]) != 0:
         return 1
-    specs = sorted((ROOT / "algorithms").glob("*/**/algorithm.json"))
+    specs = sorted(
+        (ROOT / "algorithms").glob("*/**/algorithm.json")
+    )
+    for collection in ("llms", "vlms"):
+        if (ROOT / collection).is_dir():
+            specs.extend(sorted((ROOT / collection).glob("*/algorithm.json")))
     executed = 0
     with tempfile.TemporaryDirectory(prefix="edujbarrios-ai-") as tmp:
         for spec in specs:

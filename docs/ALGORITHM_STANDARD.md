@@ -2,7 +2,10 @@
 
 ## Directory and metadata contract
 
-Place each algorithm at `algorithms/<numbered_category>/<algorithm_slug>/`.
+Place general algorithms at `algorithms/<numbered_category>/<algorithm_slug>/`,
+LLM-specific algorithms at `llms/<algorithm_slug>/`, and VLM-specific
+algorithms at `vlms/<algorithm_slug>/`. These are separate top-level
+collections with independent README indexes.
 **Implementation folders are called `<algorithm_slug>_<language>`.**
 
 The root of every algorithm contains:
