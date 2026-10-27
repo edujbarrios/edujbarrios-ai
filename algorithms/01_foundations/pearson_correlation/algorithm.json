@@ -1,0 +1,12 @@
+{
+  "slug": "pearson_correlation",
+  "title": "Pearson Correlation Coefficient",
+  "level": "foundation",
+  "summary": "Calculate the linear correlation of two aligned real-valued observations, rejecting zero-variance input.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

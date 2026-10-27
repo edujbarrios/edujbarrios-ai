@@ -2,7 +2,7 @@
 
 These algorithms provide the numerical building blocks used in machine learning, embeddings, probability and data preprocessing. Start with vector operations, then distances and normalization; move to probability and stable numerical computations.
 
-## Implemented algorithms (20)
+## Implemented algorithms (21)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -22,6 +22,7 @@ These algorithms provide the numerical building blocks used in machine learning,
 | [`mean_variance`](mean_variance/README.md) | Calculates central tendency and spread for numerical observations. |
 | [`min_max_scaling`](min_max_scaling/README.md) | Rescales features relative to their observed minimum and maximum. |
 | [`minkowski_distance`](minkowski_distance/README.md) | Computes L-p distance for any finite p at least one. |
+| [`pearson_correlation`](pearson_correlation/README.md) | Measures linear association between two paired numerical features. |
 | [`shannon_entropy`](shannon_entropy/README.md) | Quantifies the uncertainty or information content of a probability distribution. |
 | [`total_variation_distance`](total_variation_distance/README.md) | Measures bounded differences between discrete probability distributions. |
 | [`vector_normalization`](vector_normalization/README.md) | Scales a vector to unit length for magnitude-independent comparisons. |
