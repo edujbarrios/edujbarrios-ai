@@ -1,0 +1,12 @@
+{
+  "slug": "temperature_softmax",
+  "title": "Temperature-Scaled Softmax for LLM Decoding",
+  "level": "large_language_models",
+  "summary": "Convert bounded next-token logits to a numerically stable probability distribution using a positive temperature.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
