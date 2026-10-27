@@ -1,0 +1,12 @@
+{
+  "slug": "image_text_margin_loss",
+  "title": "Bidirectional Image–Text Margin Ranking Loss",
+  "level": "vision_language_models",
+  "summary": "Compute a bidirectional cosine-similarity hinge loss comparing diagonal image-text matches against each query's hardest in-batch negative.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
