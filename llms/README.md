@@ -13,4 +13,4 @@ focus on observable numerical or discrete behavior, not full pretrained models.
 | [`top_k_logit_filter`](top_k_logit_filter/README.md) | Keeps exactly k next-token candidates with stable index tie breaks. |
 | [`top_p_logit_filter`](top_p_logit_filter/README.md) | Keeps the smallest nucleus whose softmax mass reaches p. |
 
-[← All sections](../../README.md)
+[← Repository home](../README.md)

@@ -17,9 +17,10 @@ correct, explained implementations**, not a framework or copy-paste dump.
 
 ## How to add an algorithm
 
-1. Choose a category from `algorithms/`, and a `snake_case` slug such as
-   `cosine_similarity`.
-2. Create `algorithms/<category>/<slug>/README.md` using
+1. Choose a collection: `algorithms/<category>/` for general AI and vision,
+   `llms/` for language models, or `vlms/` for vision-language models.
+   Use a `snake_case` slug such as `cosine_similarity`.
+2. Create `<collection>/<slug>/README.md` using
    [the template](templates/ALGORITHM_README.md). Explain **why it belongs
    here**, what it does, its mathematical contract, limitations and examples.
 3. Add `algorithm.json` with a matching `slug`, `title`, `level`,
