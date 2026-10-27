@@ -1,0 +1,12 @@
+{
+  "slug": "sobel_edges",
+  "title": "Sobel Edge Magnitude for Grayscale Images",
+  "level": "computer_vision",
+  "summary": "Apply separable 3-by-3 Sobel gradient kernels and return the magnitude with replicated image edges.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
