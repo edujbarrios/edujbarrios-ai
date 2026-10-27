@@ -1,0 +1,12 @@
+{
+  "slug": "top_k_logit_filter",
+  "title": "Top-K Logit Filtering for LLM Decoding",
+  "level": "large_language_models",
+  "summary": "Select exactly K next-token logits using deterministic score order and original-token-index tie breaks.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
