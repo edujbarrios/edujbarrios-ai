@@ -1,0 +1,12 @@
+{
+  "slug": "token_frequency_penalty",
+  "title": "Token Frequency Penalty for LLM Decoding",
+  "level": "large_language_models",
+  "summary": "Reduce next-token logits by a per-occurrence penalty based on token counts in generated history.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
