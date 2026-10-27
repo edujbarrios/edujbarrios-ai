@@ -1,0 +1,12 @@
+{
+  "slug": "otsu_threshold",
+  "title": "Otsu Global Grayscale Threshold",
+  "level": "computer_vision",
+  "summary": "Compute an automatic 8-bit grayscale segmentation threshold by maximizing between-class variance.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
