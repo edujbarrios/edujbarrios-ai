@@ -1,0 +1,12 @@
+{
+  "slug": "image_text_recall_at_k",
+  "title": "Bidirectional Image-Text Retrieval Recall at K",
+  "level": "vision_language_models",
+  "summary": "Measure image-to-text and text-to-image top-K retrieval using L2-normalized embeddings and deterministic index ties.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
