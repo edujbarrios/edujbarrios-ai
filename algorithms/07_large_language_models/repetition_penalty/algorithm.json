@@ -1,0 +1,12 @@
+{
+  "slug": "repetition_penalty",
+  "title": "Sign-Aware Repetition Penalty for LLM Decoding",
+  "level": "large_language_models",
+  "summary": "Modify next-token logits for previously generated token IDs using a sign-aware multiplicative repetition penalty.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
