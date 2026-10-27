@@ -37,7 +37,7 @@ mod tests {
     fn invalid() {
         let x = [2.,-2.,0.,1.];
         assert!(adjust(&x,&[4],2.).is_err());
-        assert!(adjust(&x,&[0],.5).is_err());
+        assert!(adjust(&x,&[0],0.5).is_err());
         assert!(adjust(&x,&[0],11.).is_err());
         assert!(adjust(&x,&[],f64::NAN).is_err());
         assert!(adjust(&[],&[],2.).is_err());
