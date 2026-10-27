@@ -1,0 +1,12 @@
+{
+  "slug": "bellman_ford_shortest_path",
+  "title": "Bellman-Ford Shortest Paths",
+  "level": "information_retrieval",
+  "summary": "Calculate single-source shortest paths with negative edge weights and detect reachable negative cycles.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
