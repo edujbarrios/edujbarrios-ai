@@ -1,0 +1,12 @@
+{
+  "slug": "image_text_hard_negatives",
+  "title": "Image-Text Hard Negative Mining",
+  "level": "vision_language_models",
+  "summary": "For each paired image/text query, find the highest-cosine-similarity nonmatching example in the opposite modality.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
