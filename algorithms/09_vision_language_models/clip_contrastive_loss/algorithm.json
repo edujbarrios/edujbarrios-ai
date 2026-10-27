@@ -1,0 +1,12 @@
+{
+  "slug": "clip_contrastive_loss",
+  "title": "Symmetric CLIP Image-Text Contrastive Loss",
+  "level": "vision_language_models",
+  "summary": "Compute numerically stable bidirectional image-text contrastive loss on matched embedding batches.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
