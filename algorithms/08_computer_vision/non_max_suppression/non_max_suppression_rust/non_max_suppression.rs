@@ -56,21 +56,21 @@ mod tests {
     #[test]
     fn reference_cases() {
         let boxes=[
-            b(0.,0.,2.,2.,.9),b(.5,.5,2.5,2.5,.8),
-            b(3.,3.,5.,5.,.7),b(0.,0.,2.,2.,.9),
-            b(10.,10.,12.,12.,.7)];
-        assert_eq!(nms(&boxes,.3),Ok(vec![0,2,4]));
-        assert_eq!(nms(&boxes,.4),Ok(vec![0,1,2,4]));
-        assert_eq!(nms(&[b(0.,0.,1.,1.,1.),b(1.,0.,2.,1.,.8)],0.),Ok(vec![0,1]));
+            b(0.,0.,2.,2.,0.9),b(0.5,0.5,2.5,2.5,0.8),
+            b(3.,3.,5.,5.,0.7),b(0.,0.,2.,2.,0.9),
+            b(10.,10.,12.,12.,0.7)];
+        assert_eq!(nms(&boxes,0.3),Ok(vec![0,2,4]));
+        assert_eq!(nms(&boxes,0.4),Ok(vec![0,1,2,4]));
+        assert_eq!(nms(&[b(0.,0.,1.,1.,1.),b(1.,0.,2.,1.,0.8)],0.),Ok(vec![0,1]));
         assert_eq!(nms(&[],1.),Ok(vec![]));
     }
     #[test]
     fn invalid() {
-        assert!(nms(&[b(0.,0.,0.,2.,.5)],.5).is_err());
-        assert!(nms(&[b(0.,0.,1.,1.,f64::NAN)],.5).is_err());
-        assert!(nms(&[b(0.,0.,1_000_001.,1.,.5)],.5).is_err());
-        assert!(nms(&[b(0.,0.,1.,1.,.5)],-0.1).is_err());
-        assert!(nms(&[b(0.,0.,1.,1.,.5)],f64::INFINITY).is_err());
-        assert!(nms(&vec![b(0.,0.,1.,1.,.5);257],.5).is_err());
+        assert!(nms(&[b(0.,0.,0.,2.,0.5)],0.5).is_err());
+        assert!(nms(&[b(0.,0.,1.,1.,f64::NAN)],0.5).is_err());
+        assert!(nms(&[b(0.,0.,1_000_001.,1.,0.5)],0.5).is_err());
+        assert!(nms(&[b(0.,0.,1.,1.,0.5)],-0.1).is_err());
+        assert!(nms(&[b(0.,0.,1.,1.,0.5)],f64::INFINITY).is_err());
+        assert!(nms(&vec![b(0.,0.,1.,1.,0.5);257],0.5).is_err());
     }
 }
