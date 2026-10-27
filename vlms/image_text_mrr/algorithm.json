@@ -1,0 +1,12 @@
+{
+  "slug": "image_text_mrr",
+  "title": "Bidirectional Image–Text Mean Reciprocal Rank",
+  "level": "vision_language_models",
+  "summary": "Calculate image-to-text and text-to-image mean reciprocal rank for paired embeddings with cosine similarity and deterministic ties.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
