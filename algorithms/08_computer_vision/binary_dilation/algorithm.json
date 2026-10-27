@@ -1,0 +1,12 @@
+{
+  "slug": "binary_dilation",
+  "title": "3×3 Binary Image Dilation",
+  "level": "computer_vision",
+  "summary": "Dilate a binary image with a 3-by-3 square structuring element and zero-valued exterior padding.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
