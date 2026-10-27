@@ -1,0 +1,12 @@
+{
+  "slug": "binary_erosion",
+  "title": "3×3 Binary Morphological Erosion",
+  "level": "computer_vision",
+  "summary": "Erode a binary image using a 3-by-3 square structuring element with zero exterior padding.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
