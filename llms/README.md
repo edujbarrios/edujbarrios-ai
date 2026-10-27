@@ -4,7 +4,7 @@ Algorithms used to prepare tokens, decode language models, manage context and
 support efficient autoregressive inference. These educational implementations
 focus on observable numerical or discrete behavior, not full pretrained models.
 
-## Implemented algorithms (4)
+## Implemented algorithms (5)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -12,5 +12,6 @@ focus on observable numerical or discrete behavior, not full pretrained models.
 | [`repetition_penalty`](repetition_penalty/README.md) | Applies a sign-aware penalty to logits for generated token IDs. |
 | [`top_k_logit_filter`](top_k_logit_filter/README.md) | Keeps exactly k next-token candidates with stable index tie breaks. |
 | [`top_p_logit_filter`](top_p_logit_filter/README.md) | Keeps the smallest nucleus whose softmax mass reaches p. |
+| [`temperature_softmax`](temperature_softmax/README.md) | Turns logits into probabilities using adjustable temperature. |
 
 [← Repository home](../README.md)
