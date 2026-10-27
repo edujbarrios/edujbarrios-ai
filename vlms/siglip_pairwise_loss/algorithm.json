@@ -1,0 +1,12 @@
+{
+  "slug": "siglip_pairwise_loss",
+  "title": "SigLIP-Style Pairwise Sigmoid Contrastive Loss",
+  "level": "vision_language_models",
+  "summary": "Compute a stable logistic contrastive loss over positive diagonal and negative off-diagonal image-text embedding pairs.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
