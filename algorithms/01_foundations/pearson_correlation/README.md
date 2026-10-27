@@ -42,8 +42,9 @@ For example, `x=[1,2,3]` and `y=[2,4,6]` give `r=1`; reversing
 
 ## Complexity
 
-Two passes over the data: **O(n)** time and **O(1)** auxiliary
-working memory for C, Rust and R (Python stores checked floats, O(n)).
+Two passes over the data: **O(n)** time; **O(1)** auxiliary working
+memory for C and Rust, **O(n)** for the checked Python lists and R's
+centered temporary vectors.
 
 ## Implementations
 
@@ -75,6 +76,6 @@ weights or SIMD/GPU optimizations are provided.
 
 ## References
 
-- NIST/SEMATECH. (2013). *e-Handbook of statistical methods*.
+- NIST/SEMATECH. (n.d.). *e-Handbook of statistical methods*.
   National Institute of Standards and Technology.
-  https://www.itl.nist.gov/div898/handbook/
+  https://doi.org/10.18434/M32189
