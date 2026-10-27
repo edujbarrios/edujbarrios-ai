@@ -1,0 +1,12 @@
+{
+  "slug": "bilinear_resize",
+  "title": "Bilinear Resize for Grayscale Images",
+  "level": "computer_vision",
+  "summary": "Resize a grayscale image using half-pixel coordinate mapping and bilinear interpolation.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

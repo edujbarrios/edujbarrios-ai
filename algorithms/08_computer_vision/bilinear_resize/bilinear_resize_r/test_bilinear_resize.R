@@ -1,0 +1,23 @@
+file_arg <- grep("^--file=",commandArgs(FALSE),value=TRUE)
+if (length(file_arg)==0L) stop("run with Rscript")
+folder <- dirname(normalizePath(sub("^--file=","",file_arg[[1L]])))
+source(file.path(folder,"bilinear_resize.R"))
+expect_error <- function(expr) {
+  failed <- tryCatch({force(expr);FALSE},error=function(e) TRUE)
+  stopifnot(failed)
+}
+image <- c(0,10,20,30)
+stopifnot(identical(bilinear_resize(image,2,2,3,3),
+                    c(0,5,10,10,15,20,20,25,30)))
+stopifnot(identical(bilinear_resize(image,2,2,2,2),image))
+stopifnot(identical(bilinear_resize(7,1,1,3,2),rep(7,6)))
+stopifnot(identical(bilinear_resize(c(0,10),1,2,1,3),c(0,5,10)))
+stopifnot(identical(bilinear_resize(c(0,10),2,1,3,1),c(0,5,10)))
+expect_error(bilinear_resize(image,0,2,3,3))
+expect_error(bilinear_resize(image,2,2,0,3))
+expect_error(bilinear_resize(image,2,2,65,3))
+expect_error(bilinear_resize(c(0,10,20),2,2,3,3))
+expect_error(bilinear_resize(c(0,NaN,20,30),2,2,3,3))
+expect_error(bilinear_resize(c(0,Inf,20,30),2,2,3,3))
+expect_error(bilinear_resize(c(0,1000001,20,30),2,2,3,3))
+cat("R bilinear resize tests passed\n")
