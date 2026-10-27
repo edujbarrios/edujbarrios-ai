@@ -8,7 +8,7 @@ pub fn top_k_logit_filter(logits: &[f64], k: usize)
         return Err("invalid vocabulary, logit, or k");
     }
     let mut order: Vec<usize> = (0..logits.len()).collect();
-    order.sort_by(|&a,&b| logits[b].total_cmp(&logits[a]).then(a.cmp(&b)));
+    order.sort_by(|&a,&b| logits[b].partial_cmp(&logits[a]).unwrap().then(a.cmp(&b)));
     let mut keep = vec![false; logits.len()];
     for &id in order.iter().take(k) {
         keep[id] = true;
