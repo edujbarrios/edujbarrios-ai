@@ -14,6 +14,9 @@ A growing educational catalogue implemented in **C, Python, Rust and R** (option
 | [04 · Information Retrieval](algorithms/04_information_retrieval/README.md) | Search, ranking, postings and graphs |
 | [05 · Vector Search](algorithms/05_vector_search/README.md) | Nearest neighbors, hashing and quantization |
 | [06 · AI Systems](algorithms/06_ai_systems/README.md) | Evaluation metrics and generation utilities |
+| [07 · Large Language Models](algorithms/07_large_language_models/README.md) | Tokenization, decoding, language modeling and inference |
+| [08 · Computer Vision](algorithms/08_computer_vision/README.md) | Image processing, detections and visual representations |
+| [09 · Vision-Language Models](algorithms/09_vision_language_models/README.md) | Multimodal alignment, contrastive learning and fusion |
 
 ## Validate and test
 

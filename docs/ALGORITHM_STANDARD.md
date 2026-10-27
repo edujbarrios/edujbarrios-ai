@@ -22,6 +22,11 @@ Example metadata:
       "languages": ["c", "python", "rust", "r", "cuda"]
     }
 
+Valid algorithm levels include `foundation`, `classical_ml`,
+`neural_networks`, `information_retrieval`, `vector_search`,
+`ai_systems`, `large_language_models`, `computer_vision`, and
+`vision_language_models`.
+
 Supported directory names: `_c`, `_python`, `_rust`, `_r`, `_cuda`.
 A language is **declared only when both source and tests exist**.
 
