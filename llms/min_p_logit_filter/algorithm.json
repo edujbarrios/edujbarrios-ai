@@ -1,0 +1,12 @@
+{
+  "slug": "min_p_logit_filter",
+  "title": "Min-P Relative-Probability Filtering",
+  "level": "large_language_models",
+  "summary": "Retain next-token logits whose softmax probability is at least min_p times the most probable token, with stable exponentiation.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
