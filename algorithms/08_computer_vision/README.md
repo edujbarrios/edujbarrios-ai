@@ -3,9 +3,10 @@
 Image, geometry and detection algorithms underlying object detectors, vision
 encoders and other learned or classical vision pipelines.
 
-## Implemented algorithms (0)
+## Implemented algorithms (1)
 
-No algorithms have been merged into this section yet. Contributions should
-include an algorithm README, metadata, reference implementations and tests.
+| Algorithm | What it does |
+| --- | --- |
+| [`non_max_suppression`](non_max_suppression/README.md) | Keeps high-confidence bounding boxes while suppressing overlapping detections. |
 
 [← All sections](../../README.md)
