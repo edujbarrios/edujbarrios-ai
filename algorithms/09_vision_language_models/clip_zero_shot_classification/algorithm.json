@@ -1,0 +1,12 @@
+{
+  "slug": "clip_zero_shot_classification",
+  "title": "CLIP-Style Zero-Shot Image Classification",
+  "level": "vision_language_models",
+  "summary": "Classify an image embedding against candidate text embeddings using normalized similarities and a stable softmax.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
