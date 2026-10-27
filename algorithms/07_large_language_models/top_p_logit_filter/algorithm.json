@@ -1,0 +1,12 @@
+{
+  "slug": "top_p_logit_filter",
+  "title": "Nucleus (Top-P) Logit Filtering",
+  "level": "large_language_models",
+  "summary": "Choose the smallest score-sorted token prefix whose softmax probability mass meets a given threshold.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
