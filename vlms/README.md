@@ -13,4 +13,4 @@ independently of pretrained model weights or large training frameworks.
 | [`image_text_hard_negatives`](image_text_hard_negatives/README.md) | Finds the closest nonmatching image/text candidate in both retrieval directions. |
 | [`image_text_recall_at_k`](image_text_recall_at_k/README.md) | Evaluates bidirectional retrieval recall@K for paired image and text embeddings. |
 
-[← All sections](../../README.md)
+[← Repository home](../README.md)

@@ -15,12 +15,16 @@ A growing educational catalogue implemented in **C, Python, Rust and R** (option
 | [05 · Vector Search](algorithms/05_vector_search/README.md) | Nearest neighbors, hashing and quantization |
 | [06 · AI Systems](algorithms/06_ai_systems/README.md) | Evaluation metrics and generation utilities |
 | [08 · Computer Vision](algorithms/08_computer_vision/README.md) | Image processing, detections and visual representations |
-| [09 · Vision-Language Models](algorithms/09_vision_language_models/README.md) | Multimodal alignment, contrastive learning and fusion |
 
 ## LLMs — Large Language Models
 
 Explore the standalone [LLM algorithms collection](llms/README.md), with
 autoregressive decoding, token filtering and generation utilities.
+
+## VLMs — Vision-Language Models
+
+Explore the standalone [VLM algorithms collection](vlms/README.md), focused
+on multimodal contrastive objectives, image–text matching and retrieval.
 
 ## Validate and test
 
