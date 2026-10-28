@@ -1,0 +1,12 @@
+{
+  "slug": "strongly_connected_components",
+  "title": "Strongly Connected Components (Kosaraju)",
+  "level": "information_retrieval",
+  "summary": "Partition a directed unweighted graph into strongly connected components with canonical smallest-vertex labels.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
