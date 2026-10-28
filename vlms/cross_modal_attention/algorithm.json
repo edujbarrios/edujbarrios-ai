@@ -1,0 +1,12 @@
+{
+  "slug": "cross_modal_attention",
+  "title": "Text-to-Image Cross-Modal Attention",
+  "level": "vision_language_models",
+  "summary": "Use one text query to compute scaled dot-product attention weights over image patch keys and their weighted visual-value context.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

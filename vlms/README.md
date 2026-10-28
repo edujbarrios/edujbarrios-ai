@@ -10,6 +10,7 @@ independently of pretrained model weights or large training frameworks.
 | --- | --- |
 | [`clip_contrastive_loss`](clip_contrastive_loss/README.md) | Computes stable bidirectional CLIP-style image–text contrastive loss. |
 | [`clip_zero_shot_classification`](clip_zero_shot_classification/README.md) | Produces zero-shot class probabilities by matching image and text embeddings. |
+| [`cross_modal_attention`](cross_modal_attention/README.md) | Computes text-query attention over image patch keys and values. |
 | [`image_text_hard_negatives`](image_text_hard_negatives/README.md) | Finds the closest nonmatching image/text candidate in both retrieval directions. |
 | [`image_text_margin_loss`](image_text_margin_loss/README.md) | Ranks matched image–text pairs above hardest negatives using a symmetric margin loss. |
 | [`image_text_mrr`](image_text_mrr/README.md) | Evaluates bidirectional retrieval ranking with mean reciprocal rank. |
