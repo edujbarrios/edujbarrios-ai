@@ -15,6 +15,7 @@ A growing educational catalogue implemented in **C, Python, Rust and R** (option
 | [05 · Vector Search](algorithms/05_vector_search/README.md) | Nearest neighbors, hashing and quantization |
 | [06 · AI Systems](algorithms/06_ai_systems/README.md) | Evaluation metrics and generation utilities |
 | [08 · Computer Vision](algorithms/08_computer_vision/README.md) | Image processing, detections and visual representations |
+| [10 · Convolutional Neural Networks (CNNs)](algorithms/10_convolutional_neural_networks/README.md) | Convolutions, pooling and spatial feature extraction |
 
 ## LLMs — Large Language Models
 

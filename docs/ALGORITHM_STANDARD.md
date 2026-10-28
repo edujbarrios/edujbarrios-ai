@@ -27,7 +27,8 @@ Example metadata:
 
 Valid algorithm levels include `foundation`, `classical_ml`,
 `neural_networks`, `information_retrieval`, `vector_search`,
-`ai_systems`, `large_language_models`, `computer_vision`, and
+`ai_systems`, `large_language_models`, `computer_vision`,
+`convolutional_neural_networks`, and
 `vision_language_models`.
 
 Supported directory names: `_c`, `_python`, `_rust`, `_r`, `_cuda`.
