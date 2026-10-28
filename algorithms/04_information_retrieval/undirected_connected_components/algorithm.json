@@ -1,0 +1,12 @@
+{
+  "slug": "undirected_connected_components",
+  "title": "Undirected Connected Components",
+  "level": "information_retrieval",
+  "summary": "Find components of an undirected graph via breadth-first traversal, labeling each by its minimum vertex index.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
