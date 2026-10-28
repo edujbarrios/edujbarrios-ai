@@ -1,0 +1,12 @@
+{
+  "slug": "entropy_impurity",
+  "title": "Decision Tree Entropy Impurity",
+  "level": "classical_ml",
+  "summary": "Compute Shannon entropy in bits from nonnegative integer class counts for classification tree nodes.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
