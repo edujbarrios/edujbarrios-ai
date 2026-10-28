@@ -1,0 +1,12 @@
+{
+  "slug": "bipartite_graph_check",
+  "title": "Bipartite Graph Check (Two-Color BFS)",
+  "level": "information_retrieval",
+  "summary": "Detect whether an undirected binary graph admits a two-coloring, rejecting self-loops and odd cycles.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
