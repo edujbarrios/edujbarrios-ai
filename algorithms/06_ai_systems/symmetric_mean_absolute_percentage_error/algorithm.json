@@ -1,0 +1,12 @@
+{
+  "slug": "symmetric_mean_absolute_percentage_error",
+  "title": "Symmetric Mean Absolute Percentage Error (sMAPE)",
+  "level": "ai_systems",
+  "summary": "Compute bounded symmetric relative regression error with an explicit zero/zero convention.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
