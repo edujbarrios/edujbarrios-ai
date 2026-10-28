@@ -2,7 +2,7 @@
 
 This section explores predictive models, clustering, dimensionality reduction and optimization without hiding their mechanics inside an ML framework. Compare supervised methods with unsupervised ones and inspect how their assumptions differ.
 
-## Implemented algorithms (23)
+## Implemented algorithms (24)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -29,6 +29,7 @@ This section explores predictive models, clustering, dimensionality reduction an
 | [`ridge_regression_1d`](ridge_regression_1d/README.md) | Fits one-dimensional linear regression with an L2 penalty on coefficients. |
 | [`silhouette_score`](silhouette_score/README.md) | Measures how well points match their own cluster compared with others. |
 | [`viterbi_decoding`](viterbi_decoding/README.md) | Finds the most likely hidden-state sequence in a hidden Markov model. |
+| [`weighted_linear_regression_1d`](weighted_linear_regression_1d/README.md) | Fits an intercept and slope by minimizing weighted squared residuals. |
 
 Each algorithm directory contains a README with its mathematical definition, input contract, limitations and available language implementations. Run its tests using the instructions in the [repository README](../../README.md).
 
