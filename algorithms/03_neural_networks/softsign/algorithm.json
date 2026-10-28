@@ -1,0 +1,12 @@
+{
+  "slug": "softsign",
+  "title": "Softsign Activation",
+  "level": "neural_networks",
+  "summary": "Apply a smooth bounded activation x/(1+abs(x)) to finite real-valued inputs.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
