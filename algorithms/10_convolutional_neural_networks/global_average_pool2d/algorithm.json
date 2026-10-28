@@ -1,0 +1,12 @@
+{
+  "slug": "global_average_pool2d",
+  "title": "Channel-Wise Global Average Pooling for CNNs",
+  "level": "convolutional_neural_networks",
+  "summary": "Reduce each channel-first spatial feature map to its arithmetic mean.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
