@@ -1,0 +1,12 @@
+{
+  "slug": "kendall_tau_b",
+  "title": "Kendall Tau-b Rank Correlation",
+  "level": "foundation",
+  "summary": "Tie-adjusted rank correlation measuring concordant and discordant pairs of observations.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
