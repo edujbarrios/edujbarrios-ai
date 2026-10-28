@@ -4,9 +4,10 @@ A dedicated section for **convolutional neural networks** and their spatial
 building blocks. Reference implementations use small, explicit tensors for
 learning and testing the mathematics without deep-learning frameworks.
 
-## Implemented algorithms
+## Implemented algorithms (1)
 
-Foundational CNN building blocks will be added in separate pull requests,
-with the same metadata and multi-language test conventions as other sections.
+| Algorithm | What it does |
+| --- | --- |
+| [`valid_conv2d`](valid_conv2d/README.md) | Applies valid spatial cross-correlation with a learnable-style 2D kernel. |
 
 [← All sections](../../README.md)

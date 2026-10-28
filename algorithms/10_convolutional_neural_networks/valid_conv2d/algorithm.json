@@ -1,0 +1,12 @@
+{
+  "slug": "valid_conv2d",
+  "title": "Valid 2D Single-Channel Convolution (Cross-Correlation)",
+  "level": "convolutional_neural_networks",
+  "summary": "Apply a row-major floating-point 2D kernel to a grayscale input using valid boundaries and no kernel reversal.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
