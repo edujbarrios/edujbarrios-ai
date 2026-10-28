@@ -1,0 +1,12 @@
+{
+  "slug": "elu",
+  "title": "Exponential Linear Unit (ELU) Activation",
+  "level": "neural_networks",
+  "summary": "Apply an exponential linear unit with alpha one using expm1 for accurate negative inputs.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

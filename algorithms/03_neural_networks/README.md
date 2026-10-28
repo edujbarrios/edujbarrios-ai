@@ -2,7 +2,7 @@
 
 A collection of neural network building blocks: nonlinearities, objectives, parameter updates, normalization, forward and backward propagation, and transformer attention. Individual entries expose the relevant equations and computational trade-offs.
 
-## Implemented algorithms (32)
+## Implemented algorithms (33)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -16,6 +16,7 @@ A collection of neural network building blocks: nonlinearities, objectives, para
 | [`cross_entropy`](cross_entropy/README.md) | Measures how well predicted categorical probabilities match target labels. |
 | [`dense_forward`](dense_forward/README.md) | Computes the affine transformation in a fully connected layer. |
 | [`dense_relu_backprop`](dense_relu_backprop/README.md) | Propagates gradients through a dense layer followed by ReLU. |
+| [`elu`](elu/README.md) | Applies ELU with a linear positive branch and exponentially saturating negative branch. |
 | [`gelu`](gelu/README.md) | Applies a smooth Gaussian-error-based nonlinear activation. |
 | [`hinge_loss`](hinge_loss/README.md) | Penalizes violations of the classification margin. |
 | [`huber_loss`](huber_loss/README.md) | Combines quadratic behavior for small errors with linear behavior for outliers. |
