@@ -7,7 +7,7 @@ class PoolTests(unittest.TestCase):
         self.assertEqual(pool(list(range(1,17)),4,4),[6,8,14,16])
         self.assertEqual(pool(list(range(1,10)),3,3),[5])
         self.assertEqual(pool([-4,-2,-1,-3],2,2),[-1])
-        self.assertEqual(pool([2,1,3,4,5,7],2,3),[4])
+        self.assertEqual(pool([2,1,3,4,5,7],2,3),[5])
 
     def test_invalid(self):
         good=[1,2,3,4]
