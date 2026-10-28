@@ -1,0 +1,12 @@
+{
+  "slug": "cosine_annealing_learning_rate",
+  "title": "Cosine Annealing Learning Rate",
+  "level": "neural_networks",
+  "summary": "Schedule a learning rate smoothly from a maximum to a minimum across a fixed training horizon.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
