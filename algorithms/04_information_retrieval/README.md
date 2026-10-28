@@ -2,12 +2,13 @@
 
 Algorithms for lexical retrieval, ranking, combining results, graph traversal and text similarity. These are useful when studying search engines, recommender systems and retrieval-augmented generation (RAG).
 
-## Implemented algorithms (32)
+## Implemented algorithms (33)
 
 | Algorithm | What it does |
 | --- | --- |
 | [`astar_shortest_path`](astar_shortest_path/README.md) | Finds low-cost paths using known costs plus a heuristic estimate. |
 | [`bellman_ford_shortest_path`](bellman_ford_shortest_path/README.md) | Computes shortest paths with negative edges and detects reachable negative cycles. |
+| [`bipartite_graph_check`](bipartite_graph_check/README.md) | Tests whether a symmetric graph admits a two-color partition, detecting odd cycles. |
 | [`bfs_shortest_path`](bfs_shortest_path/README.md) | Finds minimum hop counts from a source in an unweighted directed graph. |
 | [`bm25`](bm25/README.md) | Ranks documents against queries using term frequency, document length and inverse document frequency. |
 | [`dice_similarity`](dice_similarity/README.md) | Measures set overlap using the Sørensen–Dice coefficient. |
