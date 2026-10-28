@@ -1,0 +1,12 @@
+{
+  "slug": "topological_sort",
+  "title": "Topological Sort of a Directed Acyclic Graph",
+  "level": "information_retrieval",
+  "summary": "Produce a deterministic dependency-respecting order of vertices using indegrees, rejecting cycles.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
