@@ -1,0 +1,12 @@
+{
+  "slug": "gini_impurity",
+  "title": "Gini Impurity of Class Counts",
+  "level": "classical_ml",
+  "summary": "Compute Gini impurity from a finite set of nonnegative class counts for decision-tree splits.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
