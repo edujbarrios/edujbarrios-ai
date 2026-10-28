@@ -1,0 +1,12 @@
+{
+  "slug": "max_pool2d",
+  "title": "Non-Overlapping 2×2 Max Pooling for CNNs",
+  "level": "convolutional_neural_networks",
+  "summary": "Downsample a single-channel feature map using 2-by-2 maximum pooling with stride 2, dropping incomplete border windows.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
