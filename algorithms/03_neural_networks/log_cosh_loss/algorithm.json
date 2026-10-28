@@ -1,0 +1,12 @@
+{
+  "slug": "log_cosh_loss",
+  "title": "Log-Cosh Regression Loss",
+  "level": "neural_networks",
+  "summary": "Calculate smooth mean log-cosh loss for paired regression targets and predictions with stable arithmetic.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
