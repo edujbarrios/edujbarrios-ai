@@ -1,0 +1,12 @@
+{
+  "slug": "log_softmax",
+  "title": "Numerically Stable Log-Softmax",
+  "level": "neural_networks",
+  "summary": "Convert logits into normalized log-probabilities without overflowing exponentials.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
