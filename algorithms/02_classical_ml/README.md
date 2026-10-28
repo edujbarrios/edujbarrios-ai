@@ -2,7 +2,7 @@
 
 This section explores predictive models, clustering, dimensionality reduction and optimization without hiding their mechanics inside an ML framework. Compare supervised methods with unsupervised ones and inspect how their assumptions differ.
 
-## Implemented algorithms (21)
+## Implemented algorithms (22)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -11,6 +11,7 @@ This section explores predictive models, clustering, dimensionality reduction an
 | [`exponential_moving_average`](exponential_moving_average/README.md) | Smooths sequences with exponentially decaying weights, a standard time-series and optimization primitive. |
 | [`farthest_first_traversal`](farthest_first_traversal/README.md) | Selects well-separated representatives by repeatedly choosing the farthest point. |
 | [`gaussian_naive_bayes`](gaussian_naive_bayes/README.md) | Classifies continuous features using class-conditional Gaussian probabilities. |
+| [`gini_impurity`](gini_impurity/README.md) | Measures class mixing from integer class counts for decision-tree split criteria. |
 | [`gradient_descent`](gradient_descent/README.md) | Iteratively updates parameters in the direction that reduces a differentiable objective. |
 | [`greedy_k_medoids`](greedy_k_medoids/README.md) | Selects representative data points as cluster centers using greedy improvements. |
 | [`hmm_forward_algorithm`](hmm_forward_algorithm/README.md) | Computes sequence likelihoods in a hidden Markov model by dynamic programming. |
