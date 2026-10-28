@@ -1,0 +1,12 @@
+{
+  "slug": "root_mean_squared_error",
+  "title": "Root Mean Squared Error (RMSE)",
+  "level": "ai_systems",
+  "summary": "Evaluate regression predictions with the square root of mean squared residuals in original target units.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

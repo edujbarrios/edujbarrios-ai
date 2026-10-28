@@ -2,7 +2,7 @@
 
 Primitives for evaluating classifiers, probabilistic predictions, retrieval rankings, dataset splits and sequence generation. Each metric highlights a different behavior; use several together rather than treating a single score as complete evidence of model quality.
 
-## Implemented algorithms (25)
+## Implemented algorithms (26)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -20,6 +20,7 @@ Primitives for evaluating classifiers, probabilistic predictions, retrieval rank
 | [`mean_absolute_error`](mean_absolute_error/README.md) | Averages absolute residuals to assess the error of numerical regression predictions. |
 | [`mean_squared_error`](mean_squared_error/README.md) | Averages squared regression residuals to penalize large errors. |
 | [`mean_squared_log_error`](mean_squared_log_error/README.md) | Evaluates nonnegative regression predictions using squared log1p residuals. |
+| [`root_mean_squared_error`](root_mean_squared_error/README.md) | Measures regression prediction error in original target units as sqrt(MSE). |
 | [`median_absolute_error`](median_absolute_error/README.md) | Reports median absolute regression residual, reducing outlier influence. |
 | [`mean_reciprocal_rank`](mean_reciprocal_rank/README.md) | Averages the reciprocal position of the first relevant retrieved result. |
 | [`ndcg_at_k`](ndcg_at_k/README.md) | Measures ranking quality while discounting lower positions against an ideal ordering. |
