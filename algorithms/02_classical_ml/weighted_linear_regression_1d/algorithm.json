@@ -1,0 +1,12 @@
+{
+  "slug": "weighted_linear_regression_1d",
+  "title": "Weighted Linear Regression (One Feature)",
+  "level": "classical_ml",
+  "summary": "Fit a one-feature weighted least-squares line with an intercept, rejecting degenerate weighted variance.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
