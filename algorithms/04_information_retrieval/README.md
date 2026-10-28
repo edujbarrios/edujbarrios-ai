@@ -2,7 +2,7 @@
 
 Algorithms for lexical retrieval, ranking, combining results, graph traversal and text similarity. These are useful when studying search engines, recommender systems and retrieval-augmented generation (RAG).
 
-## Implemented algorithms (28)
+## Implemented algorithms (29)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -34,6 +34,7 @@ Algorithms for lexical retrieval, ranking, combining results, graph traversal an
 | [`tversky_index`](tversky_index/README.md) | Adjustable asymmetric similarity for sets of token IDs. |
 | [`weighted_jaccard_similarity`](weighted_jaccard_similarity/README.md) | Compares aligned nonnegative feature weights using min/max overlap. |
 | [`top_k`](top_k/README.md) | Selects the highest-ranked items from a collection of scores. |
+| [`topological_sort`](topological_sort/README.md) | Produces a deterministic order of a directed acyclic graph and detects cycles. |
 
 Each algorithm directory contains a README with its mathematical definition, input contract, limitations and available language implementations. Run its tests using the instructions in the [repository README](../../README.md).
 
