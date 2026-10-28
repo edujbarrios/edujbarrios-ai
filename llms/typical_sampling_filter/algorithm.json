@@ -1,0 +1,12 @@
+{
+  "slug": "typical_sampling_filter",
+  "title": "Locally Typical Next-Token Logit Filtering",
+  "level": "large_language_models",
+  "summary": "Keep the smallest probability-mass prefix ordered by closeness of each token's surprisal to the distribution entropy.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
