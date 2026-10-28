@@ -1,0 +1,12 @@
+{
+  "slug": "transitive_closure",
+  "title": "Transitive Closure (Warshall)",
+  "level": "information_retrieval",
+  "summary": "Compute all-pairs reflexive reachability of a directed binary graph using Warshall dynamic programming.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
