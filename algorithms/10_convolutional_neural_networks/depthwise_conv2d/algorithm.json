@@ -1,0 +1,12 @@
+{
+  "slug": "depthwise_conv2d",
+  "title": "Depthwise 2D Convolution with Same Zero Padding",
+  "level": "convolutional_neural_networks",
+  "summary": "Apply an independent odd-sized 2D kernel per input channel, using stride one and same zero padding.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
