@@ -1,0 +1,12 @@
+{
+  "slug": "rms_normalization",
+  "title": "Root Mean Square Normalization (RMSNorm) for LLMs",
+  "level": "large_language_models",
+  "summary": "Normalize a token feature vector by its root mean square with a positive epsilon and learned-style per-feature scale.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
