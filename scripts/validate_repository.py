@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CATALOGUE = ROOT / "algorithms"
 LANGUAGES = {"c": ".c", "python": ".py", "rust": ".rs", "r": ".R", "cuda": ".cu"}
-LEVELS = {"foundation", "classical_ml", "neural_networks", "information_retrieval", "vector_search", "ai_systems", "large_language_models", "computer_vision", "vision_language_models"}
+LEVELS = {"foundation", "classical_ml", "neural_networks", "information_retrieval", "vector_search", "ai_systems", "large_language_models", "computer_vision", "vision_language_models", "convolutional_neural_networks"}
 NAME = re.compile(r"^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$")
 
 
