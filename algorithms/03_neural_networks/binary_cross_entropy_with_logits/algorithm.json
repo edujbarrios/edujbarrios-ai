@@ -1,0 +1,12 @@
+{
+  "slug": "binary_cross_entropy_with_logits",
+  "title": "Binary Cross-Entropy With Logits",
+  "level": "neural_networks",
+  "summary": "Compute stable mean binary cross-entropy directly from raw logits, including fractional targets.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

@@ -2,7 +2,7 @@
 
 A collection of neural network building blocks: nonlinearities, objectives, parameter updates, normalization, forward and backward propagation, and transformer attention. Individual entries expose the relevant equations and computational trade-offs.
 
-## Implemented algorithms (29)
+## Implemented algorithms (30)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -10,6 +10,7 @@ A collection of neural network building blocks: nonlinearities, objectives, para
 | [`adamw_optimizer`](adamw_optimizer/README.md) | Applies Adam-style adaptive updates with decoupled weight decay. |
 | [`batch_normalization`](batch_normalization/README.md) | Normalizes activations using batch statistics and learned scale and offset. |
 | [`binary_cross_entropy`](binary_cross_entropy/README.md) | Measures error between binary labels and predicted probabilities. |
+| [`binary_cross_entropy_with_logits`](binary_cross_entropy_with_logits/README.md) | Computes stable binary cross-entropy from raw logits and soft targets. |
 | [`binary_focal_loss`](binary_focal_loss/README.md) | Down-weights easier binary examples so training emphasizes difficult ones. |
 | [`causal_attention`](causal_attention/README.md) | Prevents attention from looking ahead at future sequence positions. |
 | [`cross_entropy`](cross_entropy/README.md) | Measures how well predicted categorical probabilities match target labels. |
