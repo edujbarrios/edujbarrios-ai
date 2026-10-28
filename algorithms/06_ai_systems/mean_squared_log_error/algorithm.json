@@ -1,0 +1,12 @@
+{
+  "slug": "mean_squared_log_error",
+  "title": "Mean Squared Logarithmic Error (MSLE)",
+  "level": "ai_systems",
+  "summary": "Evaluate nonnegative regression forecasts using the mean squared difference of log1p-transformed values.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
