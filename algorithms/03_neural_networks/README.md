@@ -2,7 +2,7 @@
 
 A collection of neural network building blocks: nonlinearities, objectives, parameter updates, normalization, forward and backward propagation, and transformer attention. Individual entries expose the relevant equations and computational trade-offs.
 
-## Implemented algorithms (28)
+## Implemented algorithms (29)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -21,6 +21,7 @@ A collection of neural network building blocks: nonlinearities, objectives, para
 | [`label_smoothed_cross_entropy`](label_smoothed_cross_entropy/README.md) | Uses softened class targets to regularize categorical training. |
 | [`layer_normalization`](layer_normalization/README.md) | Normalizes each example across its feature dimension. |
 | [`leaky_relu`](leaky_relu/README.md) | Preserves a small negative slope in a ReLU-style activation. |
+| [`log_cosh_loss`](log_cosh_loss/README.md) | Smooth, robust regression loss with numerically stable mean evaluation. |
 | [`masked_attention`](masked_attention/README.md) | Excludes disallowed positions when computing attention weights. |
 | [`momentum_sgd`](momentum_sgd/README.md) | Accumulates momentum to smooth successive gradient-based updates. |
 | [`positional_encoding`](positional_encoding/README.md) | Adds position-dependent signals to otherwise order-agnostic token representations. |
