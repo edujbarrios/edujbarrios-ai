@@ -2,7 +2,7 @@
 
 Algorithms for lexical retrieval, ranking, combining results, graph traversal and text similarity. These are useful when studying search engines, recommender systems and retrieval-augmented generation (RAG).
 
-## Implemented algorithms (31)
+## Implemented algorithms (32)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -37,6 +37,7 @@ Algorithms for lexical retrieval, ranking, combining results, graph traversal an
 | [`strongly_connected_components`](strongly_connected_components/README.md) | Finds directed graph cycles and mutually reachable vertex groups using Kosaraju DFS. |
 | [`topological_sort`](topological_sort/README.md) | Produces a deterministic order of a directed acyclic graph and detects cycles. |
 | [`transitive_closure`](transitive_closure/README.md) | Computes reflexive all-pairs reachability using Warshall dynamic programming. |
+| [`undirected_connected_components`](undirected_connected_components/README.md) | Finds undirected graph components via BFS, labeling each by its minimum vertex index. |
 
 Each algorithm directory contains a README with its mathematical definition, input contract, limitations and available language implementations. Run its tests using the instructions in the [repository README](../../README.md).
 
