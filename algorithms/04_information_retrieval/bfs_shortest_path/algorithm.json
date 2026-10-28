@@ -1,0 +1,12 @@
+{
+  "slug": "bfs_shortest_path",
+  "title": "Breadth-First Search Shortest Paths",
+  "level": "information_retrieval",
+  "summary": "Compute fewest-edge distances from a source in a directed unweighted graph using a FIFO queue.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
