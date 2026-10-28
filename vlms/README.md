@@ -4,7 +4,7 @@ Building blocks for aligning images and text: multimodal similarity, contrastive
 learning, image–text retrieval and fusion. Implementations illustrate algorithms
 independently of pretrained model weights or large training frameworks.
 
-## Implemented algorithms (7)
+## Implemented algorithms (9)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -15,6 +15,7 @@ independently of pretrained model weights or large training frameworks.
 | [`image_text_margin_loss`](image_text_margin_loss/README.md) | Ranks matched image–text pairs above hardest negatives using a symmetric margin loss. |
 | [`image_text_mrr`](image_text_mrr/README.md) | Evaluates bidirectional retrieval ranking with mean reciprocal rank. |
 | [`image_text_recall_at_k`](image_text_recall_at_k/README.md) | Evaluates bidirectional retrieval recall@K for paired image and text embeddings. |
+| [`patch_text_maxsim`](patch_text_maxsim/README.md) | Finds each text token's best-matching visual patch and averages cosine scores. |
 | [`siglip_pairwise_loss`](siglip_pairwise_loss/README.md) | Computes a stable pairwise sigmoid contrastive loss for image/text pairs. |
 
 [← Repository home](../README.md)

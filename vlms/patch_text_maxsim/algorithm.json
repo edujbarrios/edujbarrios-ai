@@ -1,0 +1,12 @@
+{
+  "slug": "patch_text_maxsim",
+  "title": "Patch–Text Late Interaction (MaxSim)",
+  "level": "vision_language_models",
+  "summary": "Align each normalized text-token embedding to its most similar normalized visual-patch embedding and average the maximum cosine scores.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
