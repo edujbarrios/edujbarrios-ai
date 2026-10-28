@@ -1,0 +1,12 @@
+{
+  "slug": "spearman_rank_correlation",
+  "title": "Spearman Rank Correlation",
+  "level": "foundation",
+  "summary": "Compute tie-aware Spearman rank correlation for paired finite numerical features.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
