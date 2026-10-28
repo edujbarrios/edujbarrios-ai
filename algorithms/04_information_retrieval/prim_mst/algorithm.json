@@ -1,0 +1,12 @@
+{
+  "slug": "prim_mst",
+  "title": "Prim Minimum Spanning Tree",
+  "level": "information_retrieval",
+  "summary": "Compute the total weight of a minimum spanning tree for a connected undirected graph using dense Prim search.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

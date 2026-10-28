@@ -2,7 +2,7 @@
 
 Algorithms for lexical retrieval, ranking, combining results, graph traversal and text similarity. These are useful when studying search engines, recommender systems and retrieval-augmented generation (RAG).
 
-## Implemented algorithms (26)
+## Implemented algorithms (27)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -26,6 +26,7 @@ Algorithms for lexical retrieval, ranking, combining results, graph traversal an
 | [`postings_intersection`](postings_intersection/README.md) | Finds documents shared by two sorted postings lists. |
 | [`postings_list`](postings_list/README.md) | Represents term-to-document matches in a searchable posting structure. |
 | [`postings_union`](postings_union/README.md) | Combines sorted postings lists without duplicate document identifiers. |
+| [`prim_mst`](prim_mst/README.md) | Finds the total cost of a minimum spanning tree via greedy vertex expansion. |
 | [`reciprocal_rank_fusion`](reciprocal_rank_fusion/README.md) | Combines ranked result lists without requiring comparable relevance scores. |
 | [`rocchio_relevance_feedback`](rocchio_relevance_feedback/README.md) | Updates a query vector using relevant and nonrelevant document vectors. |
 | [`tf_idf`](tf_idf/README.md) | Weights document terms by local frequency and global rarity. |
