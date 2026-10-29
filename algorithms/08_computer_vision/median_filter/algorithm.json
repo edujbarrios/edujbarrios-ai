@@ -1,0 +1,12 @@
+{
+  "slug": "median_filter",
+  "title": "3×3 Median Filter",
+  "level": "computer_vision",
+  "summary": "Remove isolated grayscale outliers using a 3×3 neighborhood median.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

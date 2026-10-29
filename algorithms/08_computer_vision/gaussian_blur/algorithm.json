@@ -1,0 +1,12 @@
+{
+  "slug": "gaussian_blur",
+  "title": "3×3 Gaussian Blur",
+  "level": "computer_vision",
+  "summary": "Smooth a grayscale image with a normalized, fixed 3×3 Gaussian-approximation kernel.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
