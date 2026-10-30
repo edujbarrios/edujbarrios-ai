@@ -1,0 +1,12 @@
+{
+  "slug": "weighted_brier_score",
+  "title": "Weighted Binary Brier Score",
+  "level": "ai_systems",
+  "summary": "Compute a sample-weighted mean squared error of binary probabilistic forecasts.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
