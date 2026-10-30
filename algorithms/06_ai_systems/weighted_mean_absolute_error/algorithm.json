@@ -1,0 +1,12 @@
+{
+  "slug": "weighted_mean_absolute_error",
+  "title": "Weighted Mean Absolute Error",
+  "level": "ai_systems",
+  "summary": "Compute normalized sample-weighted absolute regression error with strict finite input validation.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
