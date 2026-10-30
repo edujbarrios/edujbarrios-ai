@@ -1,0 +1,12 @@
+{
+  "slug": "logit_bias_adjustment",
+  "title": "Sparse Logit Bias Adjustment",
+  "level": "large_language_models",
+  "summary": "Adjust selected vocabulary logits with validated sparse per-token additive biases.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
