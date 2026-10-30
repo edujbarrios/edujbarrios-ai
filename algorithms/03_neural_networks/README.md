@@ -42,7 +42,7 @@ A collection of neural network building blocks: nonlinearities, objectives, para
 | [`swish`](swish/README.md) | Applies a smooth sigmoid-gated nonlinear activation. |
 | [`temperature_softmax`](temperature_softmax/README.md) | Controls distribution sharpness by rescaling logits before softmax. |
 | [`two_layer_binary_classifier`](two_layer_binary_classifier/README.md) | Demonstrates end-to-end prediction and learning with a small neural classifier. |
-| [`warmup_cosine_learning_rate`](warmup_cosine_learning_rate/README.md) | Demonstrates end-to-end prediction and learning with a small neural classifier. |
+| [`warmup_cosine_learning_rate`](warmup_cosine_learning_rate/README.md) | Linearly warms up the learning rate before cosine decay to a minimum. |
 
 Each algorithm directory contains a README with its mathematical definition, input contract, limitations and available language implementations. Run its tests using the instructions in the [repository README](../../README.md).
 
