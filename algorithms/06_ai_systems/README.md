@@ -2,7 +2,7 @@
 
 Primitives for evaluating classifiers, probabilistic predictions, retrieval rankings, dataset splits and sequence generation. Each metric highlights a different behavior; use several together rather than treating a single score as complete evidence of model quality.
 
-## Implemented algorithms (27)
+## Implemented algorithms (28)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -31,6 +31,7 @@ Primitives for evaluating classifiers, probabilistic predictions, retrieval rank
 | [`roc_auc`](roc_auc/README.md) | Summarizes threshold-independent discrimination between positive and negative examples. |
 | [`stratified_k_fold`](stratified_k_fold/README.md) | Builds cross-validation folds that preserve class proportions. |
 | [`symmetric_mean_absolute_percentage_error`](symmetric_mean_absolute_percentage_error/README.md) | Measures bounded symmetric relative regression error with zero-safe semantics. |
+| [`weighted_brier_score`](weighted_brier_score/README.md) | Scores binary probabilistic forecasts using nonnegative sample weights. |
 | [`weighted_mean_absolute_error`](weighted_mean_absolute_error/README.md) | Averages absolute errors using nonnegative sample weights. |
 | [`top_p_nucleus_filtering`](top_p_nucleus_filtering/README.md) | Restricts sampling candidates to the smallest high-probability token prefix. |
 
