@@ -1,0 +1,12 @@
+{
+  "slug": "binary_closing",
+  "title": "Binary Morphological Closing (3×3)",
+  "level": "computer_vision",
+  "summary": "Dilate and then erode a binary image with a fixed 3×3 square and zero-padded borders.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
