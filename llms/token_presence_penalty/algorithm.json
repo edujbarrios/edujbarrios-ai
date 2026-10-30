@@ -1,0 +1,12 @@
+{
+  "slug": "token_presence_penalty",
+  "title": "Token Presence Penalty for Next-Token Logits",
+  "level": "large_language_models",
+  "summary": "Subtract a one-time presence penalty from logits for tokens observed in history.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
