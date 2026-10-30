@@ -4,10 +4,11 @@ Algorithms used to prepare tokens, decode language models, manage context and
 support efficient autoregressive inference. These educational implementations
 focus on observable numerical or discrete behavior, not full pretrained models.
 
-## Implemented algorithms (9)
+## Implemented algorithms (10)
 
 | Algorithm | What it does |
 | --- | --- |
+| [`greedy_token_selection`](greedy_token_selection/README.md) | Chooses the highest-logit next token with deterministic tie-breaking. |
 | [`min_p_logit_filter`](min_p_logit_filter/README.md) | Keeps tokens above a probability threshold relative to the strongest token. |
 | [`no_repeat_ngram`](no_repeat_ngram/README.md) | Masks next tokens that would recreate a previously seen n-gram. |
 | [`repetition_penalty`](repetition_penalty/README.md) | Applies a sign-aware penalty to logits for generated token IDs. |

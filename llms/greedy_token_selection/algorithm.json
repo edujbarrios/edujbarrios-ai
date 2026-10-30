@@ -1,0 +1,12 @@
+{
+  "slug": "greedy_token_selection",
+  "title": "Greedy Next-Token Selection",
+  "level": "large_language_models",
+  "summary": "Select the maximum-logit next token with deterministic lowest-index tie breaking.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
