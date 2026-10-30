@@ -1,0 +1,12 @@
+{
+  "slug": "binary_dice_coefficient",
+  "title": "Binary Segmentation Dice Coefficient",
+  "level": "computer_vision",
+  "summary": "Evaluate foreground overlap between aligned binary masks using the Sørensen–Dice coefficient.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

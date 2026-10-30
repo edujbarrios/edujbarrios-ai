@@ -3,11 +3,12 @@
 Image, geometry and detection algorithms underlying object detectors, vision
 encoders and other learned or classical vision pipelines.
 
-## Implemented algorithms (10)
+## Implemented algorithms (11)
 
 | Algorithm | What it does |
 | --- | --- |
 | [`bilinear_resize`](bilinear_resize/README.md) | Resizes grayscale images with half-pixel bilinear interpolation. |
+| [`binary_dice_coefficient`](binary_dice_coefficient/README.md) | Measures overlap between aligned foreground segmentation masks. |
 | [`binary_iou`](binary_iou/README.md) | Measures pixelwise overlap between aligned binary segmentation masks. |
 | [`bounding_box_iou`](bounding_box_iou/README.md) | Computes intersection over union for valid axis-aligned detection boxes. |
 | [`binary_dilation`](binary_dilation/README.md) | Dilates a binary image using a 3×3 square structuring element. |
