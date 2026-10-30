@@ -1,0 +1,12 @@
+{
+  "slug": "bounding_box_iou",
+  "title": "Axis-Aligned Bounding Box Intersection over Union",
+  "level": "computer_vision",
+  "summary": "Compute overlap-over-union for two valid axis-aligned detection bounding boxes.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
