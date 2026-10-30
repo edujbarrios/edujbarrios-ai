@@ -3,11 +3,11 @@
 Image, geometry and detection algorithms underlying object detectors, vision
 encoders and other learned or classical vision pipelines.
 
-## Implemented algorithms (8)
+## Implemented algorithms (9)
 
 | Algorithm | What it does |
 | --- | --- |
-| [`bilinear_resize`](bilinear_resize/README.md) | Resizes grayscale images with half-pixel bilinear interpolation. |
+| [`binary_iou`](binary_iou/README.md) | Measures pixelwise overlap between aligned binary segmentation masks. |\n| [`bilinear_resize`](bilinear_resize/README.md) | Resizes grayscale images with half-pixel bilinear interpolation. |
 | [`binary_dilation`](binary_dilation/README.md) | Dilates a binary image using a 3×3 square structuring element. |
 | [`binary_erosion`](binary_erosion/README.md) | Erodes binary masks with a 3×3 square kernel and zero padding. |
 | [`gaussian_blur`](gaussian_blur/README.md) | Smooths grayscale images with a fixed normalized 3×3 Gaussian kernel. |

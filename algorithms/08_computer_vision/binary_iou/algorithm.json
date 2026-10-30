@@ -1,0 +1,12 @@
+{
+  "slug": "binary_iou",
+  "title": "Binary Mask Intersection over Union",
+  "level": "computer_vision",
+  "summary": "Compute pixelwise intersection over union for aligned binary segmentation masks.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
