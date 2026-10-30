@@ -1,0 +1,12 @@
+{
+  "slug": "warmup_cosine_learning_rate",
+  "title": "Linear Warmup and Cosine Learning Rate Decay",
+  "level": "neural_networks",
+  "summary": "Warm up linearly from zero and then decay the learning rate with a single cosine period.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
