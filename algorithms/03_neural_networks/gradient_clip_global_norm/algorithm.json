@@ -1,0 +1,12 @@
+{
+  "slug": "gradient_clip_global_norm",
+  "title": "Global L2 Gradient Norm Clipping",
+  "level": "neural_networks",
+  "summary": "Clip finite gradient vectors by a maximum global L2 norm with overflow-resistant scaling.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

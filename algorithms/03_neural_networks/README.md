@@ -2,7 +2,7 @@
 
 A collection of neural network building blocks: nonlinearities, objectives, parameter updates, normalization, forward and backward propagation, and transformer attention. Individual entries expose the relevant equations and computational trade-offs.
 
-## Implemented algorithms (35)
+## Implemented algorithms (36)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -19,6 +19,7 @@ A collection of neural network building blocks: nonlinearities, objectives, para
 | [`dense_relu_backprop`](dense_relu_backprop/README.md) | Propagates gradients through a dense layer followed by ReLU. |
 | [`elu`](elu/README.md) | Applies ELU with a linear positive branch and exponentially saturating negative branch. |
 | [`gelu`](gelu/README.md) | Applies a smooth Gaussian-error-based nonlinear activation. |
+| [`gradient_clip_global_norm`](gradient_clip_global_norm/README.md) | Clips gradient vectors by global L2 norm with overflow-resistant scaling. |
 | [`hinge_loss`](hinge_loss/README.md) | Penalizes violations of the classification margin. |
 | [`huber_loss`](huber_loss/README.md) | Combines quadratic behavior for small errors with linear behavior for outliers. |
 | [`label_smoothed_cross_entropy`](label_smoothed_cross_entropy/README.md) | Uses softened class targets to regularize categorical training. |
@@ -34,7 +35,8 @@ A collection of neural network building blocks: nonlinearities, objectives, para
 | [`rotary_positional_embedding`](rotary_positional_embedding/README.md) | Encodes relative position information by rotating embedding pairs. |
 | [`scaled_dot_product_attention`](scaled_dot_product_attention/README.md) | Weights values by softmax-normalized query–key similarities. |
 | [`sigmoid`](sigmoid/README.md) | Maps real-valued scores into the interval between zero and one. |
-| [`sparsemax`](sparsemax/README.md) | Projects logits onto the probability simplex, allowing exact zero weights. |\n| [`softmax`](softmax/README.md) | Converts a vector of scores into a normalized categorical distribution. |
+| [`sparsemax`](sparsemax/README.md) | Projects logits onto the probability simplex, allowing exact zero weights. |
+| [`softmax`](softmax/README.md) | Converts a vector of scores into a normalized categorical distribution. |
 | [`softplus`](softplus/README.md) | Computes a smooth activation and its stable sigmoid derivative. |
 | [`softsign`](softsign/README.md) | Applies a smooth bounded x/(1+abs(x)) activation. |
 | [`swish`](swish/README.md) | Applies a smooth sigmoid-gated nonlinear activation. |
