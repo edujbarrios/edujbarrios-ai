@@ -1,0 +1,12 @@
+{
+  "slug": "gradient_clip_by_value",
+  "title": "Element-wise Gradient Value Clipping",
+  "level": "neural_networks",
+  "summary": "Clip every finite gradient component independently to a symmetric positive bound.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
