@@ -1,0 +1,12 @@
+{
+  "slug": "sparsemax",
+  "title": "Sparsemax Probability Transformation",
+  "level": "neural_networks",
+  "summary": "Project finite logits onto the probability simplex to produce sparse normalized probabilities.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
