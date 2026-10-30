@@ -2,7 +2,7 @@
 
 These algorithms provide the numerical building blocks used in machine learning, embeddings, probability and data preprocessing. Start with vector operations, then distances and normalization; move to probability and stable numerical computations.
 
-## Implemented algorithms (23)
+## Implemented algorithms (24)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -13,7 +13,7 @@ These algorithms provide the numerical building blocks used in machine learning,
 | [`dot_product`](dot_product/README.md) | Multiplies corresponding vector elements and sums the products; a basis for linear models and attention. |
 | [`euclidean_distance`](euclidean_distance/README.md) | Computes straight-line (L2) distance between points in a vector space. |
 | [`gaussian_rbf_kernel`](gaussian_rbf_kernel/README.md) | Transforms squared Euclidean distance into a smooth similarity through a Gaussian kernel. |
-| [`hellinger_distance`](hellinger_distance/README.md) | Computes bounded symmetric distance between discrete probability distributions. |
+| [`hamming_distance`](hamming_distance/README.md) | Counts unequal byte positions in aligned discrete codes. |\n| [`hellinger_distance`](hellinger_distance/README.md) | Computes bounded symmetric distance between discrete probability distributions. |
 | [`jensen_shannon_divergence`](jensen_shannon_divergence/README.md) | Measures symmetric dissimilarity between probability distributions using their mixture. |
 | [`kullback_leibler_divergence`](kullback_leibler_divergence/README.md) | Quantifies how one probability distribution differs from a reference distribution. |
 | [`logsumexp`](logsumexp/README.md) | Computes the logarithm of a sum of exponentials while reducing overflow and underflow. |

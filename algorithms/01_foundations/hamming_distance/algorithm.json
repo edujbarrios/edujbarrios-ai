@@ -1,0 +1,12 @@
+{
+  "slug": "hamming_distance",
+  "title": "Hamming Distance for Byte Sequences",
+  "level": "foundation",
+  "summary": "Count differing positions between equal-length byte sequences, including empty inputs.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
