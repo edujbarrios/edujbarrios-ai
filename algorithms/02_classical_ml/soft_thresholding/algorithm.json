@@ -1,0 +1,12 @@
+{
+  "slug": "soft_thresholding",
+  "title": "Soft Thresholding (L1 Proximal Operator)",
+  "level": "classical_ml",
+  "summary": "Apply coordinate-wise L1 shrinkage and sparsification to finite real vectors.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
