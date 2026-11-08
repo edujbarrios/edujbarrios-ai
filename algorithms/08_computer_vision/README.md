@@ -3,7 +3,7 @@
 Image, geometry and detection algorithms underlying object detectors, vision
 encoders and other learned or classical vision pipelines.
 
-## Implemented algorithms (14)
+## Implemented algorithms (15)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -17,6 +17,7 @@ encoders and other learned or classical vision pipelines.
 | [`binary_dilation`](binary_dilation/README.md) | Dilates a binary image using a 3×3 square structuring element. |
 | [`binary_erosion`](binary_erosion/README.md) | Erodes binary masks with a 3×3 square kernel and zero padding. |
 | [`gaussian_blur`](gaussian_blur/README.md) | Smooths grayscale images with a fixed normalized 3×3 Gaussian kernel. |
+| [`integral_image`](integral_image/README.md) | Computes inclusive grayscale prefix sums for constant-time rectangular sum queries. |
 | [`median_filter`](median_filter/README.md) | Removes isolated image outliers using a 3×3 median. |
 | [`non_max_suppression`](non_max_suppression/README.md) | Keeps high-confidence bounding boxes while suppressing overlapping detections. |
 | [`otsu_threshold`](otsu_threshold/README.md) | Computes Otsu's optimal 8-bit global segmentation threshold. |

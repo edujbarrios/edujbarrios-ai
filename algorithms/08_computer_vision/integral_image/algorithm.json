@@ -1,0 +1,12 @@
+{
+  "slug": "integral_image",
+  "title": "Integral Image (Summed-Area Table)",
+  "level": "computer_vision",
+  "summary": "Build an inclusive two-dimensional prefix sum over a row-major 8-bit grayscale image.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
