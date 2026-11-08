@@ -1,0 +1,12 @@
+{
+  "slug": "kmp_substring_search",
+  "title": "Knuth–Morris–Pratt Substring Search (ASCII)",
+  "level": "information_retrieval",
+  "summary": "Find every zero-based occurrence of a literal printable-ASCII pattern, including overlaps, in linear time.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
