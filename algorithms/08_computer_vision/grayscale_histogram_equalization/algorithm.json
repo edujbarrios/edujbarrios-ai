@@ -1,0 +1,12 @@
+{
+  "slug": "grayscale_histogram_equalization",
+  "title": "Grayscale Histogram Equalization",
+  "level": "computer_vision",
+  "summary": "Enhance grayscale contrast using a deterministic cumulative histogram remapping for 8-bit images.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
