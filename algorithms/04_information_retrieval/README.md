@@ -2,7 +2,7 @@
 
 Algorithms for lexical retrieval, ranking, combining results, graph traversal and text similarity. These are useful when studying search engines, recommender systems and retrieval-augmented generation (RAG).
 
-## Implemented algorithms (36)
+## Implemented algorithms (37)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -20,6 +20,7 @@ Algorithms for lexical retrieval, ranking, combining results, graph traversal an
 | [`kmp_substring_search`](kmp_substring_search/README.md) | Finds all occurrences of a literal substring in linear time, including overlaps. |
 | [`kruskal_mst`](kruskal_mst/README.md) | Constructs a minimum spanning tree by greedily selecting safe edges. |
 | [`levenshtein_distance`](levenshtein_distance/README.md) | Counts the minimum edits needed to turn one string into another. |
+| [`longest_common_substring`](longest_common_substring/README.md) | Finds the longest contiguous shared text span and its deterministic offsets. |
 | [`longest_common_subsequence`](longest_common_subsequence/README.md) | Finds the longest order-preserving common token subsequence length. |
 | [`maximal_marginal_relevance`](maximal_marginal_relevance/README.md) | Balances relevance with diversity when reranking search candidates. |
 | [`overlap_coefficient`](overlap_coefficient/README.md) | Scores exact token set containment relative to the smaller set. |
