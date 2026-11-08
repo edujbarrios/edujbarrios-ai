@@ -1,0 +1,12 @@
+{
+  "slug": "longest_common_substring",
+  "title": "Longest Common Substring (ASCII)",
+  "level": "information_retrieval",
+  "summary": "Find the longest contiguous common substring length and its deterministic positions using dynamic programming.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
