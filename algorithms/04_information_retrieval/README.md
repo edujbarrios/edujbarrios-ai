@@ -2,7 +2,7 @@
 
 Algorithms for lexical retrieval, ranking, combining results, graph traversal and text similarity. These are useful when studying search engines, recommender systems and retrieval-augmented generation (RAG).
 
-## Implemented algorithms (37)
+## Implemented algorithms (38)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -11,6 +11,7 @@ Algorithms for lexical retrieval, ranking, combining results, graph traversal an
 | [`bipartite_graph_check`](bipartite_graph_check/README.md) | Tests whether a symmetric graph admits a two-color partition, detecting odd cycles. |
 | [`bfs_shortest_path`](bfs_shortest_path/README.md) | Finds minimum hop counts from a source in an unweighted directed graph. |
 | [`bm25`](bm25/README.md) | Ranks documents against queries using term frequency, document length and inverse document frequency. |
+| [`character_bigram_jaccard`](character_bigram_jaccard/README.md) | Compares unique consecutive-character pairs with exact Jaccard similarity. |
 | [`dice_similarity`](dice_similarity/README.md) | Measures set overlap using the Sørensen–Dice coefficient. |
 | [`dijkstra_shortest_path`](dijkstra_shortest_path/README.md) | Computes minimum-cost paths from a source in a nonnegative-weight graph. |
 | [`floyd_warshall`](floyd_warshall/README.md) | Computes all-pairs shortest paths using dynamic programming. |
