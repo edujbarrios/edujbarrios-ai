@@ -1,0 +1,12 @@
+{
+  "slug": "jaro_winkler_similarity",
+  "title": "Jaro–Winkler Similarity (ASCII)",
+  "level": "information_retrieval",
+  "summary": "Score literal ASCII strings by windowed character matches, transpositions and a bounded common-prefix boost.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
