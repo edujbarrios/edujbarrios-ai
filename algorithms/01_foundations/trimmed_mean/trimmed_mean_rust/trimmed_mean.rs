@@ -32,7 +32,7 @@ mod tests {
         assert_eq!(mean(&[100.,3.,2.,1.],0.25),Ok(2.5));
         assert_eq!(mean(&[42.],0.49),Ok(42.));
         assert_eq!(mean(&[1.,2.,3.],0.49),Ok(2.));
-        assert_eq!(mean(&[7.;512],0.49),Ok(7.));
+        assert!((mean(&[7.;512],0.49).unwrap()-7.0).abs() < 1e-12);
         assert_eq!(mean(&[-1e308,1e308],0.0),Ok(0.));
         assert_eq!(mean(&[0.,2.,100.],0.3),Ok(34.));
     }

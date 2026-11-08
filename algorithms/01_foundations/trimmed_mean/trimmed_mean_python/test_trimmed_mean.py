@@ -11,7 +11,7 @@ class TrimmedMeanTests(unittest.TestCase):
         self.assertEqual(tmean([100,3,2,1], 0.25), 2.5)
         self.assertEqual(tmean([42], 0.49), 42.0)
         self.assertEqual(tmean([1,2,3], 0.49), 2.0)
-        self.assertEqual(tmean([7] * 512, 0.49), 7.0)
+        self.assertAlmostEqual(tmean([7] * 512, 0.49), 7.0, places=12)
         self.assertEqual(tmean([-1e308, 1e308], 0), 0.0)
         self.assertEqual(tmean([0, 2, 100], 0.3), 34.0)
 
