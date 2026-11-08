@@ -1,0 +1,12 @@
+{
+  "slug": "rabin_karp_substring_search",
+  "title": "Rabin–Karp Substring Search (ASCII)",
+  "level": "information_retrieval",
+  "summary": "Find all exact substring matches using a rolling polynomial hash with collision verification.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
