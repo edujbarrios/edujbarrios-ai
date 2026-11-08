@@ -14,7 +14,7 @@ stopifnot(identical(binary_connected_components(c(1,0,1),1,3),
                     list(labels=c(1L,0L,2L),count=2L)))
 stopifnot(identical(binary_connected_components(1,1,1),
                     list(labels=1L,count=1L)))
-checker <- as.integer(rep(0:1, 2048))
+checker <- as.integer(unlist(lapply(0:63, function(row) (row + 0:63) %% 2L)))
 answer <- binary_connected_components(checker,64,64)
 stopifnot(identical(answer$count,2048L))
 stopifnot(identical(answer$labels[answer$labels>0], as.integer(1:2048)))
