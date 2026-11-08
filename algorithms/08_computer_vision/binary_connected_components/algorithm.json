@@ -1,0 +1,12 @@
+{
+  "slug": "binary_connected_components",
+  "title": "4-Connected Binary Component Labeling",
+  "level": "computer_vision",
+  "summary": "Label each four-neighbor-connected foreground region of a binary image with deterministic row-major IDs.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
