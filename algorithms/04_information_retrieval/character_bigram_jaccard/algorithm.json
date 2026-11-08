@@ -1,0 +1,12 @@
+{
+  "slug": "character_bigram_jaccard",
+  "title": "Character Bigram Jaccard Similarity",
+  "level": "information_retrieval",
+  "summary": "Compare exact printable-ASCII character-bigram sets with Jaccard similarity.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
