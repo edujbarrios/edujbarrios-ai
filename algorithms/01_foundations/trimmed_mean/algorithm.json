@@ -1,0 +1,12 @@
+{
+  "slug": "trimmed_mean",
+  "title": "Symmetric Trimmed Mean",
+  "level": "foundation",
+  "summary": "Compute a robust arithmetic mean after discarding equal fractions of sorted values from both tails.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

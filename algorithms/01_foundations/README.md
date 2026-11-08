@@ -2,7 +2,7 @@
 
 These algorithms provide the numerical building blocks used in machine learning, embeddings, probability and data preprocessing. Start with vector operations, then distances and normalization; move to probability and stable numerical computations.
 
-## Implemented algorithms (26)
+## Implemented algorithms (27)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -28,6 +28,7 @@ These algorithms provide the numerical building blocks used in machine learning,
 | [`pearson_correlation`](pearson_correlation/README.md) | Measures linear association between two paired numerical features. |
 | [`shannon_entropy`](shannon_entropy/README.md) | Quantifies the uncertainty or information content of a probability distribution. |
 | [`spearman_rank_correlation`](spearman_rank_correlation/README.md) | Measures monotonic association using midranks with correct tie handling. |
+| [`trimmed_mean`](trimmed_mean/README.md) | Computes a robust mean after discarding equal proportions of both sorted tails. |
 | [`total_variation_distance`](total_variation_distance/README.md) | Measures bounded differences between discrete probability distributions. |
 | [`vector_normalization`](vector_normalization/README.md) | Scales a vector to unit length for magnitude-independent comparisons. |
 | [`weighted_median`](weighted_median/README.md) | Selects the lower weighted median of finite observations with nonnegative weights. |
