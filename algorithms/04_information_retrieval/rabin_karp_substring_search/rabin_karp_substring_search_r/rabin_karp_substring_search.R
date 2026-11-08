@@ -16,13 +16,16 @@ rabin_karp_substring_search <- function(text, pattern) {
   if (m > n) return(integer(0))
   base <- 257
   modulus <- 1000000007
+  # All products are exact integers below 2^53. Avoid R's floating
+  # remainder operator, which may introduce fractional rounding errors.
+  reduce <- function(x) x - floor(x / modulus) * modulus
   high_power <- 1
-  if (m > 1L) for (i in seq_len(m - 1L)) high_power <- high_power * base %% modulus
+  if (m > 1L) for (i in seq_len(m - 1L)) high_power <- reduce(high_power * base)
   ph <- 0
   th <- 0
   for (i in seq_len(m)) {
-    ph <- (ph * base + p[[i]]) %% modulus
-    th <- (th * base + t[[i]]) %% modulus
+    ph <- reduce(ph * base + p[[i]])
+    th <- reduce(th * base + t[[i]])
   }
   result <- integer(n - m + 1L)
   count <- 0L
@@ -32,8 +35,8 @@ rabin_karp_substring_search <- function(text, pattern) {
       result[[count]] <- as.integer(i - 1L)
     }
     if (i <= n - m) {
-      outgoing <- (t[[i]] * high_power) %% modulus
-      th <- (((th + modulus - outgoing) %% modulus) * base + t[[i + m]]) %% modulus
+      outgoing <- reduce(t[[i]] * high_power)
+      th <- reduce(reduce(th + modulus - outgoing) * base + t[[i + m]])
     }
   }
   result[seq_len(count)]
