@@ -1,0 +1,12 @@
+{
+  "slug": "weighted_median",
+  "title": "Weighted Median",
+  "level": "foundation",
+  "summary": "Return the smallest value whose cumulative nonnegative weight reaches at least half the total.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
