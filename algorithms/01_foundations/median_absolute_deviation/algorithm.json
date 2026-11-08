@@ -1,0 +1,12 @@
+{
+  "slug": "median_absolute_deviation",
+  "title": "Median Absolute Deviation",
+  "level": "foundation",
+  "summary": "Compute the unscaled median absolute deviation from the sample median for finite numeric data.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
