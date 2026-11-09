@@ -3,7 +3,7 @@
 Image, geometry and detection algorithms underlying object detectors, vision
 encoders and other learned or classical vision pipelines.
 
-## Implemented algorithms (18)
+## Implemented algorithms (19)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -12,6 +12,7 @@ encoders and other learned or classical vision pipelines.
 | [`binary_closing`](binary_closing/README.md) | Fills small holes in binary masks using 3×3 dilation followed by erosion. |
 | [`binary_distance_transform`](binary_distance_transform/README.md) | Computes four-neighbor Manhattan distances to the nearest background pixel. |
 | [`binary_dice_coefficient`](binary_dice_coefficient/README.md) | Measures overlap between aligned foreground segmentation masks. |
+| [`binary_hole_filling`](binary_hole_filling/README.md) | Fills enclosed zero regions using a four-neighbor border flood fill. |
 | [`binary_iou`](binary_iou/README.md) | Measures pixelwise overlap between aligned binary segmentation masks. |
 | [`binary_opening`](binary_opening/README.md) | Removes small foreground noise by 3×3 erosion followed by dilation. |
 | [`bounding_box_iou`](bounding_box_iou/README.md) | Computes intersection over union for valid axis-aligned detection boxes. |
