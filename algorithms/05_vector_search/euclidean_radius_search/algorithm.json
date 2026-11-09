@@ -1,0 +1,12 @@
+{
+  "slug": "euclidean_radius_search",
+  "title": "Exact Euclidean Radius Search",
+  "level": "vector_search",
+  "summary": "Retrieve all dense vector candidates within an inclusive Euclidean radius, sorted by distance and original row index.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

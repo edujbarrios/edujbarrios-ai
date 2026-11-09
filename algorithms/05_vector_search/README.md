@@ -2,10 +2,11 @@
 
 This category compares exact and approximate similarity search over embeddings and compact signatures. Study distance scoring first, then indexing and quantization to understand latency–quality trade-offs.
 
-## Implemented algorithms (8)
+## Implemented algorithms (9)
 
 | Algorithm | What it does |
 | --- | --- |
+| [`euclidean_radius_search`](euclidean_radius_search/README.md) | Returns exact neighbors within an inclusive L2 radius, ordered by distance. |
 | [`euclidean_top_k`](euclidean_top_k/README.md) | Retrieves the nearest candidates according to L2 distance. |
 | [`exact_cosine_top_k`](exact_cosine_top_k/README.md) | Ranks vector candidates by their exact cosine similarity to a query. |
 | [`hamming_radius_search`](hamming_radius_search/README.md) | Finds binary signatures within a specified Hamming distance. |
