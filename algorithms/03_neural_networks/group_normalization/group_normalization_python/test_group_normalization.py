@@ -22,6 +22,9 @@ class GroupNormTests(unittest.TestCase):
         for a,b in zip(result,expected):
             self.assertAlmostEqual(a,b)
         self.assertEqual(norm((0,0),2,1,1,(1,2),(3,4),1e-5),[3,4])
+        separated = norm([1,3,4,6],2,2,2,[1,1],[0,0],1.0)
+        for actual, expected in zip(separated,[-1/math.sqrt(2),1/math.sqrt(2)]*2):
+            self.assertAlmostEqual(actual,expected)
 
     def test_bounds(self):
         x = [0]*2048
