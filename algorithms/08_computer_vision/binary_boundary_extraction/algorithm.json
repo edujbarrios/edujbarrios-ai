@@ -1,0 +1,12 @@
+{
+  "slug": "binary_boundary_extraction",
+  "title": "Four-Neighbor Binary Boundary Extraction",
+  "level": "computer_vision",
+  "summary": "Extract foreground pixels touching background or an image edge under four-neighbor connectivity.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
