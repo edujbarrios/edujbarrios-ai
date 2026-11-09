@@ -1,0 +1,12 @@
+{
+  "slug": "boyer_moore_horspool_search",
+  "title": "Boyer–Moore–Horspool Substring Search",
+  "level": "information_retrieval",
+  "summary": "Find all exact substring occurrences using right-to-left window checks and bad-character skip shifts.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
