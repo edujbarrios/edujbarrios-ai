@@ -1,0 +1,12 @@
+{
+  "slug": "grayscale_contrast_stretching",
+  "title": "Grayscale Contrast Stretching",
+  "level": "computer_vision",
+  "summary": "Linearly map an 8-bit grayscale image's observed minimum and maximum to 0 and 255 with deterministic rounding.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
