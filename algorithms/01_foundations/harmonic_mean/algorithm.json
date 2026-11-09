@@ -1,0 +1,12 @@
+{
+  "slug": "harmonic_mean",
+  "title": "Harmonic Mean (Scale-Stable)",
+  "level": "foundation",
+  "summary": "Compute a stable harmonic mean of finite nonnegative observations by scaling reciprocals against their smallest positive value.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

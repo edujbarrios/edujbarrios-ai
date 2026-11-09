@@ -2,7 +2,7 @@
 
 These algorithms provide the numerical building blocks used in machine learning, embeddings, probability and data preprocessing. Start with vector operations, then distances and normalization; move to probability and stable numerical computations.
 
-## Implemented algorithms (29)
+## Implemented algorithms (30)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -15,6 +15,7 @@ These algorithms provide the numerical building blocks used in machine learning,
 | [`gaussian_rbf_kernel`](gaussian_rbf_kernel/README.md) | Transforms squared Euclidean distance into a smooth similarity through a Gaussian kernel. |
 | [`geometric_mean`](geometric_mean/README.md) | Summarizes nonnegative multiplicative factors using log-domain accumulation. |
 | [`hamming_distance`](hamming_distance/README.md) | Counts unequal byte positions in aligned discrete codes. |
+| [`harmonic_mean`](harmonic_mean/README.md) | Computes a rate-sensitive mean using stable scaled reciprocals. |
 | [`hellinger_distance`](hellinger_distance/README.md) | Computes bounded symmetric distance between discrete probability distributions. |
 | [`jensen_shannon_divergence`](jensen_shannon_divergence/README.md) | Measures symmetric dissimilarity between probability distributions using their mixture. |
 | [`kullback_leibler_divergence`](kullback_leibler_divergence/README.md) | Quantifies how one probability distribution differs from a reference distribution. |
