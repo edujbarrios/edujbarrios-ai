@@ -12,7 +12,11 @@ graph <- function(n,edges) {
   }
   result
 }
-edges <- function(...) matrix(c(...),ncol=2L,byrow=TRUE)
+edges <- function(...) {
+  values <- c(...)
+  if (length(values)==0L) return(matrix(integer(0),ncol=2L))
+  matrix(values,ncol=2L,byrow=TRUE)
+}
 check <- function(a,n,want) stopifnot(identical(articulation_points(a,n),as.integer(want)))
 check(graph(5,edges(0,1, 1,2, 2,3, 3,4)),5,c(1,2,3))
 check(graph(4,edges(0,1, 1,2, 2,3, 3,0)),4,integer(0))
