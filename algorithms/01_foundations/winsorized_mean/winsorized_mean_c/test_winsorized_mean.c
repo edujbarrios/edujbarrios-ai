@@ -21,7 +21,7 @@ int main(void) {
     check(single,1,0.49,42);
     check(large,2,0,0);
     check(no_trim,3,0.3,34);
-    check(sample,5,0.2,41.6);
+    check(sample,5,0.2,41.4);
     double long_v[512];
     for(size_t i=0;i<512;++i)long_v[i]=7;
     check(long_v,512,0.49,7);

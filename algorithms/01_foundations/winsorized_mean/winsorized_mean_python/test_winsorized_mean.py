@@ -14,7 +14,7 @@ class WinsorizedMeanTests(unittest.TestCase):
         self.assertAlmostEqual(wmean([7]*512,0.49),7.0)
         self.assertAlmostEqual(wmean([-1e308,1e308],0.0),0.0)
         self.assertAlmostEqual(wmean([0,2,100],0.3),34.0)
-        self.assertAlmostEqual(wmean([1,2,3,100,1000],0.2),41.6)
+        self.assertAlmostEqual(wmean([1,2,3,100,1000],0.2),41.4)
 
     def test_rejects_invalid(self):
         for values, fraction in [
