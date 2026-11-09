@@ -1,0 +1,12 @@
+{
+  "slug": "macro_f1_score",
+  "title": "Multiclass Macro-F1 Score",
+  "level": "ai_systems",
+  "summary": "Compute the unweighted average of one-vs-rest F1 scores for every declared classification class.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
