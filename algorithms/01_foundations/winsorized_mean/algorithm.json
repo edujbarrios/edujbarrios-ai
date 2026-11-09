@@ -1,0 +1,12 @@
+{
+  "slug": "winsorized_mean",
+  "title": "Symmetric Winsorized Mean",
+  "level": "foundation",
+  "summary": "Compute a robust arithmetic mean after clamping equal-sized tails to their retained boundary values.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
