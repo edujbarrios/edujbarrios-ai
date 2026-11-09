@@ -2,7 +2,7 @@
 
 Algorithms for lexical retrieval, ranking, combining results, graph traversal and text similarity. These are useful when studying search engines, recommender systems and retrieval-augmented generation (RAG).
 
-## Implemented algorithms (42)
+## Implemented algorithms (43)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -47,6 +47,7 @@ Algorithms for lexical retrieval, ranking, combining results, graph traversal an
 | [`topological_sort`](topological_sort/README.md) | Produces a deterministic order of a directed acyclic graph and detects cycles. |
 | [`transitive_closure`](transitive_closure/README.md) | Computes reflexive all-pairs reachability using Warshall dynamic programming. |
 | [`z_algorithm_substring_search`](z_algorithm_substring_search/README.md) | Finds all exact substring matches in linear time using prefix-aligned Z-values. |
+| [`undirected_graph_bridges`](undirected_graph_bridges/README.md) | Identifies cut edges in undirected networks using DFS low-link values. |
 | [`undirected_connected_components`](undirected_connected_components/README.md) | Finds undirected graph components via BFS, labeling each by its minimum vertex index. |
 
 Each algorithm directory contains a README with its mathematical definition, input contract, limitations and available language implementations. Run its tests using the instructions in the [repository README](../../README.md).

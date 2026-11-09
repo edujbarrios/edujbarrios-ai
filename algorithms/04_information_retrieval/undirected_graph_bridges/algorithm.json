@@ -1,0 +1,12 @@
+{
+  "slug": "undirected_graph_bridges",
+  "title": "Undirected Graph Bridges (Tarjan DFS)",
+  "level": "information_retrieval",
+  "summary": "Identify all bridges of an undirected simple graph using DFS discovery times and low-link values.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
