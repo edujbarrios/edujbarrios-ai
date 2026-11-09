@@ -1,0 +1,12 @@
+{
+  "slug": "geometric_mean",
+  "title": "Geometric Mean (Log Domain)",
+  "level": "foundation",
+  "summary": "Compute the geometric mean of finite nonnegative observations with log-domain accumulation for numerical stability.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
