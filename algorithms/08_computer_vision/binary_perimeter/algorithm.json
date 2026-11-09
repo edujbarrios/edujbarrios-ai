@@ -1,0 +1,12 @@
+{
+  "slug": "binary_perimeter",
+  "title": "Four-Neighbor Binary Perimeter",
+  "level": "computer_vision",
+  "summary": "Count exposed four-neighbor foreground edges in a binary image, including edges along the image border.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
