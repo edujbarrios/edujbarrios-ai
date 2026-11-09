@@ -1,0 +1,12 @@
+{
+  "slug": "binary_distance_transform",
+  "title": "Four-Neighbor Binary Distance Transform",
+  "level": "computer_vision",
+  "summary": "Compute shortest Manhattan distances from every binary pixel to the nearest background pixel using multi-source BFS.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
