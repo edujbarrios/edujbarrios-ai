@@ -1,0 +1,12 @@
+{
+  "slug": "z_algorithm_substring_search",
+  "title": "Z-Algorithm Substring Search (ASCII)",
+  "level": "information_retrieval",
+  "summary": "Find every exact substring occurrence in linear time using Z-values on a sentinel-separated pattern and text.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
