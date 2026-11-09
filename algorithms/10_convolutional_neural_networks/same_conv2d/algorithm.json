@@ -1,0 +1,12 @@
+{
+  "slug": "same_conv2d",
+  "title": "Same-Padded 2D Convolution (Cross-Correlation)",
+  "level": "convolutional_neural_networks",
+  "summary": "Apply an odd-sized spatial kernel with zero padding and stride one, retaining the input feature-map dimensions.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
