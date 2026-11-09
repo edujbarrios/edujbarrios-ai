@@ -2,7 +2,7 @@
 
 These algorithms provide the numerical building blocks used in machine learning, embeddings, probability and data preprocessing. Start with vector operations, then distances and normalization; move to probability and stable numerical computations.
 
-## Implemented algorithms (31)
+## Implemented algorithms (32)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -17,6 +17,7 @@ These algorithms provide the numerical building blocks used in machine learning,
 | [`hamming_distance`](hamming_distance/README.md) | Counts unequal byte positions in aligned discrete codes. |
 | [`harmonic_mean`](harmonic_mean/README.md) | Computes a rate-sensitive mean using stable scaled reciprocals. |
 | [`hellinger_distance`](hellinger_distance/README.md) | Computes bounded symmetric distance between discrete probability distributions. |
+| [`interquartile_range`](interquartile_range/README.md) | Computes robust spread between type-7 lower and upper sample quartiles. |
 | [`jensen_shannon_divergence`](jensen_shannon_divergence/README.md) | Measures symmetric dissimilarity between probability distributions using their mixture. |
 | [`kullback_leibler_divergence`](kullback_leibler_divergence/README.md) | Quantifies how one probability distribution differs from a reference distribution. |
 | [`logsumexp`](logsumexp/README.md) | Computes the logarithm of a sum of exponentials while reducing overflow and underflow. |

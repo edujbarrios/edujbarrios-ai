@@ -1,0 +1,12 @@
+{
+  "slug": "interquartile_range",
+  "title": "Interquartile Range (Type 7 Quantiles)",
+  "level": "foundation",
+  "summary": "Measure robust numerical spread using the difference between interpolated 75th and 25th percentiles.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
