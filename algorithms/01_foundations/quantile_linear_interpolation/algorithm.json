@@ -1,0 +1,12 @@
+{
+  "slug": "quantile_linear_interpolation",
+  "title": "Type-7 Linear Quantile Interpolation",
+  "level": "foundation",
+  "summary": "Compute arbitrary sample quantiles by linear interpolation of sorted finite observations using the type-7 convention.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

@@ -2,7 +2,7 @@
 
 These algorithms provide the numerical building blocks used in machine learning, embeddings, probability and data preprocessing. Start with vector operations, then distances and normalization; move to probability and stable numerical computations.
 
-## Implemented algorithms (32)
+## Implemented algorithms (33)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -29,6 +29,7 @@ These algorithms provide the numerical building blocks used in machine learning,
 | [`minkowski_distance`](minkowski_distance/README.md) | Computes L-p distance for any finite p at least one. |
 | [`kendall_tau_b`](kendall_tau_b/README.md) | Measures concordance of paired rank data with corrections for tied observations. |
 | [`pearson_correlation`](pearson_correlation/README.md) | Measures linear association between two paired numerical features. |
+| [`quantile_linear_interpolation`](quantile_linear_interpolation/README.md) | Finds type-7 sample quantiles at any probability between zero and one. |
 | [`root_mean_square`](root_mean_square/README.md) | Measures signed data magnitude with scale-stable quadratic averaging. |
 | [`shannon_entropy`](shannon_entropy/README.md) | Quantifies the uncertainty or information content of a probability distribution. |
 | [`spearman_rank_correlation`](spearman_rank_correlation/README.md) | Measures monotonic association using midranks with correct tie handling. |
