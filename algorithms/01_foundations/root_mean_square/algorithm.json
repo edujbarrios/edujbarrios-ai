@@ -1,0 +1,12 @@
+{
+  "slug": "root_mean_square",
+  "title": "Root Mean Square (Scaled)",
+  "level": "foundation",
+  "summary": "Compute root mean square magnitude using a maximum-absolute-value scale to prevent intermediate squaring overflow.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
