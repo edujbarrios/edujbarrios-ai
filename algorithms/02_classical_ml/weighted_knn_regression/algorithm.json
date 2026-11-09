@@ -1,0 +1,12 @@
+{
+  "slug": "weighted_knn_regression",
+  "title": "Inverse-Distance-Weighted k-NN Regression",
+  "level": "classical_ml",
+  "summary": "Predict a numeric target from k nearest neighbors using normalized inverse-distance weights and an exact-match convention.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

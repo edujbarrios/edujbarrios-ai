@@ -2,7 +2,7 @@
 
 This section explores predictive models, clustering, dimensionality reduction and optimization without hiding their mechanics inside an ML framework. Compare supervised methods with unsupervised ones and inspect how their assumptions differ.
 
-## Implemented algorithms (25)
+## Implemented algorithms (26)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -30,6 +30,7 @@ This section explores predictive models, clustering, dimensionality reduction an
 | [`silhouette_score`](silhouette_score/README.md) | Measures how well points match their own cluster compared with others. |
 | [`soft_thresholding`](soft_thresholding/README.md) | Applies the L1 proximal shrinkage operator to sparse optimization vectors. |
 | [`viterbi_decoding`](viterbi_decoding/README.md) | Finds the most likely hidden-state sequence in a hidden Markov model. |
+| [`weighted_knn_regression`](weighted_knn_regression/README.md) | Predicts continuous targets using inverse-distance weights over nearest neighbors. |
 | [`weighted_linear_regression_1d`](weighted_linear_regression_1d/README.md) | Fits an intercept and slope by minimizing weighted squared residuals. |
 
 Each algorithm directory contains a README with its mathematical definition, input contract, limitations and available language implementations. Run its tests using the instructions in the [repository README](../../README.md).
