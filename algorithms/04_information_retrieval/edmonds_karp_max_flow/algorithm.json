@@ -1,0 +1,12 @@
+{
+  "slug": "edmonds_karp_max_flow",
+  "title": "Edmonds–Karp Maximum Flow",
+  "level": "information_retrieval",
+  "summary": "Compute maximum directed source-to-sink flow with breadth-first augmenting paths in a residual network.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

@@ -2,7 +2,7 @@
 
 Algorithms for lexical retrieval, ranking, combining results, graph traversal and text similarity. These are useful when studying search engines, recommender systems and retrieval-augmented generation (RAG).
 
-## Implemented algorithms (43)
+## Implemented algorithms (44)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -16,6 +16,7 @@ Algorithms for lexical retrieval, ranking, combining results, graph traversal an
 | [`character_bigram_jaccard`](character_bigram_jaccard/README.md) | Compares unique consecutive-character pairs with exact Jaccard similarity. |
 | [`dice_similarity`](dice_similarity/README.md) | Measures set overlap using the Sørensen–Dice coefficient. |
 | [`dijkstra_shortest_path`](dijkstra_shortest_path/README.md) | Computes minimum-cost paths from a source in a nonnegative-weight graph. |
+| [`edmonds_karp_max_flow`](edmonds_karp_max_flow/README.md) | Solves directed integer maximum flow with BFS residual augmenting paths. |
 | [`floyd_warshall`](floyd_warshall/README.md) | Computes all-pairs shortest paths using dynamic programming. |
 | [`hits_hubs_authorities`](hits_hubs_authorities/README.md) | Iteratively estimates hub and authority scores on a link graph. |
 | [`jaccard_similarity`](jaccard_similarity/README.md) | Measures overlap between sets relative to their union. |
