@@ -27,7 +27,8 @@ mod tests {
     use super::euclidean_radius_search as search;
     #[test]
     fn examples(){
-        let q=[0.,0.],x=[1.,0.,0.,1.,3.,4.,0.,0.,-1.,0.];
+        let q=[0.,0.];
+        let x=[1.,0.,0.,1.,3.,4.,0.,0.,-1.,0.];
         assert_eq!(search(&q,&x,5,2,1.),Ok(vec![3,0,1,4]));
         assert_eq!(search(&q,&x,5,2,0.),Ok(vec![3]));
         assert_eq!(search(&q,&x,5,2,5.),Ok(vec![3,0,1,4,2]));
@@ -39,7 +40,8 @@ mod tests {
     #[test]
     fn maximum(){
         assert_eq!(search(&[0.;32],&[0.;4096],128,32,0.),Ok((0..128).collect()));
-        assert_eq!(search(&[1000.;32],&[-1000.;32],1,32,10000.),Ok(vec![0]));
+        assert_eq!(search(&[1000.;32],&[-1000.;32],1,32,10000.),Ok(vec![]));
+        assert_eq!(search(&[1000.;16],&[-1000.;16],1,16,10000.),Ok(vec![0]));
     }
     #[test]
     fn invalid(){

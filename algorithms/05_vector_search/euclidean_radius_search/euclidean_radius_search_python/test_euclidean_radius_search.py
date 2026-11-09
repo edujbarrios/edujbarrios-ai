@@ -22,7 +22,8 @@ class EuclideanRadiusTests(unittest.TestCase):
         query = [0]*32
         rows = [[0]*32 for _ in range(128)]
         self.assertEqual(search(query,rows,0),list(range(128)))
-        self.assertEqual(search([1000]*32,[[-1000]*32],10000),[0])
+        self.assertEqual(search([1000]*32,[[-1000]*32],10000),[])
+        self.assertEqual(search([1000]*16,[[-1000]*16],10000),[0])
         self.assertEqual(search([0],[ [1000] ],999.9),[])
 
     def test_invalid(self):

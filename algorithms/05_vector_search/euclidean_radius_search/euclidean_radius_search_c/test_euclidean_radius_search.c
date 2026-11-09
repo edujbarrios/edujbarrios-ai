@@ -25,7 +25,10 @@ int main(void) {
     double high[32],low[32];
     for(size_t j=0;j<32;++j){high[j]=1000.;low[j]=-1000.;}
     const size_t idx[]={0};
-    check(high,low,1,32,10000.,idx,1);
+    check(high,low,1,32,10000.,NULL,0);
+    const double sixteens[16]={1000.,1000.,1000.,1000.,1000.,1000.,1000.,1000.,1000.,1000.,1000.,1000.,1000.,1000.,1000.,1000.};
+    const double minus_sixteens[16]={-1000.,-1000.,-1000.,-1000.,-1000.,-1000.,-1000.,-1000.,-1000.,-1000.,-1000.,-1000.,-1000.,-1000.,-1000.,-1000.};
+    check(sixteens,minus_sixteens,1,16,10000.,idx,1);
     double zero_q[32]={0},zero_x[4096]={0};
     size_t entire[128];
     for(size_t i=0;i<128;++i)entire[i]=i;
