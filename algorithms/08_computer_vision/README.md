@@ -3,12 +3,13 @@
 Image, geometry and detection algorithms underlying object detectors, vision
 encoders and other learned or classical vision pipelines.
 
-## Implemented algorithms (20)
+## Implemented algorithms (21)
 
 | Algorithm | What it does |
 | --- | --- |
 | [`bilinear_resize`](bilinear_resize/README.md) | Resizes grayscale images with half-pixel bilinear interpolation. |
 | [`binary_connected_components`](binary_connected_components/README.md) | Labels four-neighbor-connected foreground regions with deterministic component IDs. |
+| [`binary_boundary_extraction`](binary_boundary_extraction/README.md) | Extracts foreground pixels exposed to background or the image exterior. |
 | [`binary_closing`](binary_closing/README.md) | Fills small holes in binary masks using 3×3 dilation followed by erosion. |
 | [`binary_distance_transform`](binary_distance_transform/README.md) | Computes four-neighbor Manhattan distances to the nearest background pixel. |
 | [`binary_dice_coefficient`](binary_dice_coefficient/README.md) | Measures overlap between aligned foreground segmentation masks. |
