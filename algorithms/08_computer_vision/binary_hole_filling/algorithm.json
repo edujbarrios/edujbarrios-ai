@@ -1,0 +1,12 @@
+{
+  "slug": "binary_hole_filling",
+  "title": "Four-Connected Binary Hole Filling",
+  "level": "computer_vision",
+  "summary": "Fill background regions enclosed by foreground using a four-neighbor flood fill from image borders.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
