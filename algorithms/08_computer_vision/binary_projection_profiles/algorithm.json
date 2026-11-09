@@ -1,0 +1,12 @@
+{
+  "slug": "binary_projection_profiles",
+  "title": "Binary Projection Profiles",
+  "level": "computer_vision",
+  "summary": "Compute horizontal and vertical binary-image projection histograms by counting foreground pixels per row and column.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
