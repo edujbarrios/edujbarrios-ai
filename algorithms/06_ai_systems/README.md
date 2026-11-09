@@ -2,7 +2,7 @@
 
 Primitives for evaluating classifiers, probabilistic predictions, retrieval rankings, dataset splits and sequence generation. Each metric highlights a different behavior; use several together rather than treating a single score as complete evidence of model quality.
 
-## Implemented algorithms (28)
+## Implemented algorithms (29)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -15,6 +15,7 @@ Primitives for evaluating classifiers, probabilistic predictions, retrieval rank
 | [`f1_score`](f1_score/README.md) | Combines precision and recall into their harmonic mean. |
 | [`f_beta_score`](f_beta_score/README.md) | Balances precision and recall with a configurable beta. |
 | [`huber_loss`](huber_loss/README.md) | Combines quadratic and linear regression penalties with a configurable transition. |
+| [`macro_f1_score`](macro_f1_score/README.md) | Averages one-vs-rest F1 across all declared multiclass labels. |
 | [`markov_beam_search`](markov_beam_search/README.md) | Searches for high-scoring sequences in a Markov model using a limited beam. |
 | [`matthews_correlation_coefficient`](matthews_correlation_coefficient/README.md) | Evaluates binary predictions using all four confusion-matrix outcomes. |
 | [`mean_absolute_error`](mean_absolute_error/README.md) | Averages absolute residuals to assess the error of numerical regression predictions. |
