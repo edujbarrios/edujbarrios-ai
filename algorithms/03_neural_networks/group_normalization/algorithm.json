@@ -1,0 +1,12 @@
+{
+  "slug": "group_normalization",
+  "title": "Group Normalization (Channel-Major Tensor)",
+  "level": "neural_networks",
+  "summary": "Normalize channel groups in a single example using per-group population statistics and per-channel affine scale and bias.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

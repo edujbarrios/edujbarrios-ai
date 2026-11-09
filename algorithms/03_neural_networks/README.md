@@ -2,7 +2,7 @@
 
 A collection of neural network building blocks: nonlinearities, objectives, parameter updates, normalization, forward and backward propagation, and transformer attention. Individual entries expose the relevant equations and computational trade-offs.
 
-## Implemented algorithms (38)
+## Implemented algorithms (39)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -21,6 +21,7 @@ A collection of neural network building blocks: nonlinearities, objectives, para
 | [`gelu`](gelu/README.md) | Applies a smooth Gaussian-error-based nonlinear activation. |
 | [`gradient_clip_by_value`](gradient_clip_by_value/README.md) | Clips each gradient component independently to a symmetric limit. |
 | [`gradient_clip_global_norm`](gradient_clip_global_norm/README.md) | Clips gradient vectors by global L2 norm with overflow-resistant scaling. |
+| [`group_normalization`](group_normalization/README.md) | Normalizes channel groups using per-group statistics and per-channel affine parameters. |
 | [`hinge_loss`](hinge_loss/README.md) | Penalizes violations of the classification margin. |
 | [`huber_loss`](huber_loss/README.md) | Combines quadratic behavior for small errors with linear behavior for outliers. |
 | [`label_smoothed_cross_entropy`](label_smoothed_cross_entropy/README.md) | Uses softened class targets to regularize categorical training. |
