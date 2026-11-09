@@ -15,6 +15,7 @@ class MacroF1Tests(unittest.TestCase):
         self.assertEqual(macro([15],[15],16),1/16)
         self.assertEqual(macro([1],[0],2),0.0)
         self.assertEqual(macro([0],[0],2),0.5)
+        self.assertAlmostEqual(macro([2,0,1,1],[2,1,0,1],3),0.5)  # label permutation
 
     def test_invalid(self):
         for actual,pred,classes in [
