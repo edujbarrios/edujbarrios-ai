@@ -15,6 +15,7 @@ class AveragePoolTests(unittest.TestCase):
         self.assertEqual(pool((1,3,5,7),2,2),[4.0])
         self.assertEqual(pool([1,2,3,4,5,6],2,3),[3])
         self.assertEqual(pool([1,2,3,4,5,6],3,2),[2.5])
+        self.assertEqual(pool([1,1,1000,1,1,1000,1000,1000,1000],3,3),[1])  # dropped borders
         image = [1,2,3,4]
         self.assertEqual(pool(image,2,2),[2.5])
         self.assertEqual(image,[1,2,3,4])
