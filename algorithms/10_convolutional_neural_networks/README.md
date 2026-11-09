@@ -4,10 +4,11 @@ A dedicated section for **convolutional neural networks** and their spatial
 building blocks. Reference implementations use small, explicit tensors for
 learning and testing the mathematics without deep-learning frameworks.
 
-## Implemented algorithms (5)
+## Implemented algorithms (6)
 
 | Algorithm | What it does |
 | --- | --- |
+| [`average_pool2d`](average_pool2d/README.md) | Reduces spatial dimensions using non-overlapping 2×2 mean pooling. |
 | [`depthwise_conv2d`](depthwise_conv2d/README.md) | Applies an independent same-padded kernel per feature channel. |
 | [`global_average_pool2d`](global_average_pool2d/README.md) | Computes one spatial mean per feature channel. |
 | [`max_pool2d`](max_pool2d/README.md) | Reduces feature-map resolution with non-overlapping 2×2 maxima. |

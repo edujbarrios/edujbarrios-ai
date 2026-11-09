@@ -1,0 +1,12 @@
+{
+  "slug": "average_pool2d",
+  "title": "Non-Overlapping 2×2 Average Pooling for CNNs",
+  "level": "convolutional_neural_networks",
+  "summary": "Downsample single-channel feature maps by averaging disjoint 2×2 windows with stride two.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
