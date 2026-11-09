@@ -1,0 +1,12 @@
+{
+  "slug": "longest_palindromic_substring",
+  "title": "Longest Palindromic Substring (ASCII)",
+  "level": "information_retrieval",
+  "summary": "Find the longest contiguous palindrome by expanding around centers with deterministic earliest-offset ties.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
