@@ -1,0 +1,12 @@
+{
+  "slug": "articulation_points",
+  "title": "Articulation Points (Tarjan DFS)",
+  "level": "information_retrieval",
+  "summary": "Find vertices whose removal increases the number of connected components of an undirected graph using DFS low-link values.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
