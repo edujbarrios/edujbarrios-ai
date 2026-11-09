@@ -2,7 +2,7 @@
 
 These algorithms provide the numerical building blocks used in machine learning, embeddings, probability and data preprocessing. Start with vector operations, then distances and normalization; move to probability and stable numerical computations.
 
-## Implemented algorithms (27)
+## Implemented algorithms (28)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -32,6 +32,7 @@ These algorithms provide the numerical building blocks used in machine learning,
 | [`total_variation_distance`](total_variation_distance/README.md) | Measures bounded differences between discrete probability distributions. |
 | [`vector_normalization`](vector_normalization/README.md) | Scales a vector to unit length for magnitude-independent comparisons. |
 | [`weighted_median`](weighted_median/README.md) | Selects the lower weighted median of finite observations with nonnegative weights. |
+| [`winsorized_mean`](winsorized_mean/README.md) | Reduces outlier influence by replacing sorted tail observations before averaging. |
 | [`z_score_standardization`](z_score_standardization/README.md) | Centers and scales values using their mean and standard deviation. |
 
 Each algorithm directory contains a README with its mathematical definition, input contract, limitations and available language implementations. Run its tests using the instructions in the [repository README](../../README.md).
