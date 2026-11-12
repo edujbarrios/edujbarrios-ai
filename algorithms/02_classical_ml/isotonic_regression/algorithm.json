@@ -1,0 +1,12 @@
+{
+  "slug": "isotonic_regression",
+  "title": "Isotonic Regression (PAV)",
+  "level": "classical_ml",
+  "summary": "Fits least-squares nondecreasing values using the pool-adjacent-violators algorithm.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
