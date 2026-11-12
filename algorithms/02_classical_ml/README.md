@@ -2,10 +2,11 @@
 
 This section explores predictive models, clustering, dimensionality reduction and optimization without hiding their mechanics inside an ML framework. Compare supervised methods with unsupervised ones and inspect how their assumptions differ.
 
-## Implemented algorithms (27)
+## Implemented algorithms (28)
 
 | Algorithm | What it does |
 | --- | --- |
+| [`bernoulli_naive_bayes`](bernoulli_naive_bayes/README.md) | Classifies binary feature vectors with Laplace-smoothed Bernoulli likelihoods and class priors. |
 | [`dbscan`](dbscan/README.md) | Groups dense neighborhoods into clusters and identifies points treated as noise. |
 | [`decision_stump`](decision_stump/README.md) | Fits a single-split decision tree, often used as a weak classifier. |
 | [`entropy_impurity`](entropy_impurity/README.md) | Measures decision-tree class uncertainty from nonnegative category counts. |

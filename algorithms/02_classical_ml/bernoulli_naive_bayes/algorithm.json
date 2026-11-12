@@ -1,0 +1,12 @@
+{
+  "slug": "bernoulli_naive_bayes",
+  "title": "Bernoulli Naive Bayes",
+  "level": "classical_ml",
+  "summary": "Classifies binary feature vectors by Laplace-smoothed Bernoulli Naive Bayes log likelihoods.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
