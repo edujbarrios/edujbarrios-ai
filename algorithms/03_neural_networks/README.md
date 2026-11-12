@@ -2,7 +2,7 @@
 
 A collection of neural network building blocks: nonlinearities, objectives, parameter updates, normalization, forward and backward propagation, and transformer attention. Individual entries expose the relevant equations and computational trade-offs.
 
-## Implemented algorithms (39)
+## Implemented algorithms (40)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -43,6 +43,7 @@ A collection of neural network building blocks: nonlinearities, objectives, para
 | [`softsign`](softsign/README.md) | Applies a smooth bounded x/(1+abs(x)) activation. |
 | [`swish`](swish/README.md) | Applies a smooth sigmoid-gated nonlinear activation. |
 | [`temperature_softmax`](temperature_softmax/README.md) | Controls distribution sharpness by rescaling logits before softmax. |
+| [`triplet_margin_loss`](triplet_margin_loss/README.md) | Penalizes embedding triplets when negatives are not farther than positives by the chosen margin. |
 | [`two_layer_binary_classifier`](two_layer_binary_classifier/README.md) | Demonstrates end-to-end prediction and learning with a small neural classifier. |
 | [`warmup_cosine_learning_rate`](warmup_cosine_learning_rate/README.md) | Linearly warms up the learning rate before cosine decay to a minimum. |
 
