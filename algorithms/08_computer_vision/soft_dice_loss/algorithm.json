@@ -1,0 +1,12 @@
+{
+  "slug": "soft_dice_loss",
+  "title": "Soft Dice Loss for Binary Segmentation",
+  "level": "computer_vision",
+  "summary": "Computes smoothed soft Dice loss between probability predictions and binary segmentation targets.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}

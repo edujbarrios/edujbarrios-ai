@@ -3,7 +3,7 @@
 Image, geometry and detection algorithms underlying object detectors, vision
 encoders and other learned or classical vision pipelines.
 
-## Implemented algorithms (22)
+## Implemented algorithms (23)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -28,6 +28,7 @@ encoders and other learned or classical vision pipelines.
 | [`median_filter`](median_filter/README.md) | Removes isolated image outliers using a 3×3 median. |
 | [`non_max_suppression`](non_max_suppression/README.md) | Keeps high-confidence bounding boxes while suppressing overlapping detections. |
 | [`otsu_threshold`](otsu_threshold/README.md) | Computes Otsu's optimal 8-bit global segmentation threshold. |
+| [`soft_dice_loss`](soft_dice_loss/README.md) | Penalizes disagreement between probabilistic segmentation predictions and binary masks. |
 | [`sobel_edges`](sobel_edges/README.md) | Computes replicated-border Sobel gradient magnitudes on grayscale images. |
 
 [← All sections](../../README.md)
