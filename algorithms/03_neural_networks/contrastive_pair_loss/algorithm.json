@@ -1,0 +1,12 @@
+{
+  "slug": "contrastive_pair_loss",
+  "title": "Contrastive Pair Loss",
+  "level": "neural_networks",
+  "summary": "Computes classic squared-Euclidean contrastive loss for similar and dissimilar embedding pairs.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
