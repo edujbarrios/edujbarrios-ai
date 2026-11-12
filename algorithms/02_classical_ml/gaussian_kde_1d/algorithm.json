@@ -1,0 +1,12 @@
+{
+  "slug": "gaussian_kde_1d",
+  "title": "One-dimensional Gaussian Kernel Density Estimation",
+  "level": "classical_ml",
+  "summary": "Estimates a univariate probability density with equally weighted Gaussian kernels and a specified bandwidth.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
