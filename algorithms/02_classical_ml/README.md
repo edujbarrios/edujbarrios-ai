@@ -2,7 +2,7 @@
 
 This section explores predictive models, clustering, dimensionality reduction and optimization without hiding their mechanics inside an ML framework. Compare supervised methods with unsupervised ones and inspect how their assumptions differ.
 
-## Implemented algorithms (29)
+## Implemented algorithms (30)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -12,6 +12,7 @@ This section explores predictive models, clustering, dimensionality reduction an
 | [`entropy_impurity`](entropy_impurity/README.md) | Measures decision-tree class uncertainty from nonnegative category counts. |
 | [`exponential_moving_average`](exponential_moving_average/README.md) | Smooths sequences with exponentially decaying weights, a standard time-series and optimization primitive. |
 | [`farthest_first_traversal`](farthest_first_traversal/README.md) | Selects well-separated representatives by repeatedly choosing the farthest point. |
+| [`gaussian_kde_1d`](gaussian_kde_1d/README.md) | Estimates a one-dimensional probability density using Gaussian kernel smoothing. |
 | [`gaussian_naive_bayes`](gaussian_naive_bayes/README.md) | Classifies continuous features using class-conditional Gaussian probabilities. |
 | [`gini_impurity`](gini_impurity/README.md) | Measures class mixing from integer class counts for decision-tree split criteria. |
 | [`gradient_descent`](gradient_descent/README.md) | Iteratively updates parameters in the direction that reduces a differentiable objective. |
