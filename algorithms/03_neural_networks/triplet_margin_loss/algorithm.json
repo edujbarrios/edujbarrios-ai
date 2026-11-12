@@ -1,0 +1,12 @@
+{
+  "slug": "triplet_margin_loss",
+  "title": "Triplet Margin Loss",
+  "level": "neural_networks",
+  "summary": "Computes Euclidean triplet margin ranking loss for anchor, positive and negative embeddings.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
