@@ -1,0 +1,12 @@
+{
+  "slug": "single_link_clustering",
+  "title": "Single-Link Agglomerative Clustering",
+  "level": "classical_ml",
+  "summary": "Produces deterministic k-cluster labels by minimum-distance single-link agglomerative merging.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
