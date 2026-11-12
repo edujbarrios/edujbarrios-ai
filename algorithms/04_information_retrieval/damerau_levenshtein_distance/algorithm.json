@@ -1,0 +1,12 @@
+{
+  "slug": "damerau_levenshtein_distance",
+  "title": "Unrestricted Damerau–Levenshtein Distance",
+  "level": "information_retrieval",
+  "summary": "Computes full edit distance with insertion, deletion, substitution and repeatable adjacent transposition of byte-token IDs.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
