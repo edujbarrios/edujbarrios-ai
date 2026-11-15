@@ -1,0 +1,9 @@
+{
+  "slug": "dynamic_time_warping",
+  "title": "Dynamic Time Warping Distance",
+  "level": "information_retrieval",
+  "summary": "Computes minimum alignment cost for numeric time series with optional Sakoe-Chiba band constraints.",
+  "languages": [
+    "python"
+  ]
+}
