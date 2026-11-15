@@ -1,0 +1,9 @@
+{
+  "slug": "lora_linear_forward",
+  "title": "LoRA Low-Rank Linear Adapter Forward Pass",
+  "level": "large_language_models",
+  "summary": "Evaluates a frozen dense linear layer plus a scaled low-rank adapter without constructing a dense weight update.",
+  "languages": [
+    "python"
+  ]
+}
