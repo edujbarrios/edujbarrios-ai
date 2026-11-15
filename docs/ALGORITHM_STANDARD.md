@@ -27,7 +27,7 @@ Example metadata:
 
 Valid algorithm levels include `foundation`, `classical_ml`,
 `neural_networks`, `information_retrieval`, `vector_search`,
-`ai_systems`, `large_language_models`, `computer_vision`,
+`ai_systems`, `reinforcement_learning`, `large_language_models`, `computer_vision`,
 `convolutional_neural_networks`, and
 `vision_language_models`.
 
