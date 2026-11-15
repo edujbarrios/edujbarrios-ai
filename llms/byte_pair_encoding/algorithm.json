@@ -1,0 +1,9 @@
+{
+  "slug": "byte_pair_encoding",
+  "title": "Deterministic Byte-Level Byte Pair Encoding",
+  "level": "large_language_models",
+  "summary": "Learns frequent adjacent byte-token merges and applies them deterministically for educational subword tokenization.",
+  "languages": [
+    "python"
+  ]
+}
