@@ -1,0 +1,9 @@
+{
+  "slug": "tabular_q_learning",
+  "title": "Tabular Q-Learning from Recorded Transitions",
+  "level": "reinforcement_learning",
+  "summary": "Deterministic temporal-difference Q-learning over finite state and action spaces with terminal-state handling.",
+  "languages": [
+    "python"
+  ]
+}
