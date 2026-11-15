@@ -1,0 +1,9 @@
+{
+  "slug": "kd_tree_knn",
+  "title": "Exact K-D Tree K-Nearest Neighbors",
+  "level": "vector_search",
+  "summary": "Performs exact Euclidean k-nearest-neighbor search with a deterministic balanced k-d tree and pruning.",
+  "languages": [
+    "python"
+  ]
+}
