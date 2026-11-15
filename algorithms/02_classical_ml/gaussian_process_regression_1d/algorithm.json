@@ -1,0 +1,9 @@
+{
+  "slug": "gaussian_process_regression_1d",
+  "title": "One-Dimensional Gaussian Process Regression",
+  "level": "classical_ml",
+  "summary": "Fits scalar Gaussian process regression with an RBF kernel and a Cholesky solver, returning posterior means and latent variances.",
+  "languages": [
+    "python"
+  ]
+}
