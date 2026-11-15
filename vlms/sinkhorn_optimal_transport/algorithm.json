@@ -1,0 +1,9 @@
+{
+  "slug": "sinkhorn_optimal_transport",
+  "title": "Entropic Optimal Transport via Sinkhorn Iteration",
+  "level": "vision_language_models",
+  "summary": "Computes a log-domain entropically regularized transport plan between image patches and text tokens with uniform marginals.",
+  "languages": [
+    "python"
+  ]
+}
