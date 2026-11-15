@@ -1,0 +1,9 @@
+{
+  "slug": "beam_search_decoding",
+  "title": "Prefix-Aware Beam Search Decoding",
+  "level": "large_language_models",
+  "summary": "Deterministic autoregressive beam search over prefix-conditioned token log scores with EOS handling and masked tokens.",
+  "languages": [
+    "python"
+  ]
+}
