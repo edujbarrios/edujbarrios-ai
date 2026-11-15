@@ -2,7 +2,7 @@
 
 This section explores predictive models, clustering, dimensionality reduction and optimization without hiding their mechanics inside an ML framework. Compare supervised methods with unsupervised ones and inspect how their assumptions differ.
 
-## Implemented algorithms (30)
+## Implemented algorithms (31)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -18,6 +18,7 @@ This section explores predictive models, clustering, dimensionality reduction an
 | [`gradient_descent`](gradient_descent/README.md) | Iteratively updates parameters in the direction that reduces a differentiable objective. |
 | [`greedy_k_medoids`](greedy_k_medoids/README.md) | Selects representative data points as cluster centers using greedy improvements. |
 | [`hmm_forward_algorithm`](hmm_forward_algorithm/README.md) | Computes sequence likelihoods in a hidden Markov model by dynamic programming. |
+| [`kalman_filter_1d`](kalman_filter_1d/README.md) | Recursively estimates a scalar state from noisy and missing observations. |
 | [`k_means`](k_means/README.md) | Partitions observations into clusters by updating centroids and assignments. |
 | [`isotonic_regression`](isotonic_regression/README.md) | Fits a nondecreasing sequence by least-squares pool-adjacent-violators regression. |
 | [`knn`](knn/README.md) | Predicts a class from the labels of the nearest training examples. |
