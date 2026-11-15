@@ -2,7 +2,7 @@
 
 Algorithms for lexical retrieval, ranking, combining results, graph traversal and text similarity. These are useful when studying search engines, recommender systems and retrieval-augmented generation (RAG).
 
-## Implemented algorithms (45)
+## Implemented algorithms (46)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -15,6 +15,7 @@ Algorithms for lexical retrieval, ranking, combining results, graph traversal an
 | [`boyer_moore_horspool_search`](boyer_moore_horspool_search/README.md) | Finds exact text matches using right-to-left comparisons and skip-table shifts. |
 | [`character_bigram_jaccard`](character_bigram_jaccard/README.md) | Compares unique consecutive-character pairs with exact Jaccard similarity. |
 | [`damerau_levenshtein_distance`](damerau_levenshtein_distance/README.md) | Finds unrestricted Damerau edit distance with insertions, deletions, substitutions and reusable adjacent swaps. |
+| [`dynamic_time_warping`](dynamic_time_warping/README.md) | Aligns numeric sequences of different lengths with dynamic programming and an optional search band. |
 | [`dice_similarity`](dice_similarity/README.md) | Measures set overlap using the Sørensen–Dice coefficient. |
 | [`dijkstra_shortest_path`](dijkstra_shortest_path/README.md) | Computes minimum-cost paths from a source in a nonnegative-weight graph. |
 | [`edmonds_karp_max_flow`](edmonds_karp_max_flow/README.md) | Solves directed integer maximum flow with BFS residual augmenting paths. |
