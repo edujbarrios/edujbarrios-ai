@@ -1,0 +1,9 @@
+{
+  "slug": "ctc_greedy_decoding",
+  "title": "CTC Greedy Decoding",
+  "level": "neural_networks",
+  "summary": "Decodes framewise CTC probabilities by argmax, merging repeated labels and removing blanks.",
+  "languages": [
+    "python"
+  ]
+}
