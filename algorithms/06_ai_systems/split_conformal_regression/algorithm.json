@@ -1,0 +1,9 @@
+{
+  "slug": "split_conformal_regression",
+  "title": "Split Conformal Prediction Intervals for Regression",
+  "level": "ai_systems",
+  "summary": "Calibrate model-agnostic regression prediction intervals with an exact finite-sample residual quantile.",
+  "languages": [
+    "python"
+  ]
+}
