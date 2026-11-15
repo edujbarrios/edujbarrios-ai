@@ -2,7 +2,7 @@
 
 A collection of neural network building blocks: nonlinearities, objectives, parameter updates, normalization, forward and backward propagation, and transformer attention. Individual entries expose the relevant equations and computational trade-offs.
 
-## Implemented algorithms (41)
+## Implemented algorithms (42)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -13,6 +13,7 @@ A collection of neural network building blocks: nonlinearities, objectives, para
 | [`binary_cross_entropy_with_logits`](binary_cross_entropy_with_logits/README.md) | Computes stable binary cross-entropy from raw logits and soft targets. |
 | [`binary_focal_loss`](binary_focal_loss/README.md) | Down-weights easier binary examples so training emphasizes difficult ones. |
 | [`causal_attention`](causal_attention/README.md) | Prevents attention from looking ahead at future sequence positions. |
+| [`ctc_greedy_decoding`](ctc_greedy_decoding/README.md) | Collapses the framewise most-probable CTC path into output tokens. |
 | [`cross_entropy`](cross_entropy/README.md) | Measures how well predicted categorical probabilities match target labels. |
 | [`contrastive_pair_loss`](contrastive_pair_loss/README.md) | Applies contrastive metric-learning loss to a labeled pair of embedding vectors. |
 | [`cosine_annealing_learning_rate`](cosine_annealing_learning_rate/README.md) | Smoothly decreases a learning rate between specified bounds across a fixed horizon. |
