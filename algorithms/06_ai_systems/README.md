@@ -2,7 +2,7 @@
 
 Primitives for evaluating classifiers, probabilistic predictions, retrieval rankings, dataset splits and sequence generation. Each metric highlights a different behavior; use several together rather than treating a single score as complete evidence of model quality.
 
-## Implemented algorithms (29)
+## Implemented algorithms (30)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -30,6 +30,7 @@ Primitives for evaluating classifiers, probabilistic predictions, retrieval rank
 | [`r_squared_score`](r_squared_score/README.md) | Evaluates regression against the target-mean baseline with finite constant-target handling. |
 | [`recall_at_k`](recall_at_k/README.md) | Measures the share of relevant results found among the first k retrieved items. |
 | [`roc_auc`](roc_auc/README.md) | Summarizes threshold-independent discrimination between positive and negative examples. |
+| [`split_conformal_regression`](split_conformal_regression/README.md) | Calibrates finite-sample regression prediction intervals from held-out residuals. |
 | [`stratified_k_fold`](stratified_k_fold/README.md) | Builds cross-validation folds that preserve class proportions. |
 | [`symmetric_mean_absolute_percentage_error`](symmetric_mean_absolute_percentage_error/README.md) | Measures bounded symmetric relative regression error with zero-safe semantics. |
 | [`weighted_brier_score`](weighted_brier_score/README.md) | Scores binary probabilistic forecasts using nonnegative sample weights. |
