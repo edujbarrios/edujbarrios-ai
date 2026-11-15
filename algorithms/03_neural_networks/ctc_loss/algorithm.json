@@ -1,0 +1,9 @@
+{
+  "slug": "ctc_loss",
+  "title": "Connectionist Temporal Classification Loss",
+  "level": "neural_networks",
+  "summary": "Computes CTC sequence negative log-likelihood with log-space forward dynamic programming and blank-token collapsing.",
+  "languages": [
+    "python"
+  ]
+}
