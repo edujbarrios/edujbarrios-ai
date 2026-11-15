@@ -1,0 +1,9 @@
+{
+  "slug": "kalman_filter_1d",
+  "title": "One-Dimensional Kalman Filter",
+  "level": "classical_ml",
+  "summary": "Estimates a scalar random-walk state from noisy or missing measurements using recursive Gaussian predict-and-update equations.",
+  "languages": [
+    "python"
+  ]
+}
