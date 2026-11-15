@@ -1,0 +1,9 @@
+{
+  "slug": "gaussian_mixture_em_1d",
+  "title": "Two-Component Gaussian Mixture with Expectation-Maximization",
+  "level": "classical_ml",
+  "summary": "Fits a deterministic two-component one-dimensional Gaussian mixture with stable log-space responsibilities and variance floors.",
+  "languages": [
+    "python"
+  ]
+}
