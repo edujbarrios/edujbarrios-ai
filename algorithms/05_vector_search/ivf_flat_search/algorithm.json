@@ -1,0 +1,9 @@
+{
+  "slug": "ivf_flat_search",
+  "title": "Simplified IVF-Flat Vector Search",
+  "level": "vector_search",
+  "summary": "Builds deterministic farthest-first coarse vector partitions and searches selected inverted posting lists with exact local distances.",
+  "languages": [
+    "python"
+  ]
+}
