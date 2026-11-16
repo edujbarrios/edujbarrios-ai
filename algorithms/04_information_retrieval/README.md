@@ -2,10 +2,11 @@
 
 Algorithms for lexical retrieval, ranking, combining results, graph traversal and text similarity. These are useful when studying search engines, recommender systems and retrieval-augmented generation (RAG).
 
-## Implemented algorithms (45)
+## Implemented algorithms (46)
 
 | Algorithm | What it does |
 | --- | --- |
+| [`aho_corasick_search`](aho_corasick_search/README.md) | Finds overlapping occurrences of many text patterns in one trie-based scan. |
 | [`articulation_points`](articulation_points/README.md) | Finds undirected graph cut vertices using Tarjan discovery and low-link times. |
 | [`astar_shortest_path`](astar_shortest_path/README.md) | Finds low-cost paths using known costs plus a heuristic estimate. |
 | [`bellman_ford_shortest_path`](bellman_ford_shortest_path/README.md) | Computes shortest paths with negative edges and detects reachable negative cycles. |
