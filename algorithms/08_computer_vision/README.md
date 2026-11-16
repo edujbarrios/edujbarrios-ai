@@ -3,7 +3,7 @@
 Image, geometry and detection algorithms underlying object detectors, vision
 encoders and other learned or classical vision pipelines.
 
-## Implemented algorithms (23)
+## Implemented algorithms (24)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -24,6 +24,7 @@ encoders and other learned or classical vision pipelines.
 | [`gaussian_blur`](gaussian_blur/README.md) | Smooths grayscale images with a fixed normalized 3×3 Gaussian kernel. |
 | [`grayscale_contrast_stretching`](grayscale_contrast_stretching/README.md) | Expands an image's observed grayscale range to the full 0–255 scale. |
 | [`grayscale_histogram_equalization`](grayscale_histogram_equalization/README.md) | Enhances grayscale contrast using a global cumulative histogram remapping. |
+| [`hough_line_transform`](hough_line_transform/README.md) | Detects candidate image lines using a discrete rho–theta voting accumulator. |
 | [`integral_image`](integral_image/README.md) | Computes inclusive grayscale prefix sums for constant-time rectangular sum queries. |
 | [`median_filter`](median_filter/README.md) | Removes isolated image outliers using a 3×3 median. |
 | [`non_max_suppression`](non_max_suppression/README.md) | Keeps high-confidence bounding boxes while suppressing overlapping detections. |
