@@ -1,0 +1,9 @@
+{
+  "slug": "dpo_pairwise_loss",
+  "title": "Direct Preference Optimization Pairwise Loss",
+  "level": "large_language_models",
+  "summary": "Computes numerically stable DPO preference loss from chosen/rejected policy and reference log probabilities.",
+  "languages": [
+    "python"
+  ]
+}
