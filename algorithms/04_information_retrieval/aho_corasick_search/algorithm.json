@@ -1,0 +1,9 @@
+{
+  "slug": "aho_corasick_search",
+  "title": "Aho–Corasick Multi-Pattern Search",
+  "level": "information_retrieval",
+  "summary": "Finds all overlapping occurrences of multiple Unicode text patterns using a trie, failure links and output links.",
+  "languages": [
+    "python"
+  ]
+}
