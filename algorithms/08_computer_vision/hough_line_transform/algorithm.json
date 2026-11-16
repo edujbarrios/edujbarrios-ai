@@ -1,0 +1,9 @@
+{
+  "slug": "hough_line_transform",
+  "title": "Discrete Hough Line Transform",
+  "level": "computer_vision",
+  "summary": "Votes for parameterized image lines in a rho-theta accumulator with deterministic binning and ranking.",
+  "languages": [
+    "python"
+  ]
+}
