@@ -1,0 +1,9 @@
+{
+  "slug": "binary_average_precision",
+  "title": "Binary Classification Average Precision",
+  "level": "ai_systems",
+  "summary": "Computes non-interpolated binary average precision across unique score thresholds with correct tie grouping.",
+  "languages": [
+    "python"
+  ]
+}
