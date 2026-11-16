@@ -4,10 +4,11 @@ Algorithms used to prepare tokens, decode language models, manage context and
 support efficient autoregressive inference. These educational implementations
 focus on observable numerical or discrete behavior, not full pretrained models.
 
-## Implemented algorithms (12)
+## Implemented algorithms (13)
 
 | Algorithm | What it does |
 | --- | --- |
+| [`dpo_pairwise_loss`](dpo_pairwise_loss/README.md) | Evaluates stable direct preference optimization loss for chosen/rejected language-model responses. |
 | [`greedy_token_selection`](greedy_token_selection/README.md) | Chooses the highest-logit next token with deterministic tie-breaking. |
 | [`logit_bias_adjustment`](logit_bias_adjustment/README.md) | Adds sparse per-token logit biases before decoding. |
 | [`min_p_logit_filter`](min_p_logit_filter/README.md) | Keeps tokens above a probability threshold relative to the strongest token. |
