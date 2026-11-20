@@ -37,24 +37,24 @@ mod tests {
 
     #[test]
     fn updates_state() {
-        let (w, h) = step(&[1.0, -1.0], &[2.0, -4.0], &[0.0, 0.0], .1, 1.0).unwrap();
+        let (w, h) = step(&[1.0, -1.0], &[2.0, -4.0], &[0.0, 0.0], 0.1, 1.0).unwrap();
         assert_eq!(h, vec![4.0, 16.0]);
-        assert!((w[0] - (1.0 - .2 / 3.0)).abs() < 1e-12);
-        assert!((w[1] - (-1.0 + .4 / 5.0)).abs() < 1e-12);
-        let (w2, h2) = step(&w, &[2.0, 0.0], &h, .1, 1.0).unwrap();
+        assert!((w[0] - (1.0 - 0.2 / 3.0)).abs() < 1e-12);
+        assert!((w[1] - (-1.0 + 0.4 / 5.0)).abs() < 1e-12);
+        let (w2, h2) = step(&w, &[2.0, 0.0], &h, 0.1, 1.0).unwrap();
         assert_eq!(h2, vec![8.0, 16.0]);
         assert_eq!(w2[1], w[1]);
-        assert_eq!(step(&[], &[], &[], .1, 1.0), Ok((vec![], vec![])));
+        assert_eq!(step(&[], &[], &[], 0.1, 1.0), Ok((vec![], vec![])));
     }
 
     #[test]
     fn invalid_inputs() {
-        assert!(step(&[1.0], &[], &[0.0], .1, 1.0).is_err());
-        assert!(step(&[1.0], &[1.0], &[-1.0], .1, 1.0).is_err());
-        assert!(step(&[f64::NAN], &[1.0], &[0.0], .1, 1.0).is_err());
-        assert!(step(&[1.0], &[f64::INFINITY], &[0.0], .1, 1.0).is_err());
+        assert!(step(&[1.0], &[], &[0.0], 0.1, 1.0).is_err());
+        assert!(step(&[1.0], &[1.0], &[-1.0], 0.1, 1.0).is_err());
+        assert!(step(&[f64::NAN], &[1.0], &[0.0], 0.1, 1.0).is_err());
+        assert!(step(&[1.0], &[f64::INFINITY], &[0.0], 0.1, 1.0).is_err());
         assert!(step(&[1.0], &[1.0], &[0.0], 0.0, 1.0).is_err());
-        assert!(step(&[1.0], &[1.0], &[0.0], .1, 0.0).is_err());
-        assert!(step(&[1.0], &[1e308], &[0.0], .1, 1.0).is_err());
+        assert!(step(&[1.0], &[1.0], &[0.0], 0.1, 0.0).is_err());
+        assert!(step(&[1.0], &[1e308], &[0.0], 0.1, 1.0).is_err());
     }
 }
