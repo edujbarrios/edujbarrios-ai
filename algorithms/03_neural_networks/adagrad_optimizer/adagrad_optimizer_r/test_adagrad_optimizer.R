@@ -1,0 +1,23 @@
+args <- grep("^--file=", commandArgs(FALSE), value=TRUE)
+folder <- dirname(normalizePath(sub("^--file=", "", args[[1L]])))
+source(file.path(folder, "adagrad_optimizer.R"))
+expect_error <- function(expr) stopifnot(tryCatch({force(expr); FALSE},
+                                                 error=function(e) TRUE))
+result <- adagrad_optimizer(c(1,-1), c(2,-4), c(0,0), .1, 1)
+stopifnot(identical(result$accumulator, c(4,16)))
+stopifnot(abs(result$parameters[1] - (1-.2/3)) < 1e-12)
+stopifnot(abs(result$parameters[2] - (-1+.4/5)) < 1e-12)
+next_step <- adagrad_optimizer(result$parameters, c(2,0),
+                              result$accumulator, .1, 1)
+stopifnot(identical(next_step$accumulator, c(8,16)))
+stopifnot(identical(next_step$parameters[2], result$parameters[2]))
+stopifnot(identical(adagrad_optimizer(numeric(), numeric(), numeric(), .1, 1),
+                    list(parameters=numeric(), accumulator=numeric())))
+expect_error(adagrad_optimizer(1, numeric(), 0, .1, 1))
+expect_error(adagrad_optimizer(1, 1, -1, .1, 1))
+expect_error(adagrad_optimizer(NaN, 1, 0, .1, 1))
+expect_error(adagrad_optimizer(1, Inf, 0, .1, 1))
+expect_error(adagrad_optimizer(1, 1, 0, 0, 1))
+expect_error(adagrad_optimizer(1, 1, 0, .1, 0))
+expect_error(adagrad_optimizer(1, 1e308, 0, .1, 1))
+cat("R AdaGrad tests passed\n")

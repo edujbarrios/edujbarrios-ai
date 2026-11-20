@@ -2,12 +2,13 @@
 
 A collection of neural network building blocks: nonlinearities, objectives, parameter updates, normalization, forward and backward propagation, and transformer attention. Individual entries expose the relevant equations and computational trade-offs.
 
-## Implemented algorithms (42)
+## Implemented algorithms (43)
 
 | Algorithm | What it does |
 | --- | --- |
 | [`adam_optimizer`](adam_optimizer/README.md) | Combines momentum and adaptive squared-gradient estimates to update parameters. |
 | [`adamw_optimizer`](adamw_optimizer/README.md) | Applies Adam-style adaptive updates with decoupled weight decay. |
+| [`adagrad_optimizer`](adagrad_optimizer/README.md) | Performs coordinate-wise adaptive gradient updates using accumulated squared gradients. |
 | [`batch_normalization`](batch_normalization/README.md) | Normalizes activations using batch statistics and learned scale and offset. |
 | [`binary_cross_entropy`](binary_cross_entropy/README.md) | Measures error between binary labels and predicted probabilities. |
 | [`binary_cross_entropy_with_logits`](binary_cross_entropy_with_logits/README.md) | Computes stable binary cross-entropy from raw logits and soft targets. |
