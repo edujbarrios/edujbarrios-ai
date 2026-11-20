@@ -1,0 +1,12 @@
+{
+  "slug": "adagrad_optimizer",
+  "title": "AdaGrad Optimizer Step",
+  "level": "neural_networks",
+  "summary": "Update parameters using coordinate-wise accumulated squared gradients and adaptive learning rates.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
