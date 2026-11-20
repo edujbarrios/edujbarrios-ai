@@ -1,0 +1,12 @@
+{
+  "slug": "precision_recall_curve",
+  "title": "Binary Precision–Recall Curve",
+  "level": "ai_systems",
+  "summary": "Build a binary precision–recall curve at each distinct prediction-score threshold, grouping ties exactly.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
