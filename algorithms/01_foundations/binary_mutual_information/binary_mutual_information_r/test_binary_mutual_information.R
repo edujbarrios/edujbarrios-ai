@@ -1,0 +1,17 @@
+args <- grep("^--file=", commandArgs(FALSE), value=TRUE)
+folder <- dirname(normalizePath(sub("^--file=", "", args[[1L]])))
+source(file.path(folder, "binary_mutual_information.R"))
+expect_error <- function(expr) stopifnot(tryCatch({force(expr); FALSE},
+                                                 error=function(e) TRUE))
+stopifnot(abs(binary_mutual_information(c(0,0,1,1),c(0,0,1,1))-1) < 1e-12)
+stopifnot(abs(binary_mutual_information(c(0,0,1,1),c(1,1,0,0))-1) < 1e-12)
+stopifnot(abs(binary_mutual_information(c(0,0,1,1),c(0,1,0,1))) < 1e-12)
+stopifnot(identical(binary_mutual_information(c(0,0,0),c(1,0,1)),0.0))
+stopifnot(identical(binary_mutual_information(1,0),0.0))
+stopifnot(abs(binary_mutual_information(c(0,0,1,1),c(0,0,0,1)) -
+              .31127812445913283) < 1e-12)
+expect_error(binary_mutual_information(numeric(),numeric()))
+expect_error(binary_mutual_information(c(0,1),0))
+expect_error(binary_mutual_information(c(0,2),c(1,0)))
+expect_error(binary_mutual_information(c(1,NaN),c(1,1)))
+cat("R binary mutual information tests passed\n")
