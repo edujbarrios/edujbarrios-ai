@@ -1,0 +1,12 @@
+{
+  "slug": "minhash_signature",
+  "title": "MinHash Signature",
+  "level": "information_retrieval",
+  "summary": "Construct a deterministic integer MinHash signature from explicit modular hash coefficients for set-similarity estimation.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
