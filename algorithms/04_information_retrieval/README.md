@@ -2,7 +2,7 @@
 
 Algorithms for lexical retrieval, ranking, combining results, graph traversal and text similarity. These are useful when studying search engines, recommender systems and retrieval-augmented generation (RAG).
 
-## Implemented algorithms (46)
+## Implemented algorithms (47)
 
 | Algorithm | What it does |
 | --- | --- |
@@ -29,6 +29,7 @@ Algorithms for lexical retrieval, ranking, combining results, graph traversal an
 | [`longest_common_subsequence`](longest_common_subsequence/README.md) | Finds the longest order-preserving common token subsequence length. |
 | [`longest_palindromic_substring`](longest_palindromic_substring/README.md) | Finds the longest exact palindrome in a text span with deterministic ties. |
 | [`maximal_marginal_relevance`](maximal_marginal_relevance/README.md) | Balances relevance with diversity when reranking search candidates. |
+| [`minhash_signature`](minhash_signature/README.md) | Builds compact deterministic signatures of token sets using minimum modular hashes. |
 | [`overlap_coefficient`](overlap_coefficient/README.md) | Scores exact token set containment relative to the smaller set. |
 | [`optimal_string_alignment`](optimal_string_alignment/README.md) | Computes restricted Damerau edit distance with adjacent transpositions. |
 | [`pagerank`](pagerank/README.md) | Estimates node importance through iterative link-based probability propagation. |
