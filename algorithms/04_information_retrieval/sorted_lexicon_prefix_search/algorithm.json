@@ -1,0 +1,12 @@
+{
+  "slug": "sorted_lexicon_prefix_search",
+  "title": "Sorted Lexicon Prefix Search",
+  "level": "information_retrieval",
+  "summary": "Find all prefix matches in a sorted unique dictionary using binary search followed by a contiguous scan.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
