@@ -1,0 +1,12 @@
+{
+  "slug": "binary_mutual_information",
+  "title": "Binary Mutual Information",
+  "level": "foundation",
+  "summary": "Measure dependence between aligned binary variables using the exact empirical 2-by-2 joint distribution, in bits.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
