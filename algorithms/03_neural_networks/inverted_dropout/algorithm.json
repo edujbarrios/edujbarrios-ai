@@ -1,0 +1,12 @@
+{
+  "slug": "inverted_dropout",
+  "title": "Inverted Dropout Forward Pass",
+  "level": "neural_networks",
+  "summary": "Apply a caller-supplied binary dropout mask to activations, scaling retained values by inverse keep probability.",
+  "languages": [
+    "c",
+    "python",
+    "rust",
+    "r"
+  ]
+}
